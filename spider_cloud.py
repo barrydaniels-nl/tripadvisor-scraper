@@ -75,16 +75,28 @@ class SpiderAPI:
                     "return_headers": True,
                     "return_page_links": True,
                     "full_resources": True,
+                    "viewport": {
+                        "width": 1920,
+                        "height": 1280,
+                        "device_scale_factor": None,
+                        "emulating_mobile": False,
+                        "is_landscape": False,
+                        "has_touch": False,
+                        },
                 }
             )
-        else:
+        elif profile == "restaurant":
             json_data.update(
                 {
-                    "return_format": "markdown",
-                    "metadata": False,
-                    "full_resources": False,
+                    "metadata": True,
+                    "return_format": "bytes",
+                    "return_json_data": True,
+                    "return_headers": True,
+                    "return_page_links": True,
+                    "full_resources": True,
                 }
             )
+
 
         if os.getenv("PROXY_URL"):
             json_data["remote_proxy"] = os.getenv("PROXY_URL")

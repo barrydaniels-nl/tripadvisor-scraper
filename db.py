@@ -1,6 +1,6 @@
 import sqlite3
 import os
-from typing import Optional
+from typing import Optional, List, Dict, Tuple
 
 DATABASE_FILE = "city_restaurant_links.db"
 
@@ -16,6 +16,10 @@ def init_database():
     # Connect to database (creates file if it doesn't exist)
     conn = sqlite3.connect(DATABASE_FILE)
     cursor = conn.cursor()
+    
+    # Enable WAL mode for better concurrent access
+    cursor.execute("PRAGMA journal_mode=WAL")
+    cursor.execute("PRAGMA busy_timeout=30000")  # 30 second timeout
 
     # Create city_restaurant_links table
     cursor.execute(
@@ -130,6 +134,143 @@ def update_city_restaurant(
         return False
 
 
+def get_city_restaurant_urls(geoname_ids: List[int]) -> Dict[int, List[str]]:
+    """
+    Get restaurant URLs from the database for specified geoname_ids.
+    
+    Args:
+        geoname_ids: List of geoname IDs to retrieve URLs for
+        
+    Returns:
+        dict: Dictionary with geoname_id as key and list of URLs as value
+        Example: {123: ['url1', 'url2'], 456: ['url3', 'url4']}
+    """
+    if not geoname_ids:
+        return {}
+    
+    try:
+        conn = sqlite3.connect(DATABASE_FILE)
+        cursor = conn.cursor()
+        
+        # Create placeholders for the IN clause
+        placeholders = ','.join('?' * len(geoname_ids))
+        
+        cursor.execute(
+            f"""
+            SELECT geoname_id, url 
+            FROM city_restaurant_links 
+            WHERE geoname_id IN ({placeholders})
+            ORDER BY geoname_id, url
+            """,
+            geoname_ids
+        )
+        
+        rows = cursor.fetchall()
+        conn.close()
+        
+        # Group URLs by geoname_id
+        result = {}
+        for geoname_id, url in rows:
+            if geoname_id not in result:
+                result[geoname_id] = []
+            result[geoname_id].append(url)
+        
+        return result
+        
+    except Exception as e:
+        print(f"Error retrieving restaurant URLs: {e}")
+        return {}
+
+
+def get_city_restaurant_urls_with_status(
+    geoname_ids: List[int], status: Optional[str] = None
+) -> Dict[int, List[Tuple[str, str]]]:
+    """
+    Get restaurant URLs from the database for specified geoname_ids with optional status filter.
+    
+    Args:
+        geoname_ids: List of geoname IDs to retrieve URLs for
+        status: Optional status filter ('pending', 'completed', etc.)
+        
+    Returns:
+        dict: Dictionary with geoname_id as key and list of tuples (url, status) as value
+        Example: {123: [('url1', 'pending'), ('url2', 'completed')]}
+    """
+    if not geoname_ids:
+        return {}
+    
+    try:
+        conn = sqlite3.connect(DATABASE_FILE)
+        cursor = conn.cursor()
+        
+        # Create placeholders for the IN clause
+        placeholders = ','.join('?' * len(geoname_ids))
+        
+        if status:
+            query = f"""
+                SELECT geoname_id, url, status 
+                FROM city_restaurant_links 
+                WHERE geoname_id IN ({placeholders}) AND status = ?
+                ORDER BY geoname_id, url
+            """
+            params = geoname_ids + [status]
+        else:
+            query = f"""
+                SELECT geoname_id, url, status 
+                FROM city_restaurant_links 
+                WHERE geoname_id IN ({placeholders})
+                ORDER BY geoname_id, url
+            """
+            params = geoname_ids
+        
+        cursor.execute(query, params)
+        rows = cursor.fetchall()
+        conn.close()
+        
+        # Group URLs by geoname_id
+        result = {}
+        for geoname_id, url, url_status in rows:
+            if geoname_id not in result:
+                result[geoname_id] = []
+            result[geoname_id].append((url, url_status))
+        
+        return result
+        
+    except Exception as e:
+        print(f"Error retrieving restaurant URLs with status: {e}")
+        return {}
+
+
+def remove_city_restaurant_url(url: str) -> bool:
+    """
+    Remove a URL from the database after successful scraping.
+    
+    Args:
+        url: The URL to remove from the database
+        
+    Returns:
+        bool: True if successfully removed, False otherwise
+    """
+    try:
+        conn = sqlite3.connect(DATABASE_FILE)
+        cursor = conn.cursor()
+        
+        cursor.execute(
+            "DELETE FROM city_restaurant_links WHERE url = ?",
+            (url,)
+        )
+        
+        rows_affected = cursor.rowcount
+        conn.commit()
+        conn.close()
+        
+        return rows_affected > 0
+        
+    except Exception as e:
+        print(f"Error removing URL from database: {e}")
+        return False
+
+
 if __name__ == "__main__":
     # Initialize the database
     init_database()
@@ -164,3 +305,19 @@ if __name__ == "__main__":
         print(f"GeoName ID: {row[0]}, URL: {row[1]}, Status: {row[2]}")
 
     conn.close()
+    
+    # Test the new functions
+    print("\nTesting get_city_restaurant_urls function...")
+    test_geoname_ids = [5128581, 2643743]
+    urls_dict = get_city_restaurant_urls(test_geoname_ids)
+    for geoname_id, urls in urls_dict.items():
+        print(f"GeoName ID {geoname_id}: {len(urls)} URLs")
+        for url in urls[:2]:  # Show first 2 URLs
+            print(f"  - {url}")
+    
+    print("\nTesting get_city_restaurant_urls_with_status function...")
+    urls_with_status = get_city_restaurant_urls_with_status(test_geoname_ids, "pending")
+    for geoname_id, url_status_list in urls_with_status.items():
+        print(f"GeoName ID {geoname_id}: {len(url_status_list)} pending URLs")
+        for url, status in url_status_list[:2]:  # Show first 2 URLs
+            print(f"  - {url} ({status})")
