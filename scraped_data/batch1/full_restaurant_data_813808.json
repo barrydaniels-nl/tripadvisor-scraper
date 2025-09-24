@@ -1,0 +1,2005 @@
+{
+  "restaurant_id": 813808,
+  "restaurant_name": "Restaurant Wally\u2019s",
+  "tripadvisor_url": "https://www.tripadvisor.com/Restaurant_Review-g612459-d17839200-Reviews-Restaurant_Wally_s-Harlingen_Friesland_Province.html?m=69411",
+  "website_url": "https://www.tripadvisor.com/Restaurant_Review-g612459-d17839200-Reviews-Restaurant_Wally_s-Harlingen_Friesland_Province.html",
+  "cuisines": [
+    "Dutch",
+    "European"
+  ],
+  "meal_types": [
+    "Lunch",
+    "Dinner"
+  ],
+  "features": [
+    "Reservations",
+    "Seating",
+    "Table Service"
+  ],
+  "special_diets": null,
+  "hours": null,
+  "scrape_status": "success",
+  "errors": [],
+  "jsonld_data": {
+    "name": "Restaurant Wally\u2019s",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/ef/ab/9d/wally-s-petit-restaurant.jpg?w=500&h=-1&s=1",
+    "priceRange": "$$ - $$$",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g612459-d17839200-Reviews-Restaurant_Wally_s-Harlingen_Friesland_Province.html",
+    "website": "https://www.tripadvisor.com/Restaurant_Review-g612459-d17839200-Reviews-Restaurant_Wally_s-Harlingen_Friesland_Province.html",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 53.17497,
+      "longitude": 5.41866
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "NL"
+      },
+      "streetAddress": "Voorstraat 45",
+      "addressLocality": "Harlingen",
+      "postalCode": "8861 BE"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 3.7,
+      "reviewCount": 16
+    },
+    "raw_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/ef/ab/9d/wally-s-petit-restaurant.jpg?w=500&h=-1&s=1",
+      "name": "Restaurant Wally\u2019s",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.17497,
+        "longitude": 5.41866
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.7,
+        "reviewCount": 16
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "NL"
+        },
+        "streetAddress": "Voorstraat 45",
+        "addressLocality": "Harlingen",
+        "postalCode": "8861 BE"
+      },
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g612459-d17839200-Reviews-Restaurant_Wally_s-Harlingen_Friesland_Province.html",
+      "priceRange": "$$ - $$$"
+    },
+    "cuisines": [
+      "Dutch",
+      "European"
+    ],
+    "meal_types": [
+      "Lunch",
+      "Dinner"
+    ],
+    "features": [
+      "Reservations",
+      "Seating",
+      "Table Service"
+    ]
+  },
+  "graphql_responses": [
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "gtmData": {
+              "audienceIds": [],
+              "hashedPersistentCookie": "Y2U3MjgwYTJhMmRmODA5YjZhZGYzYzYzYTFjYmQ5YjBhOTlkY2IxMw",
+              "hashedPersistentCookieSegmentPOC": "Y2U3MjgwYTJhMmRmODA5YjZhZGYzYzYzYTFjYmQ5YjBhOTlkY2IxMw",
+              "hashedPersistentCookieSegmentMeta": "965d379ce6d078ba5128305594e6486eefffbc6b20a436cbbb1549554517139f",
+              "hashedPersistentCookieSHA1": "6a957bd8742324754cf0893a63f2223f28468ae9",
+              "hashedPersistentCookieSHA256": "b2b266c0125b7c9c60d424ff3f210d0243af0e4d1e31a7b4bb8e34eea28c2e45",
+              "ipAddressCountry": "NL",
+              "locationData": {
+                "regionName": null,
+                "regionId": null,
+                "countryName": "The Netherlands",
+                "countryId": 188553,
+                "locationHierarchy": ":17839200:1:4:188553:188561:612459:",
+                "stateName": null,
+                "stateId": null,
+                "cityName": "Harlingen"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "EatImpressionTracking_logImpressions": [
+              "304cdcda-8339-49be-bc8a-85862c5898c5"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "EatImpressionTracking_logImpressions"
+            ]
+          }
+        },
+        {
+          "data": {
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "rating": 3.7,
+                  "count": 16
+                }
+              }
+            ],
+            "locations": [
+              {
+                "reviewAggregations": {
+                  "ratingCounts": [
+                    3,
+                    1,
+                    1,
+                    4,
+                    7
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "restaurantSubratingsData": {
+              "restaurants": [
+                {
+                  "sub_ratings": {
+                    "atmosphere": null,
+                    "food": 3.4285715,
+                    "service": 3.7142856,
+                    "value": 3.2857144
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "mediaAlbum": {
+              "album": {
+                "albumId": 107,
+                "totalMediaCount": 3
+              }
+            },
+            "mediaAlbumPage": {
+              "mediaList": [
+                {
+                  "mediaId": 702748453,
+                  "caption": "",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/e3/17/25/caption.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/29/e3/17/25/caption.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/29/e3/17/25/caption.jpg"
+                    },
+                    {
+                      "width": 154,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/29/e3/17/25/caption.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/29/e3/17/25/caption.jpg"
+                    },
+                    {
+                      "width": 338,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/29/e3/17/25/caption.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 733,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-p/29/e3/17/25/caption.jpg"
+                    },
+                    {
+                      "width": 960,
+                      "height": 1280,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/29/e3/17/25/caption.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 1365,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/29/e3/17/25/caption.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 588001786,
+                  "caption": "",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/0c/31/fa/caption.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/23/0c/31/fa/caption.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/23/0c/31/fa/caption.jpg"
+                    },
+                    {
+                      "width": 154,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/23/0c/31/fa/caption.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/23/0c/31/fa/caption.jpg"
+                    },
+                    {
+                      "width": 337,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/23/0c/31/fa/caption.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 734,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-p/23/0c/31/fa/caption.jpg"
+                    },
+                    {
+                      "width": 959,
+                      "height": 1280,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/23/0c/31/fa/caption.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 1367,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/23/0c/31/fa/caption.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 468691869,
+                  "caption": "",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/ef/ab/9d/wally-s-petit-restaurant.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1b/ef/ab/9d/wally-s-petit-restaurant.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/ef/ab/9d/wally-s-petit-restaurant.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/1b/ef/ab/9d/wally-s-petit-restaurant.jpg"
+                    },
+                    {
+                      "width": 250,
+                      "height": 188,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1b/ef/ab/9d/wally-s-petit-restaurant.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 413,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1b/ef/ab/9d/wally-s-petit-restaurant.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 768,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/1b/ef/ab/9d/wally-s-petit-restaurant.jpg"
+                    },
+                    {
+                      "width": 1280,
+                      "height": 960,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/ef/ab/9d/wally-s-petit-restaurant.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "keywords": [
+              {
+                "responseData": {
+                  "keywords": []
+                }
+              }
+            ],
+            "reviewAggregations": [
+              {
+                "locationId": 17839200,
+                "overallRating": 3.7,
+                "reviewCount": 16,
+                "alertStatusCount": 0,
+                "reviewCountByRating": {
+                  "oneRatingCount": 3,
+                  "twoRatingCount": 1,
+                  "threeRatingCount": 1,
+                  "fourRatingCount": 4,
+                  "fiveRatingCount": 7
+                },
+                "reviewCountByLanguage": [
+                  {
+                    "language": "de",
+                    "count": 2
+                  },
+                  {
+                    "language": "nl",
+                    "count": 14
+                  }
+                ],
+                "nativeAndTransByLanguage": [
+                  {
+                    "language": "de",
+                    "count": 2
+                  },
+                  {
+                    "language": "en",
+                    "count": 1
+                  },
+                  {
+                    "language": "nl",
+                    "count": 14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 1,
+                "reviews": [
+                  {
+                    "id": 946066395,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g612459-d17839200-r946066395-Restaurant_Wally_s-Harlingen_Friesland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 17839200,
+                      "name": "Restaurant Wally\u2019s",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2024-04-10",
+                    "publishedDate": "2024-04-10",
+                    "userProfile": {
+                      "id": "FB17498AD1A5CC36BA36A3484EFC78AB",
+                      "isVerified": false,
+                      "displayName": "Jan-",
+                      "username": "Jans198714",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 735416538,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/d5/90/da/hansjans2017.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 622,
+                            "maxWidth": 622
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": null,
+                        "fallbackString": null,
+                        "location": null
+                      },
+                      "route": {
+                        "url": "/Profile/Jans198714"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 18
+                      }
+                    },
+                    "rating": 1,
+                    "publishPlatform": null,
+                    "title": "Owner is very unfriendly",
+                    "language": "en",
+                    "originalLanguage": "nl",
+                    "text": "Owner is really very customer unfriendly and rude\nI will definitely not go here again and I would also advise other people not to go here.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 17839200,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": "MACHINE",
+                    "mtProviderId": 5,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2024-03-31",
+                      "tripType": "FAMILY"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "routes": [
+              {
+                "webLinkUrl": "/ClientLink?value=VEt2Xy9Vc2VyUmV2aWV3RWRpdC1nNjEyNDU5LWQxNzgzOTIwMC1SZXN0YXVyYW50X1dhbGx5X3MtSGFybGluZ2VuX0ZyaWVzbGFuZF9Qcm92aW5jZS5odG1sX1dFZQ%3D%3D"
+              },
+              {
+                "webLinkUrl": "/ClientLink?value=UE9nXy9Qb3N0UGhvdG9zLWQxNzgzOTIwMF96ejA%3D"
+              },
+              {
+                "webLinkUrl": "/reviews?locationId=17839200&screen=allreviews"
+              },
+              {
+                "webLinkUrl": "/photosandvideos?locationId=17839200"
+              }
+            ],
+            "reviewDrafts": [
+              []
+            ],
+            "ownerStatus": [
+              {
+                "userId": null,
+                "isOwnedByUser": false
+              }
+            ],
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "placeType": "EATERY",
+                "accommodationCategory": "HOTEL",
+                "locationId": 17839200,
+                "localizedName": "Restaurant Wally\u2019s",
+                "parentGeoId": 612459,
+                "currentUserOwnerStatus": null,
+                "topicCount": 0
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "count": 16
+                }
+              }
+            ],
+            "tipCountReviewsProxy": [
+              {
+                "responseData": {
+                  "locationTipsTotalCount": 0
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "restaurants_standard_listing_sp_label_redesign_1752519226",
+                    "bucket": "control"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "reduce_got_frequency_1751287771",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "3983ed41-1a85-43dc-b6f3-ee14da5bb36b"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "8890a210-f730-478a-ad98-968ee621d116"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 0
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "QuestionsAndAnswers_getQuestionsByLocations": [
+              {
+                "questions": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_terms_page_test_2_1705078152",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "light_mode_on_got_1752783783",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_disable_auto_login_1714679068",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 1
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "c60f8360-7f68-491b-b806-41681d663ba0"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "baSubscriptions": [
+              {
+                "subscriptions": []
+              }
+            ],
+            "ownerStatus": [
+              {
+                "isOwnedByUser": false
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "locationId": 17839200,
+                "parents": [
+                  {
+                    "locationId": 612459
+                  },
+                  {
+                    "locationId": 188561
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 2
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "mapbox_maps_web_1726204927",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 3
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "009b312f-c390-4ebd-a35f-2e2899ff2806"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 4
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 1000,
+                  "maxHeight": 700,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2d/40/95/keep-on-planning.jpg?w={width}&h={height}&s=1&cx=492&cy=358&chk=v1_f64df95338d294710736"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "parents": [
+                  {
+                    "locationId": 188561
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              },
+              {
+                "parents": [
+                  {
+                    "locationId": 612459
+                  },
+                  {
+                    "locationId": 188561
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 5
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "data": {
+              "hashedPersistentCookieSHA256": "b2b266c0125b7c9c60d424ff3f210d0243af0e4d1e31a7b4bb8e34eea28c2e45"
+            }
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "app_interstitial_tactic3_restaurants_1711980365",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "response": [
+              {
+                "randomContentList": [
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "3Dq6ZlAkNjk",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "10 unique experiences in Lisbon",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Tile making, Portuguese baking, surfing, sailing, and so much more. "
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "David Farley"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/43/15/e6/caption.jpg?w={width}&h={height}&s=1&cx=700&cy=525&chk=v1_75be5a7b9c1ef1f32b7a",
+                                "maxWidth": 1400,
+                                "maxHeight": 1050
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l3Dq6ZlAkNjk-Lisbon_unique_experiences.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1898,
+                    "sponsorId": 773,
+                    "sponsorDisplayName": "Visit Lauderdale",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "FyQpsEqCJis",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "9 accessible trails to hike in Washington",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Surround yourself with forests, sand dunes, and mountains."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Syren Nagakyrie"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/a1/4c/14/caption.jpg?w={width}&h={height}&s=1&cx=960&cy=540&chk=v1_7abc295227788243dbdd",
+                                "maxWidth": 1920,
+                                "maxHeight": 1080
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lFyQpsEqCJis-Washington_state_accessible_hikes.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1356,
+                    "sponsorId": 295,
+                    "sponsorDisplayName": "Australia's Northern Territory",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 255064,
+                      "name": "Kings Canyon",
+                      "stateAndCountryOrEquivalent": "Northern Territory, Australia",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g255064-Kings_Canyon_Red_Centre_Northern_Territory-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/b1/d7/31/kings-canyon.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1500,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1788,
+                    "sponsorId": 297,
+                    "sponsorDisplayName": "Go T\u00fcrkiye",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "iHMuyHgv02g",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Explore T\u00fcrkiye\u2019s natural playgrounds",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Whether you want to hike through epic backdrops, ski in storybook surroundings, or bathe in mineral-rich pools, T\u00fcrkiye\u2019s fabled landscapes are as varied as the adventures they contain. Looking for something a bit different? Go intrepid on your next trip with our pick of offbeat experiences in some of the country\u2019s most magnificent, yet undiscovered, regions."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/fa/26/caption.jpg?w={width}&h={height}&s=1&cx=960&cy=540&chk=v1_ea91980e5ed1a7663e5d",
+                                "maxWidth": 1920,
+                                "maxHeight": 1080
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-liHMuyHgv02g-Explore_trkiyes_natural_playgrounds.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1915,
+                    "sponsorId": 776,
+                    "sponsorDisplayName": "Experience Abu Dhabi",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 294013,
+                      "name": "Abu Dhabi",
+                      "stateAndCountryOrEquivalent": "Emirate of Abu Dhabi, United Arab Emirates",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g294013-Abu_Dhabi_Emirate_of_Abu_Dhabi-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/f9/08/b1/mosquee-1.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1200,
+                          "maxWidth": 1600
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1990,
+                    "sponsorId": 787,
+                    "sponsorDisplayName": "Visit Santa Fe",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 153968221,
+                      "tripContent": {
+                        "id": 153968221,
+                        "title": "Santa Fe: heritage & history on the Original Route 66",
+                        "description": "Looking for adventure on the original Route 66? Santa Fe, the oldest state capital, is a must-stop for history buffs. The city, founded in 1610, is older than the United States\u2014but the area has been populated for well over a thousand years. With so much history and heritage, you'll want to allow plenty of time to explore the best of the Southwest\u2014so here are 12 suggestions for things to see, do, and learn.",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-b/2560x500/03/06/08/5e/santa-fe-baldy.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 2560,
+                            "maxHeight": 500
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t153968221"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1395,
+                    "sponsorId": 103,
+                    "sponsorDisplayName": "Louisville Tourism",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 107792054,
+                      "tripContent": {
+                        "id": 107792054,
+                        "title": "Where to experience adventure in Louisville",
+                        "description": "You don't need to wait until Derby Day for thrill and adventure in Louisville. From zip-lining through caverns to paddle boarding on the Ohio River, check out these exciting attractions.",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-c/2560x500/1d/c0/1c/ef/caption.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 2560,
+                            "maxHeight": 1506
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t107792054"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "SdsiawzPvJo",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "The 10 best patisseries in Paris",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Take a walk down the sweet side of Paris. Taste a sweet, decadent slice of heaven with our list of the 10 best patisseries in Paris ranging from chocolates to cream filled macarons. "
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Dina Malyana"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/d1/3b/f7/caption.jpg?w={width}&h={height}&s=1&cx=2665&cy=1777&chk=v1_a2b512b956dbf854419a",
+                                "maxWidth": 5331,
+                                "maxHeight": 3554
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lSdsiawzPvJo-Best_patisseries_in_paris.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1980,
+                    "sponsorId": 511,
+                    "sponsorDisplayName": "Visit Dallas",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 30196,
+                      "name": "Austin",
+                      "stateAndCountryOrEquivalent": "Texas, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g30196-Austin_Texas-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/cd/04/caption.jpg?w={width}&h={height}&s=1&cx=1440&cy=949&chk=v1_1dc18af01397ba07dac9",
+                          "maxHeight": 1902,
+                          "maxWidth": 2880
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1356,
+                    "sponsorId": 295,
+                    "sponsorDisplayName": "Australia's Northern Territory",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 255066,
+                      "name": "Darwin",
+                      "stateAndCountryOrEquivalent": "Northern Territory, Australia",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g255066-Darwin_Top_End_Northern_Territory-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f9/c4/darwin.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 835,
+                          "maxWidth": 3588
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1356,
+                    "sponsorId": 295,
+                    "sponsorDisplayName": "Australia's Northern Territory",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 255065,
+                      "name": "Yulara",
+                      "stateAndCountryOrEquivalent": "Northern Territory, Australia",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g255065-Yulara_Red_Centre_Northern_Territory-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/ae/e1/a2/uluru-camels.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 2828,
+                          "maxWidth": 4242
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 6
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 7
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "080d41d1-2056-4850-8c86-24dcc9d2731b"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "237b80fa-34ed-4810-ad92-55131a278a82"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 8
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 9
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "f8a0c897-94e9-4265-a76e-d1a8546ce8cd"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "1c5ab744-b6b8-41f3-9e37-0685e2e39fff"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "628df271-3c7c-4d00-8b9d-b093132999ef"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getLocationTips": [
+              {
+                "responseData": {
+                  "locationTips": []
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "ec621af0-6ae6-4ad2-9761-5d1d27a9985c"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "9596b617-6517-46e5-88d2-04f14db99dca"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "4af7f710-443d-464a-9e05-6ea9788f39a3"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "6aa2e705-d79d-40d9-a390-fe3de4727289"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 10
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 11
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "77342b31-f1ad-4d51-b6a5-8ee91b92f4e4"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "6b44b935-d8b7-4aa4-9cd6-9f46ad8bc4cf"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "246229ed-1ddf-4974-810f-b949b82291b5"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 12
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "674ba18d-ce5d-4e80-a250-0861128fe47f"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "a92078ff-7cbe-4438-8a48-12213e52e786"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "4d3d69fb-49e3-42e7-b6bf-85634d6010ae"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "f9ed0bf9-7cce-4612-b31b-dd672ee2d109"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "ae4ce364-4f62-48c9-994f-93136adc8ef8"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 13
+    }
+  ],
+  "statistics": {
+    "total_graphql_responses": 14,
+    "has_jsonld_data": true,
+    "has_website_url": true,
+    "has_cuisines": true,
+    "has_meal_types": true,
+    "has_features": true,
+    "has_special_diets": false,
+    "has_hours": false,
+    "error_count": 0
+  },
+  "api_update_success": true,
+  "timestamp": "2025-09-23T15:22:35.420201"
+}

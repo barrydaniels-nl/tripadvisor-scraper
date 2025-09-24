@@ -1,14 +1,14 @@
 import requests
 import os
-import fake_useragent as ua
+from fake_useragent import UserAgent
 import dotenv
 
 dotenv.load_dotenv()
 
-
 class SpiderAPI:
     def __init__(self):
         self.api_key = os.getenv("SPIDER_API_KEY")
+        self.ua = UserAgent(platforms='desktop')
         if not self.api_key:
             raise ValueError("SPIDER_API_KEY environment variable is not set.")
 
@@ -21,9 +21,9 @@ class SpiderAPI:
         json_data = {
             "url": url,
             "request": "http",
-            "user_agent": ua.UserAgent().random,
+            "user_agent": self.ua.random,
             "cache": True,
-            "block_images": True,
+            "block_images": False,
             "block_ads": False,
             "locale": "en_US",
         }
@@ -75,14 +75,6 @@ class SpiderAPI:
                     "return_headers": True,
                     "return_page_links": True,
                     "full_resources": True,
-                    "viewport": {
-                        "width": 1920,
-                        "height": 1280,
-                        "device_scale_factor": None,
-                        "emulating_mobile": False,
-                        "is_landscape": False,
-                        "has_touch": False,
-                        },
                 }
             )
         elif profile == "restaurant":

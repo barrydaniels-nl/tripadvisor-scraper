@@ -16,6 +16,58 @@ dotenv.load_dotenv()
 DATABASE_FILE = "city_restaurant_links.db"
 
 
+def get_geoname_id_from_tripadvisor_geo_id(tripadvisor_geo_id: int) -> int:
+    """
+    Get geoname_id for a given tripadvisor_geo_id.
+    
+    Args:
+        tripadvisor_geo_id: The TripAdvisor geo ID to look up
+        
+    Returns:
+        The corresponding geoname_id if found, None otherwise
+    """
+    print(f"Looking up geoname_id for tripadvisor_geo_id: {tripadvisor_geo_id}")
+    
+    url = f"http://127.0.0.1:8000/api/cities/search/?tripadvisor_geo_id={tripadvisor_geo_id}"
+    
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            data = response.json()
+            
+            # Handle response structure
+            items = []
+            if isinstance(data, dict):
+                if 'results' in data:
+                    items = data.get('results', [])
+                elif 'items' in data:
+                    items = data.get('items', [])
+            elif isinstance(data, list):
+                items = data
+            
+            if items and len(items) > 0:
+                city = items[0]  # Take the first match
+                geoname_id = city.get('geoname_id')
+                city_name = city.get('name', 'Unknown')
+                restaurants_count = city.get('tripadvisor_restaurants_results', 0)
+                
+                if geoname_id:
+                    print(f"Found city: {city_name} (geoname_id: {geoname_id}) with {restaurants_count} restaurants")
+                    return geoname_id
+                else:
+                    print(f"City found but missing geoname_id")
+                    return None
+            else:
+                print(f"No city found with tripadvisor_geo_id {tripadvisor_geo_id}")
+                return None
+        else:
+            print(f"API error: {response.status_code}")
+            return None
+    except Exception as e:
+        print(f"Error looking up city: {e}")
+        return None
+
+
 def get_tripadvisor_geo_ids_by_country(country_code: str) -> List[str]:
     """
     Get all TripAdvisor geo IDs for cities in a specific country.
@@ -384,8 +436,10 @@ def process_single_url(url_tuple: Tuple[str, str], geoname_id: int, expected_geo
         retry_count = 0
         
         while retry_count < max_retries and not result['restaurants_found']:
-            if retry_count > 0:
-                time.sleep(2 * retry_count)  # Exponential backoff
+            retry_count += 1  # Increment at the beginning to avoid infinite loops
+            
+            if retry_count > 1:
+                time.sleep(2 * (retry_count - 1))  # Exponential backoff
             
             response = client.request_spider_api("detailed", url)
             
@@ -465,8 +519,8 @@ def process_single_url(url_tuple: Tuple[str, str], geoname_id: int, expected_geo
                         json_data_str = str(response[0].get('json_data', {}))
                         result['response_size_kb'] = (len(content) + len(json_data_str)) / 1024
                         
-                        if retry_count < max_retries - 1:
-                            print(f"⚠️  Response too small ({result['response_size_kb']:.1f}KB), retrying...")
+                        if retry_count < max_retries:
+                            print(f"⚠️  Response too small ({result['response_size_kb']:.1f}KB), retrying... (attempt {retry_count}/{max_retries})")
                             continue
                         else:
                             result['error'] = f"Response too small ({result['response_size_kb']:.1f}KB)"
@@ -477,10 +531,8 @@ def process_single_url(url_tuple: Tuple[str, str], geoname_id: int, expected_geo
                         if status_code == 429:
                             result['error'] = "Rate limited (429)"
                             break  # Don't retry on rate limit
-                        elif status_code != 200 and retry_count < max_retries - 1:
+                        elif status_code != 200 and retry_count < max_retries:
                             continue
-            
-            retry_count += 1
         
         # Handle case where no restaurants found after all retries
         if not result['restaurants_found']:
@@ -541,6 +593,12 @@ if __name__ == "__main__":
         help='ISO 2-letter country code (e.g., US, FR, DE). Default: NL'
     )
     parser.add_argument(
+        '--geo-id', '-g',
+        type=int,
+        default=None,
+        help='Specific TripAdvisor geo ID to process (overrides country option)'
+    )
+    parser.add_argument(
         '--status', '-s',
         type=str,
         default='pending',
@@ -566,11 +624,15 @@ if __name__ == "__main__":
     )
     
     args = parser.parse_args()
-    country = args.country.upper()
+    country = args.country.upper() if not args.geo_id else None
     
-    print(f"Starting restaurant scraping for country: {country}")
+    # Print configuration
+    if args.geo_id:
+        print(f"Starting restaurant scraping for specific TripAdvisor geo_id: {args.geo_id}")
+    else:
+        print(f"Starting restaurant scraping for country: {country}")
     print(f"URL status filter: {args.status}")
-    if args.limit:
+    if args.limit and not args.geo_id:
         print(f"City limit: {args.limit}")
     if args.continuous:
         print("Continuous mode: Will process until database is empty")
@@ -582,9 +644,23 @@ if __name__ == "__main__":
     total_failed_overall = 0
     urls_removed_overall = 0
     
-    # Get expected TripAdvisor geo IDs for the country (for validation)
-    expected_geo_ids = get_tripadvisor_geo_ids_by_country(country)
-    print(f"Found {len(expected_geo_ids)} valid TripAdvisor geo IDs for {country}")
+    # Get expected TripAdvisor geo IDs for validation
+    expected_geo_ids = []
+    resolved_geoname_id = None  # To store the resolved geoname_id for tripadvisor_geo_id
+    
+    if args.geo_id:
+        # For specific tripadvisor_geo_id, lookup the corresponding geoname_id
+        resolved_geoname_id = get_geoname_id_from_tripadvisor_geo_id(args.geo_id)
+        if not resolved_geoname_id:
+            print(f"❌ Could not find geoname_id for TripAdvisor geo_id: {args.geo_id}")
+            exit(1)  # Exit with error code instead of return
+        # No location validation for specific geo_id
+        expected_geo_ids = []
+        print(f"Will process geoname_id: {resolved_geoname_id} (no location validation)")
+    else:
+        # Get expected TripAdvisor geo IDs for the country (for validation)
+        expected_geo_ids = get_tripadvisor_geo_ids_by_country(country)
+        print(f"Found {len(expected_geo_ids)} valid TripAdvisor geo IDs for {country}")
     
     while True:
         iteration += 1
@@ -599,15 +675,24 @@ if __name__ == "__main__":
                 print(f"⚠️  Reached maximum iterations ({args.max_iterations}). Stopping.")
                 break
         
-        geoname_ids = get_geoname_ids_by_country(country)
-        print(f"Found {len(geoname_ids)} cities with restaurant data in {country}")
-        
-        if args.limit and len(geoname_ids) > args.limit:
-            geoname_ids = geoname_ids[:args.limit]
-            print(f"Limited to first {args.limit} cities")
+        # Get geoname IDs based on mode (specific geo_id or country)
+        if args.geo_id:
+            # Use the resolved geoname_id
+            geoname_ids = [resolved_geoname_id]
+            print(f"Processing single geoname_id: {resolved_geoname_id} (from TripAdvisor geo_id: {args.geo_id})")
+        else:
+            geoname_ids = get_geoname_ids_by_country(country)
+            print(f"Found {len(geoname_ids)} cities with restaurant data in {country}")
+            
+            if args.limit and len(geoname_ids) > args.limit:
+                geoname_ids = geoname_ids[:args.limit]
+                print(f"Limited to first {args.limit} cities")
 
         if not geoname_ids:
-            print("No geoname IDs found for the specified country.")
+            if args.geo_id:
+                print(f"No data found for TripAdvisor geo_id: {args.geo_id}")
+            else:
+                print("No geoname IDs found for the specified country.")
             break
         
         urls = get_city_restaurant_urls_with_status(geoname_ids, args.status)
@@ -617,7 +702,10 @@ if __name__ == "__main__":
             print(f"✅ All URLs have been processed! No {args.status} URLs remaining in database.")
             break
         
-        print(f"Retrieved {total_url_count} {args.status} URLs from {len(urls)} cities in {country}")
+        if args.geo_id:
+            print(f"Retrieved {total_url_count} {args.status} URLs for TripAdvisor geo_id {args.geo_id}")
+        else:
+            print(f"Retrieved {total_url_count} {args.status} URLs from {len(urls)} cities in {country}")
 
         total_urls = sum(len(url_list) for url_list in urls.values())
         processed_urls = 0

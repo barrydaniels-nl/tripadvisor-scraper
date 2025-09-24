@@ -1,9 +1,60 @@
 import requests
-import sqlite3
 import time
 import argparse
+import json
 from typing import List, Dict, Optional
-from db import init_database, DATABASE_FILE
+
+
+def fetch_single_city_by_tripadvisor_geo_id(tripadvisor_geo_id: int) -> Optional[Dict]:
+    """
+    Fetch a single city by its tripadvisor_geo_id.
+    
+    Args:
+        tripadvisor_geo_id: The TripAdvisor geo ID to fetch
+        
+    Returns:
+        City dict if found, None otherwise
+    """
+    print(f"Fetching city with tripadvisor_geo_id: {tripadvisor_geo_id}")
+    
+    # Search for city with this tripadvisor_geo_id
+    url = f"http://127.0.0.1:8000/api/cities/search/?tripadvisor_geo_id={tripadvisor_geo_id}"
+    
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            data = response.json()
+            
+            # Handle response structure
+            items = []
+            if isinstance(data, dict):
+                if 'results' in data:
+                    items = data.get('results', [])
+                elif 'items' in data:
+                    items = data.get('items', [])
+            elif isinstance(data, list):
+                items = data
+            
+            if items and len(items) > 0:
+                city = items[0]  # Take the first match
+                # Validate city has required fields
+                if (city.get('tripadvisor_geo_id') and 
+                    city.get('tripadvisor_restaurants_results') and
+                    city.get('geoname_id')):
+                    print(f"Found city: {city.get('name', 'Unknown')} with {city.get('tripadvisor_restaurants_results')} restaurants")
+                    return city
+                else:
+                    print(f"City with tripadvisor_geo_id {tripadvisor_geo_id} is missing required fields")
+                    return None
+            else:
+                print(f"City with tripadvisor_geo_id {tripadvisor_geo_id} not found")
+                return None
+        else:
+            print(f"API error: {response.status_code} - {response.text}")
+            return None
+    except Exception as e:
+        print(f"Error fetching city: {e}")
+        return None
 
 
 def fetch_all_cities(country_code: Optional[str] = None, blacklisted_countries: Optional[List[str]] = None) -> List[Dict]:
@@ -175,48 +226,150 @@ def generate_restaurant_urls(city: Dict) -> List[str]:
     return urls
 
 
-def add_city_restaurant_with_retry(geoname_id: int, url: str, status: str = "pending") -> bool:
+def add_restaurant_link_via_api(geoname_id: int, url: str, status: str = "pending") -> bool:
     """
-    Add a city restaurant with retry mechanism for database locks.
+    Add a restaurant link via the API with retry mechanism for network failures.
+    
+    Args:
+        geoname_id: The geoname ID for the city
+        url: The TripAdvisor restaurant list URL
+        status: Status of the link (pending, completed, in_progress)
+        
+    Returns:
+        True if successfully added, False if already exists or error
     """
-    max_retries = 5
-    retry_delay = 0.1  # Start with 0.1 second delay
+    max_retries = 3
+    retry_delay = 1.0
+    
+    payload = {
+        "city_geoname_id": geoname_id,
+        "link": url,
+        "status": status
+    }
+    
+    api_url = "http://127.0.0.1:8000/api/restaurant-links/"
+    headers = {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+    }
     
     for attempt in range(max_retries):
         try:
-            conn = sqlite3.connect(
-                DATABASE_FILE,
-                timeout=30.0,
-                isolation_level='IMMEDIATE'
-            )
-            cursor = conn.cursor()
+            response = requests.post(api_url, json=payload, headers=headers)
             
-            cursor.execute(
-                "INSERT OR IGNORE INTO city_restaurant_links "
-                "(geoname_id, url, status) VALUES (?, ?, ?)",
-                (geoname_id, url, status),
-            )
-            
-            conn.commit()
-            conn.close()
-            return True
-            
-        except sqlite3.OperationalError as e:
-            if "locked" in str(e).lower() and attempt < max_retries - 1:
-                time.sleep(retry_delay)
-                retry_delay *= 2  # Exponential backoff
-            else:
-                if attempt == max_retries - 1:
-                    print(f"Error adding record after {max_retries} attempts: {e}")
+            if response.status_code in [200, 201]:
+                return True
+            elif response.status_code == 409 or response.status_code == 400:
+                # Conflict - URL already exists or validation error
+                try:
+                    error_detail = response.json()
+                    if "already exists" in str(error_detail).lower() or "duplicate" in str(error_detail).lower():
+                        return False  # Already exists, not an error
+                except json.JSONDecodeError:
+                    pass
                 return False
-        except sqlite3.IntegrityError:
-            # URL already exists - this is OK
-            return False
+            elif response.status_code >= 500 and attempt < max_retries - 1:
+                # Server error, retry
+                print(f"Server error ({response.status_code}), retrying in {retry_delay}s...")
+                time.sleep(retry_delay)
+                retry_delay *= 2
+                continue
+            else:
+                # Other error
+                try:
+                    error_detail = response.json()
+                    print(f"API error {response.status_code}: {error_detail}")
+                except json.JSONDecodeError:
+                    print(f"API error {response.status_code}: {response.text[:200]}")
+                return False
+                
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                print(f"Network error, retrying in {retry_delay}s: {e}")
+                time.sleep(retry_delay)
+                retry_delay *= 2
+                continue
+            else:
+                print(f"Network error after {max_retries} attempts: {e}")
+                return False
         except Exception as e:
-            print(f"Error adding record: {e}")
+            print(f"Error adding restaurant link: {e}")
             return False
     
     return False
+
+
+def remove_existing_restaurant_links(geoname_id: int) -> int:
+    """
+    Remove all existing restaurant links for a city.
+    This is needed when a city's tripadvisor_geo_id changes or when refreshing data.
+    
+    Args:
+        geoname_id: The geoname ID of the city
+        
+    Returns:
+        Number of links deleted
+    """
+    deleted_count = 0
+    page = 1
+    page_size = 100
+    
+    print(f"Removing existing restaurant links for geoname_id {geoname_id}...")
+    
+    while True:
+        # Fetch links for this geoname_id
+        url = f"http://127.0.0.1:8000/api/restaurant-links/search/?city_geoname_id={geoname_id}&page={page}&page_size={page_size}"
+        
+        try:
+            response = requests.get(url)
+            if response.status_code == 200:
+                data = response.json()
+                
+                # Handle response structure
+                items = []
+                if isinstance(data, dict):
+                    if 'results' in data:
+                        items = data.get('results', [])
+                    elif 'items' in data:
+                        items = data.get('items', [])
+                elif isinstance(data, list):
+                    items = data
+                
+                if not items:
+                    break
+                
+                # Delete each link
+                for link in items:
+                    link_id = link.get('id')
+                    if link_id:
+                        delete_url = f"http://127.0.0.1:8000/api/restaurant-links/{link_id}/"
+                        try:
+                            delete_response = requests.delete(delete_url)
+                            if delete_response.status_code in [200, 204]:
+                                deleted_count += 1
+                            else:
+                                print(f"Failed to delete link {link_id}: {delete_response.status_code}")
+                        except Exception as e:
+                            print(f"Error deleting link {link_id}: {e}")
+                
+                # Check if we should continue to next page
+                if len(items) < page_size:
+                    break
+                    
+                page += 1
+                
+            else:
+                print(f"Error fetching restaurant links: {response.status_code}")
+                break
+                
+        except Exception as e:
+            print(f"Error removing restaurant links: {e}")
+            break
+    
+    if deleted_count > 0:
+        print(f"Removed {deleted_count} existing restaurant links for geoname_id {geoname_id}")
+    
+    return deleted_count
 
 
 def add_urls_to_database(city: Dict, urls: List[str]) -> int:
@@ -232,7 +385,7 @@ def add_urls_to_database(city: Dict, urls: List[str]) -> int:
     added_count = 0
     
     for url in urls:
-        if add_city_restaurant_with_retry(geoname_id, url, "pending"):
+        if add_restaurant_link_via_api(geoname_id, url, "pending"):
             added_count += 1
     
     if added_count > 0:
@@ -244,31 +397,23 @@ def add_urls_to_database(city: Dict, urls: List[str]) -> int:
     return added_count
 
 
-def init_database_wal():
-    """Initialize database with WAL mode for better concurrency."""
-    try:
-        conn = sqlite3.connect(DATABASE_FILE)
-        cursor = conn.cursor()
-        cursor.execute("PRAGMA journal_mode=WAL")
-        cursor.execute("PRAGMA busy_timeout=30000")
-        conn.commit()
-        conn.close()
-        print("Database initialized with WAL mode for better concurrency.")
-    except Exception as e:
-        print(f"Warning: Could not set WAL mode: {e}")
-
-
 def main():
-    """Main function to create restaurant links in database."""
+    """Main function to create restaurant links via API."""
     # Parse command line arguments
     parser = argparse.ArgumentParser(
-        description='Create TripAdvisor restaurant links in database'
+        description='Create TripAdvisor restaurant links via API'
     )
     parser.add_argument(
         '--country', '-c',
         type=str,
         default=None,
         help='ISO 2-letter country code to filter cities (e.g., US, NL, FR). If not specified, processes all countries.'
+    )
+    parser.add_argument(
+        '--geo-id', '-g',
+        type=int,
+        default=None,
+        help='Specific TripAdvisor geo ID to process (overrides country option)'
     )
     parser.add_argument(
         '--limit', '-l',
@@ -282,20 +427,34 @@ def main():
         default=None,
         help='Comma-separated list of ISO 2-letter country codes to exclude (e.g., "US,CN,RU")'
     )
+    parser.add_argument(
+        '--clean', 
+        action='store_true',
+        default=True,
+        help='Clean old restaurant links before adding new ones (default: True)'
+    )
+    parser.add_argument(
+        '--no-clean',
+        action='store_false',
+        dest='clean',
+        help='Do not clean old restaurant links before adding new ones'
+    )
     
     args = parser.parse_args()
-    country = args.country.upper() if args.country else None
+    country = args.country.upper() if args.country and not args.geo_id else None
     
     # Parse blacklist
     blacklisted_countries = None
-    if args.blacklist:
+    if args.blacklist and not args.geo_id:
         blacklisted_countries = [c.strip().upper() for c in args.blacklist.split(',')]
     
     print("=" * 60)
-    print("CREATING RESTAURANT LINKS IN DATABASE")
+    print("CREATING RESTAURANT LINKS VIA API")
     print("=" * 60)
     
-    if country:
+    if args.geo_id:
+        print(f"Target: Single TripAdvisor geo_id {args.geo_id}")
+    elif country:
         print(f"Target country: {country}")
     else:
         print("Target: All countries")
@@ -303,23 +462,31 @@ def main():
     if blacklisted_countries:
         print(f"Blacklisted countries: {', '.join(blacklisted_countries)}")
     
-    if args.limit:
+    if args.limit and not args.geo_id:
         print(f"City limit: {args.limit}")
     
-    # Initialize database
-    print("\nInitializing database...")
-    init_database()
-    init_database_wal()
+    if args.clean:
+        print("Clean mode: ENABLED (will remove old links before adding new ones)")
+    else:
+        print("Clean mode: DISABLED (old links will be kept)")
+    
+    # No database initialization needed - using API
     
     # Fetch cities
-    cities = fetch_all_cities(country, blacklisted_countries)
+    if args.geo_id:
+        # Fetch single city by tripadvisor_geo_id
+        city = fetch_single_city_by_tripadvisor_geo_id(args.geo_id)
+        cities = [city] if city else []
+    else:
+        # Fetch all cities based on filters
+        cities = fetch_all_cities(country, blacklisted_countries)
     
     if not cities:
         print("No cities found to process.")
         return
     
-    # Apply limit if specified
-    if args.limit and len(cities) > args.limit:
+    # Apply limit if specified (not for single geo_id)
+    if args.limit and not args.geo_id and len(cities) > args.limit:
         cities = cities[:args.limit]
         print(f"Limited to first {args.limit} cities")
     
@@ -333,9 +500,16 @@ def main():
     for i, city in enumerate(cities, 1):
         city_name = city.get('name', 'Unknown')
         results_count = city.get('tripadvisor_restaurants_results', 0)
+        geoname_id = city.get('geoname_id')
         
         print(f"\n[{i}/{len(cities)}] Processing {city_name} "
               f"({results_count} results)...")
+        
+        # First remove any existing links for this city (if cleaning is enabled)
+        if geoname_id and args.clean:
+            removed_count = remove_existing_restaurant_links(geoname_id)
+            if removed_count > 0:
+                print(f"Cleaned up {removed_count} old links before adding new ones")
         
         # Generate URLs
         urls = generate_restaurant_urls(city)
@@ -370,7 +544,7 @@ def main():
         avg_urls_per_city = total_urls_generated / cities_processed
         print(f"Average URLs per city: {avg_urls_per_city:.1f}")
     
-    print("\nDatabase population completed successfully!")
+    print("\nAPI link creation completed successfully!")
 
 
 if __name__ == "__main__":

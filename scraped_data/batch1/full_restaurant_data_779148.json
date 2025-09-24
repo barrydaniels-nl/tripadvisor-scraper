@@ -1,0 +1,1663 @@
+{
+  "restaurant_id": 779148,
+  "restaurant_name": "Steakhouse Pizzeria Mazzel",
+  "tripadvisor_url": "https://www.tripadvisor.com/Restaurant_Review-g3340744-d27608316-Reviews-Steakhouse_Pizzeria_Mazzel-Leek_Leeksterhout.html?m=69411",
+  "website_url": "https://www.tripadvisor.com/Restaurant_Review-g3340744-d27608316-Reviews-Steakhouse_Pizzeria_Mazzel-Leek_Leeksterhout.html",
+  "cuisines": null,
+  "meal_types": null,
+  "features": null,
+  "special_diets": null,
+  "hours": null,
+  "scrape_status": "success",
+  "errors": [],
+  "jsonld_data": {
+    "name": "Steakhouse Pizzeria Mazzel",
+    "image": [],
+    "priceRange": "",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g3340744-d27608316-Reviews-Steakhouse_Pizzeria_Mazzel-Leek_Leeksterhout.html",
+    "website": "https://www.tripadvisor.com/Restaurant_Review-g3340744-d27608316-Reviews-Steakhouse_Pizzeria_Mazzel-Leek_Leeksterhout.html",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 53.16265,
+      "longitude": 6.392362
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "NL"
+      },
+      "streetAddress": "Tolberterstraat 2a",
+      "addressLocality": "Leek",
+      "postalCode": "9351 BG"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 1
+    },
+    "raw_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "name": "Steakhouse Pizzeria Mazzel",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.16265,
+        "longitude": 6.392362
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "NL"
+        },
+        "streetAddress": "Tolberterstraat 2a",
+        "addressLocality": "Leek",
+        "postalCode": "9351 BG"
+      },
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g3340744-d27608316-Reviews-Steakhouse_Pizzeria_Mazzel-Leek_Leeksterhout.html"
+    }
+  },
+  "graphql_responses": [
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "gtmData": {
+              "audienceIds": [],
+              "hashedPersistentCookie": "MmE4NDFjMmM4ZWM4MzIxMTI0NGUxMDc3NTRkMDM3ZmFmZDgxNjgyYw",
+              "hashedPersistentCookieSegmentPOC": "MmE4NDFjMmM4ZWM4MzIxMTI0NGUxMDc3NTRkMDM3ZmFmZDgxNjgyYw",
+              "hashedPersistentCookieSegmentMeta": "ecdf909c17782146609d72476505c3ab008c73c1d95984fdd0da6bb264141051",
+              "hashedPersistentCookieSHA1": "97f3668cdd4cfd0e17fc4d7e6a71488d6dfc4847",
+              "hashedPersistentCookieSHA256": "815a23427c0500ab5afd53709efb683e9808926cf73edadc8b2fb1448f260858",
+              "ipAddressCountry": "NL",
+              "locationData": {
+                "regionName": null,
+                "regionId": null,
+                "countryName": "The Netherlands",
+                "countryId": 188553,
+                "locationHierarchy": ":27608316:1:4:188553:188570:20152265:3340744:",
+                "stateName": null,
+                "stateId": null,
+                "cityName": "Leek"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "EatImpressionTracking_logImpressions": [
+              "628e2f98-067d-488c-8758-7f33b9ad7b1e"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "EatImpressionTracking_logImpressions"
+            ]
+          }
+        },
+        {
+          "data": {
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "rating": 5,
+                  "count": 1
+                }
+              }
+            ],
+            "locations": [
+              {
+                "reviewAggregations": {
+                  "ratingCounts": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "restaurantSubratingsData": {
+              "restaurants": [
+                {
+                  "sub_ratings": {
+                    "atmosphere": null,
+                    "food": null,
+                    "service": null,
+                    "value": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "mediaAlbum": {
+              "album": {
+                "albumId": 107,
+                "totalMediaCount": 0
+              }
+            },
+            "mediaAlbumPage": {
+              "mediaList": []
+            }
+          }
+        },
+        {
+          "data": {
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "keywords": [
+              {
+                "responseData": {
+                  "keywords": []
+                }
+              }
+            ],
+            "reviewAggregations": [
+              {
+                "locationId": 27608316,
+                "overallRating": 5,
+                "reviewCount": 1,
+                "alertStatusCount": 0,
+                "reviewCountByRating": {
+                  "oneRatingCount": 0,
+                  "twoRatingCount": 0,
+                  "threeRatingCount": 0,
+                  "fourRatingCount": 0,
+                  "fiveRatingCount": 1
+                },
+                "reviewCountByLanguage": [
+                  {
+                    "language": "nl",
+                    "count": 1
+                  }
+                ],
+                "nativeAndTransByLanguage": [
+                  {
+                    "language": "en",
+                    "count": 1
+                  },
+                  {
+                    "language": "nl",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 1,
+                "reviews": [
+                  {
+                    "id": 1019114670,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g3340744-d27608316-r1019114670-Steakhouse_Pizzeria_Mazzel-Leek_Leeksterhout.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 27608316,
+                      "name": "Steakhouse Pizzeria Mazzel",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2025-07-17",
+                    "publishedDate": "2025-07-17",
+                    "userProfile": {
+                      "id": "1ACF6A82413388C78905FABD7970417C",
+                      "isVerified": false,
+                      "displayName": "Bart L",
+                      "username": "bartl606",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452391441,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f2/11/default-avatar-2020-23.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": null,
+                        "fallbackString": null,
+                        "location": null
+                      },
+                      "route": {
+                        "url": "/Profile/bartl606"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 1
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": null,
+                    "title": "Great!!!!!",
+                    "language": "en",
+                    "originalLanguage": "nl",
+                    "text": "What an amazing experience. We were already met with a dose of humor that I love. Delicious own bread with homemade herb butter. My colleague had the T bone and I had spare ribs. It was delicious and fresh. The salad was also excellent. It's a 2-hour drive for us. But we will definitely be back.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 27608316,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": "MACHINE",
+                    "mtProviderId": 10,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2025-07-31",
+                      "tripType": "BUSINESS"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Food"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Atmosphere"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "routes": [
+              {
+                "webLinkUrl": "/ClientLink?value=QUlPXy9Vc2VyUmV2aWV3RWRpdC1nMzM0MDc0NC1kMjc2MDgzMTYtU3RlYWtob3VzZV9QaXp6ZXJpYV9NYXp6ZWwtTGVla19MZWVrc3RlcmhvdXQuaHRtbF9TbDQ%3D"
+              },
+              {
+                "webLinkUrl": "/ClientLink?value=NHFEXy9Qb3N0UGhvdG9zLWQyNzYwODMxNl9LVFA%3D"
+              },
+              {
+                "webLinkUrl": "/reviews?locationId=27608316&screen=allreviews"
+              },
+              {
+                "webLinkUrl": "/photosandvideos?locationId=27608316"
+              }
+            ],
+            "reviewDrafts": [
+              []
+            ],
+            "ownerStatus": [
+              {
+                "userId": null,
+                "isOwnedByUser": false
+              }
+            ],
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "placeType": "EATERY",
+                "accommodationCategory": "HOTEL",
+                "locationId": 27608316,
+                "localizedName": "Steakhouse Pizzeria Mazzel",
+                "parentGeoId": 3340744,
+                "currentUserOwnerStatus": null,
+                "topicCount": 0
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "count": 1
+                }
+              }
+            ],
+            "tipCountReviewsProxy": [
+              {
+                "responseData": {
+                  "locationTipsTotalCount": 0
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "QuestionsAndAnswers_getQuestionsByLocations": [
+              {
+                "questions": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "3003ef9b-4324-4404-9907-0e6f9c9ddb65"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "b2f5dbe1-0b18-41f5-8756-7d9e4a0dc643"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "93e24160-f0b1-4c2e-9827-12b77136cfed"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "reduce_got_frequency_1751287771",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 0
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_terms_page_test_2_1705078152",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "light_mode_on_got_1752783783",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_disable_auto_login_1714679068",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 1
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "mapbox_maps_web_1726204927",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "baSubscriptions": [
+              {
+                "subscriptions": []
+              }
+            ],
+            "ownerStatus": [
+              {
+                "isOwnedByUser": false
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "locationId": 27608316,
+                "parents": [
+                  {
+                    "locationId": 3340744
+                  },
+                  {
+                    "locationId": 20152265
+                  },
+                  {
+                    "locationId": 188570
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 2
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "d7376cf1-ef3d-4245-bb71-0f7317d08d42"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "a1a144d4-cfad-4d60-bbf7-c076954f2b8a"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 3
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "data": {
+              "hashedPersistentCookieSHA256": "815a23427c0500ab5afd53709efb683e9808926cf73edadc8b2fb1448f260858"
+            }
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 1000,
+                  "maxHeight": 700,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2d/40/95/keep-on-planning.jpg?w={width}&h={height}&s=1&cx=492&cy=358&chk=v1_f64df95338d294710736"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "parents": [
+                  {
+                    "locationId": 20152265
+                  },
+                  {
+                    "locationId": 188570
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              },
+              {
+                "parents": [
+                  {
+                    "locationId": 3340744
+                  },
+                  {
+                    "locationId": 20152265
+                  },
+                  {
+                    "locationId": 188570
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "app_interstitial_tactic3_restaurants_1711980365",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 4
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "response": [
+              {
+                "randomContentList": [
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "cLxOLAuwnbQ",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "How to get around Paris: Navigating like a pro",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": " Traveling to Paris? Let us make your trip hassle-free. Get to your desired destinations with some of the best transportation options Paris has to offer."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Jiah"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/b1/41/0e/caption.jpg?w={width}&h={height}&s=1&cx=2048&cy=1365&chk=v1_ce9a08b6a0ae8834e8bf",
+                                "maxWidth": 4096,
+                                "maxHeight": 2731
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lcLxOLAuwnbQ-Paris_transportation_guide.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1978,
+                    "sponsorId": 228,
+                    "sponsorDisplayName": "VisitGreenvilleSC",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "9sQ0XC2wQ2Y",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Why Greenville, SC is the perfect mix of adventure and luxury",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "There are few places that blend luxury and outdoor adventure like Greenville, South Carolina. The days (and mild weather) are made for adrenaline rushes of all types, while the region\u2019s spas, fine dining, and boutique properties serve up luxury experiences that last well into the evening. It\u2019s not hard to dive into a handful of the many treats on offer, and crafting an itinerary that incorporates a little bit of everything is how you\u2019ll find yourself with a Greenville-shaped spot forever in your heart."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/d7/cd/50/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_83d8b446260b444db10a",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l9sQ0XC2wQ2Y-Why_greenville_sc_is_the_perfect_mix_of_adventure_and_luxury.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "8n9S2S5LJ0s",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "6 NYC neighborhoods not to miss",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "   Locals share their favorite NYC haunts across the city, from Chinatown to Harlem and beyond. "
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/79/5f/44/caption.jpg?w={width}&h={height}&s=1&cx=425&cy=157&chk=v1_7391b28c20876fcba3ee",
+                                "maxWidth": 851,
+                                "maxHeight": 315
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l8n9S2S5LJ0s-New_york_city_neighborhoods.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "KIs6umk842o",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "On the record: A musician's guide to Sydney's top spots",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "We caught up with a few rising Warner Music artists and got the low-down on their favourite spots in Sydney. From vintage clothes to coastal views, here's what they loved."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Tripadvisor in partnership with Warner Music"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d2/d4/dd/caption.jpg?w={width}&h={height}&s=1&cx=1805&cy=1021&chk=v1_883857c065cf58dcd93d",
+                                "maxWidth": 3611,
+                                "maxHeight": 2043
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lKIs6umk842o-Musicians_guide_to_sydney_top_spots.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1893,
+                    "sponsorId": 770,
+                    "sponsorDisplayName": "Radisson",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "q6Ey8xlRnh4",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "6 things you\u2019ll love about Radisson Hotels",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "You know the name, but have you experienced a Radisson hotel? Whether you\u2019re planning an out-of-town business trip, a convenient stay for wedding guests, or a well-deserved vacation, discover six reasons Radisson is a brand travelers choose again and again. "
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/31/4c/17/caption.jpg?w={width}&h={height}&s=1&cx=1440&cy=960&chk=v1_e4408a6c22044b4f53a8",
+                                "maxWidth": 2880,
+                                "maxHeight": 1921
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lq6Ey8xlRnh4-6_things_youll_love_about_radisson_hotels.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1950,
+                    "sponsorId": 784,
+                    "sponsorDisplayName": "the More to Jamaica Community-Based Tourism Project",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "zMDqsOiPRdg",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Let locals lead the way",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Experience Jamaica through local eyes. From Maroon traditions and family-run farms to artisan workshops and river tubing adventures, these are the moments that bring the island\u2019s soul to life. Across the island, communities are opening their doors and inviting you in. Travel deeper with locally-led experiences and see a side of Jamaica some visitors miss: authentic, unforgettable, and full of heart."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/dd/3d/50/caption.jpg?w={width}&h={height}&s=1",
+                                "maxWidth": 3840,
+                                "maxHeight": 1362
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lzMDqsOiPRdg-Theres_always_more_to_jamaica.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1356,
+                    "sponsorId": 295,
+                    "sponsorDisplayName": "Australia's Northern Territory",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 255063,
+                      "name": "Alice Springs",
+                      "stateAndCountryOrEquivalent": "Northern Territory, Australia",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g255063-Alice_Springs_Red_Centre_Northern_Territory-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/6c/a8/8f/reflections-palm-valley.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 2848,
+                          "maxWidth": 4288
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "XS5ZnXmv0k0",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Navigating Berlin\u2019s museums like a pro",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Cover everything from Queen Nefertiti to the Cold War.  "
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Nicholas DeRenzo"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/a8/b6/55/caption.jpg?w={width}&h={height}&s=1&cx=566&cy=425&chk=v1_347c74b8f258031b789c",
+                                "maxWidth": 1133,
+                                "maxHeight": 850
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lXS5ZnXmv0k0-Berlin_museum_tips.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1356,
+                    "sponsorId": 295,
+                    "sponsorDisplayName": "Australia's Northern Territory",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 256203,
+                      "name": "Katherine",
+                      "stateAndCountryOrEquivalent": "Northern Territory, Australia",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g256203-Katherine_Top_End_Northern_Territory-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ad/cf/17/leliyn-edith-falls.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1500,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1742,
+                    "sponsorId": 220,
+                    "sponsorDisplayName": "Visit Carlsbad",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 32171,
+                      "name": "Carlsbad",
+                      "stateAndCountryOrEquivalent": "California, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g32171-Carlsbad_California-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fe/ef/carlsbad.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 500,
+                          "maxWidth": 2121
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "VtmD5bgWbW0",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "4 must-visit towns near Athens",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "These easy trips from Athens will give you the full Greek experience."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Rebecca Hall"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9e/bd/21/caption.jpg?w={width}&h={height}&s=1&cx=2983&cy=1783&chk=v1_3afbddf4450255845861",
+                                "maxWidth": 5966,
+                                "maxHeight": 3566
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lVtmD5bgWbW0-Places_to_visit_near_athens_greece.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 5
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "c526db74-2c62-436c-bb32-658806435d1f"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "ca917987-3aa0-4e17-9ba5-96a1a3df5f80"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 6
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 7
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "14b32dbe-781b-4dc0-853a-001d664730f8"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "73b442ca-4262-41e8-810c-52b458e55048"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "4d2b53b9-9a68-4cd3-9558-29d6d4ff283d"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getLocationTips": [
+              {
+                "responseData": {
+                  "locationTips": []
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "d1b97d51-f89f-4b6f-9a6a-a1ba97b6c1af"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "e73d7223-71b0-4618-a2b6-da81b1871733"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 8
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "e04110ab-c222-4c30-9f9a-2a22eedd0355"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "11f9bd40-a038-4768-a6b5-eed253176f84"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "c4490b5c-3e01-4458-bb78-415c67e4329a"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "cba92841-2bd2-4c40-b4af-b1ed4b49d50f"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 9
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 10
+    }
+  ],
+  "statistics": {
+    "total_graphql_responses": 11,
+    "has_jsonld_data": true,
+    "has_website_url": true,
+    "has_cuisines": false,
+    "has_meal_types": false,
+    "has_features": false,
+    "has_special_diets": false,
+    "has_hours": false,
+    "error_count": 0
+  },
+  "api_update_success": true,
+  "timestamp": "2025-09-23T15:36:39.413295"
+}

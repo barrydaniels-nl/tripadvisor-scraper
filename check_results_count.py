@@ -39,13 +39,13 @@ def fetch_cities_with_restaurant_data(country_code: str = None) -> List[Dict]:
             if response.status_code == 200:
                 data = response.json()
                 
-                # Handle different response structures
+                # Handle different response structures - prioritize 'results' for DRF pagination
                 items = []
                 if isinstance(data, dict):
-                    if 'items' in data:
-                        items = data.get('items', [])
-                    elif 'results' in data:
+                    if 'results' in data:
                         items = data.get('results', [])
+                    elif 'items' in data:
+                        items = data.get('items', [])
                     elif 'data' in data:
                         items = data.get('data', [])
                     else:
@@ -67,11 +67,20 @@ def fetch_cities_with_restaurant_data(country_code: str = None) -> List[Dict]:
                 for city in items:
                     if (city.get('geoname_id') and 
                         city.get('tripadvisor_restaurants_results') is not None):
+                        # Handle nested country structure
+                        country_code = 'Unknown'
+                        if 'country_code' in city:
+                            country_code = city['country_code']
+                        elif 'country' in city and isinstance(city['country'], dict):
+                            country_code = city['country'].get('code', 'Unknown')
+                        elif 'country' in city and isinstance(city['country'], str):
+                            country_code = city['country']
+                        
                         valid_cities.append({
                             'geoname_id': city.get('geoname_id'),
                             'name': city.get('name', 'Unknown'),
                             'tripadvisor_restaurants_results': city.get('tripadvisor_restaurants_results'),
-                            'country': city.get('country_code', 'Unknown')
+                            'country': country_code
                         })
                 
                 if valid_cities:
@@ -206,12 +215,7 @@ def validate_single_city(city: Dict, city_index: int, total_cities: int) -> Dict
     expected_count = city['tripadvisor_restaurants_results']
     city_name = city['name']
     
-    print(f"\n[{city_index}/{total_cities}] Checking {city_name} "
-          f"(geoname_id: {geoname_id})")
-    print(f"Expected restaurants: {expected_count}")
-    
     actual_count = get_restaurant_count_for_geoname(geoname_id)
-    print(f"Actual restaurants in DB: {actual_count}")
     
     # Calculate 5% tolerance
     tolerance = max(1, int(expected_count * 0.05))  # At least 1
@@ -221,6 +225,13 @@ def validate_single_city(city: Dict, city_index: int, total_cities: int) -> Dict
     is_valid = min_valid <= actual_count <= max_valid
     difference = actual_count - expected_count
     difference_pct = (difference / expected_count * 100) if expected_count > 0 else 0
+    
+    # Print compact one-line result
+    status_icon = "✓" if is_valid else "✗"
+    print(f"{status_icon} [{city_index:3d}/{total_cities}] {city_name:30s} "
+          f"[ACT] {actual_count:5d} [EXP] {expected_count:5d} "
+          f"[DIFF] {difference:+6d} ({difference_pct:+6.1f}%) "
+          f"[http://127.0.0.1:8000/api/city/{geoname_id}]")
     
     result = {
         'geoname_id': geoname_id,
@@ -234,11 +245,6 @@ def validate_single_city(city: Dict, city_index: int, total_cities: int) -> Dict
         'is_valid': is_valid,
         'status': 'VALID' if is_valid else 'INVALID'
     }
-    
-    # Print validation result
-    status_icon = "✓" if is_valid else "✗"
-    print(f"{status_icon} {result['status']} - Difference: {difference} "
-          f"({difference_pct:+.1f}%) [Tolerance: ±{tolerance}]")
     
     return result
 

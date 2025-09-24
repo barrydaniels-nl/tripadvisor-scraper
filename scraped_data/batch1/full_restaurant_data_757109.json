@@ -1,0 +1,1173 @@
+{
+  "restaurant_id": 757109,
+  "restaurant_name": "Restaurant Meliss Grill",
+  "tripadvisor_url": "https://www.tripadvisor.com/Restaurant_Review-g187136-d19766066-Reviews-Restaurant_Meliss_Grill-Epernay_Marne_Grand_Est.html?m=69411",
+  "website_url": "https://restaurant-melis-grill.business.site/",
+  "phone_number": "+33 3 26 56 84 59",
+  "cuisines": [
+    "Fast Food",
+    "International",
+    "European",
+    "Grill",
+    "Arabic"
+  ],
+  "meal_types": null,
+  "features": null,
+  "special_diets": null,
+  "hours": null,
+  "scrape_status": "success",
+  "errors": [],
+  "jsonld_data": {
+    "name": "Restaurant Meliss Grill",
+    "image": [],
+    "priceRange": "",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g187136-d19766066-Reviews-Restaurant_Meliss_Grill-Epernay_Marne_Grand_Est.html",
+    "website": "https://restaurant-melis-grill.business.site/",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.0438,
+      "longitude": 3.95595
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "FR"
+      },
+      "streetAddress": "35 rue General Leclerc",
+      "addressRegion": "Grand Est",
+      "postalCode": "51200"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 1
+    },
+    "raw_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "name": "Restaurant Meliss Grill",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 49.0438,
+        "longitude": 3.95595
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "FR"
+        },
+        "streetAddress": "35 rue General Leclerc",
+        "addressRegion": "Grand Est",
+        "postalCode": "51200"
+      },
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g187136-d19766066-Reviews-Restaurant_Meliss_Grill-Epernay_Marne_Grand_Est.html"
+    },
+    "phone": "+33 3 26 56 84 59",
+    "cuisines": [
+      "Fast Food",
+      "International",
+      "European",
+      "Grill",
+      "Arabic"
+    ]
+  },
+  "graphql_responses": [
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "gtmData": {
+              "audienceIds": [],
+              "hashedPersistentCookie": "YzkxNjczY2EyYTgwZWU4Y2IwZjdhN2U5OWEwZTdmMjE2MDZiNGUxYw",
+              "hashedPersistentCookieSegmentPOC": "YzkxNjczY2EyYTgwZWU4Y2IwZjdhN2U5OWEwZTdmMjE2MDZiNGUxYw",
+              "hashedPersistentCookieSegmentMeta": "851cba27faf37039031af676e29d74cf64405aa7f49fc8fd3cdbefd9c7fcc041",
+              "hashedPersistentCookieSHA1": "af5f680ef9cd7540b1a57777ac11ff81492bf9a3",
+              "hashedPersistentCookieSHA256": "75eb9a75a72331c04e224daace3f2781aee99093f2ad9ee7b75f7cd3a8abed82",
+              "ipAddressCountry": "NL",
+              "locationData": {
+                "regionName": "Grand Est",
+                "regionId": 11038876,
+                "countryName": "France",
+                "countryId": 187070,
+                "locationHierarchy": ":19766066:1:4:187070:11038876:2064952:187136:",
+                "stateName": null,
+                "stateId": null,
+                "cityName": null
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "6a553531-474c-4d18-aaa5-e4c4d444f8b3"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "EatImpressionTracking_logImpressions": [
+              "02eee38a-48ff-4aab-af24-67cf9382f18c"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "EatImpressionTracking_logImpressions"
+            ]
+          }
+        },
+        {
+          "data": {
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "rating": 5,
+                  "count": 1
+                }
+              }
+            ],
+            "locations": [
+              {
+                "reviewAggregations": {
+                  "ratingCounts": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "restaurantSubratingsData": {
+              "restaurants": [
+                {
+                  "sub_ratings": {
+                    "atmosphere": null,
+                    "food": null,
+                    "service": null,
+                    "value": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "mediaAlbum": {
+              "album": {
+                "albumId": 107,
+                "totalMediaCount": 0
+              }
+            },
+            "mediaAlbumPage": {
+              "mediaList": []
+            }
+          }
+        },
+        {
+          "data": {
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "keywords": [
+              {
+                "responseData": {
+                  "keywords": []
+                }
+              }
+            ],
+            "reviewAggregations": [
+              {
+                "locationId": 19766066,
+                "overallRating": 5,
+                "reviewCount": 1,
+                "alertStatusCount": 0,
+                "reviewCountByRating": {
+                  "oneRatingCount": 0,
+                  "twoRatingCount": 0,
+                  "threeRatingCount": 0,
+                  "fourRatingCount": 0,
+                  "fiveRatingCount": 1
+                },
+                "reviewCountByLanguage": [
+                  {
+                    "language": "fr",
+                    "count": 1
+                  }
+                ],
+                "nativeAndTransByLanguage": [
+                  {
+                    "language": "fr",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 0,
+                "reviews": [],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "routes": [
+              {
+                "webLinkUrl": "/ClientLink?value=YlZMXy9Vc2VyUmV2aWV3RWRpdC1nMTg3MTM2LWQxOTc2NjA2Ni1SZXN0YXVyYW50X01lbGlzc19HcmlsbC1FcGVybmF5X01hcm5lX0dyYW5kX0VzdC5odG1sX2RXUg%3D%3D"
+              },
+              {
+                "webLinkUrl": "/ClientLink?value=ODBrXy9Qb3N0UGhvdG9zLWQxOTc2NjA2Nl81S2Y%3D"
+              },
+              {
+                "webLinkUrl": "/reviews?locationId=19766066&screen=allreviews"
+              },
+              {
+                "webLinkUrl": "/photosandvideos?locationId=19766066"
+              }
+            ],
+            "reviewDrafts": [
+              []
+            ],
+            "ownerStatus": [
+              {
+                "userId": null,
+                "isOwnedByUser": false
+              }
+            ],
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "placeType": "EATERY",
+                "accommodationCategory": "HOTEL",
+                "locationId": 19766066,
+                "localizedName": "Restaurant Meliss Grill",
+                "parentGeoId": 187136,
+                "currentUserOwnerStatus": null,
+                "topicCount": 0
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "count": 1
+                }
+              }
+            ],
+            "tipCountReviewsProxy": [
+              {
+                "responseData": {
+                  "locationTipsTotalCount": 0
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "2d10fe58-9ddb-44ef-888c-227264e5d314"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "1632ba8e-a350-426a-824b-bace4939c37c"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 0
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "QuestionsAndAnswers_getQuestionsByLocations": [
+              {
+                "questions": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "reduce_got_frequency_1751287771",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_terms_page_test_2_1705078152",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "light_mode_on_got_1752783783",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_disable_auto_login_1714679068",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 1
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "mapbox_maps_web_1726204927",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 2
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AdContext_deletePPIDUserData": [
+              {
+                "success": false,
+                "errorMessage": "Failed to delete PPID data - Received HTTP error code: 400 with no error message."
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 1000,
+                  "maxHeight": 700,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2d/40/95/keep-on-planning.jpg?w={width}&h={height}&s=1&cx=492&cy=358&chk=v1_f64df95338d294710736"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "parents": [
+                  {
+                    "locationId": 2064952
+                  },
+                  {
+                    "locationId": 11038876
+                  },
+                  {
+                    "locationId": 187070
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              },
+              {
+                "parents": [
+                  {
+                    "locationId": 187136
+                  },
+                  {
+                    "locationId": 2064952
+                  },
+                  {
+                    "locationId": 11038876
+                  },
+                  {
+                    "locationId": 187070
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 3
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "response": [
+              {
+                "randomContentList": [
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 897,
+                    "sponsorId": 522,
+                    "sponsorDisplayName": "Fort Myers \u2013 Islands, Beaches and Neighborhoods",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 123495316,
+                      "tripContent": {
+                        "id": 123495316,
+                        "title": "Discover a Fort Myers getaway for the whole family",
+                        "description": "Planning a vacation the whole family will love can be tricky. Luckily, the islands, beaches and neighborhoods of Fort Myers have so much to offer kids of all ages. From water activities to wildlife interactions to family-friendly dining options, this memory-making itinerary has something for everyone.",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-c/2560x500/29/b9/2e/59/caption.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 2560,
+                            "maxHeight": 1506
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t123495316"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "WVlrLYoZydQ",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "2 perfect days in Yosemite",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Taking in all of Yosemite National Park in just two days\u2014is it even possible? Don\u2019t worry, we\u2019ve got you covered. While you won\u2019t be able to see everything in 48 hours, a weekend trip still offers plenty of opportunities to take in the spectacular peaks, roaring waterfalls, and soaring sequoias."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Esther Carlstone"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/f2/79/6f/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_28667612996f6339abab",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lWVlrLYoZydQ-2_days_in_yosemite_itinerary.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1990,
+                    "sponsorId": 787,
+                    "sponsorDisplayName": "Visit Santa Fe",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 153968221,
+                      "tripContent": {
+                        "id": 153968221,
+                        "title": "Santa Fe: heritage & history on the Original Route 66",
+                        "description": "Looking for adventure on the original Route 66? Santa Fe, the oldest state capital, is a must-stop for history buffs. The city, founded in 1610, is older than the United States\u2014but the area has been populated for well over a thousand years. With so much history and heritage, you'll want to allow plenty of time to explore the best of the Southwest\u2014so here are 12 suggestions for things to see, do, and learn.",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-b/2560x500/03/06/08/5e/santa-fe-baldy.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 2560,
+                            "maxHeight": 500
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t153968221"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1915,
+                    "sponsorId": 776,
+                    "sponsorDisplayName": "Experience Abu Dhabi",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 294013,
+                      "name": "Abu Dhabi",
+                      "stateAndCountryOrEquivalent": "Emirate of Abu Dhabi, United Arab Emirates",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g294013-Abu_Dhabi_Emirate_of_Abu_Dhabi-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/f9/08/b1/mosquee-1.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1200,
+                          "maxWidth": 1600
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1944,
+                    "sponsorId": 103,
+                    "sponsorDisplayName": "Louisville Tourism",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "jNBY5F0AKXo",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Discover the spirited soul of Bourbon City",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Raise a glass to the charm of Louisville, Kentucky\u2014a town with a rich history and a smooth bourbon scene, where each sip serves up a story of tradition and innovation. With iconic distilleries, exciting restaurants, and warm southern hospitality, Louisville\u2019s authentic spirit is proof that the heart and soul of Bourbon City has aged to perfection. "
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b0/33/4b/caption.jpg?w={width}&h={height}&s=1",
+                                "maxWidth": 1920,
+                                "maxHeight": 1080
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-ljNBY5F0AKXo-Discover_the_spirited_soul_of_bourbon_city.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1974,
+                    "sponsorId": 268,
+                    "sponsorDisplayName": "North Myrtle Beach",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "hQpu0KeGZtw",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "A food lover\u2019s guide to North Myrtle Beach",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Whether it\u2019s shoulder season or summer\u2019s peak, you\u2019ll always find delicious dishes at North Myrtle Beach. Dine by the waterfront after a balmy beach day, eat like the locals at treasured hotspots, or take the family out for a celebratory meal. Whatever you crave in an unforgettable vacation, you\u2019re sure to find it here in this must-read roundup of top restaurants."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b0/11/a5/caption.jpg?w={width}&h={height}&s=1&cx=960&cy=540&chk=v1_4c9390fe59fc15b9ab86",
+                                "maxWidth": 1920,
+                                "maxHeight": 1080
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lhQpu0KeGZtw-A_food_lovers_guide_to_north_myrtle_beach.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 897,
+                    "sponsorId": 522,
+                    "sponsorDisplayName": "Fort Myers \u2013 Islands, Beaches and Neighborhoods",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 123495326,
+                      "tripContent": {
+                        "id": 123495326,
+                        "title": "Experience vibrant art and culture in Fort Myers",
+                        "description": "There\u2019s so much more to soak up than the sun in and around Fort Myers. This itinerary is designed for art-lovers, who can take in the visual and performing arts scene, learn about the area\u2019s fascinating history, and go for a scenic stroll to enjoy neighborhood murals and outdoor art installations.",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-c/2560x500/29/b9/2f/b2/caption.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 2560,
+                            "maxHeight": 1506
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t123495326"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1960,
+                    "sponsorId": 785,
+                    "sponsorDisplayName": "Australian Open",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "JGupoAQp3gg",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your Ultimate Melbourne Summer with AO Travel & Experiences Packages",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "It\u2019s game, set, and a winning Melbourne adventure for tennis fans heading to the Australian Open in January. With AO Travel & Experiences - the official travel provider of the AO - you\u2019ll make the most of every break in play, stepping beyond the court to discover everything the vibrant city of Melbourne has to offer."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/f0/5a/04/caption.jpg?w={width}&h={height}&s=1&cx=3884&cy=2752&chk=v1_1036d134da96a6ea9666",
+                                "maxWidth": 7768,
+                                "maxHeight": 5504
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lJGupoAQp3gg-Your_ultimate_melbourne_summer_with_ao_travel_experiences_packages.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "gPMMrcsHMac",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "10 unique experiences you can only have in New Orleans",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Swamp tours, ghost encounters, Creole cooking classes, and more."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Mark Jason Williams"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/40/47/22/caption.jpg?w={width}&h={height}&s=1&cx=700&cy=422&chk=v1_a0e0ab833ebd6ca57820",
+                                "maxWidth": 1400,
+                                "maxHeight": 844
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lgPMMrcsHMac-New_orleans_unique_experiences.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1964,
+                    "sponsorId": 123,
+                    "sponsorDisplayName": "Travel Nevada",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 153326521,
+                      "tripContent": {
+                        "id": 153326521,
+                        "title": "Chase horizons and conquer trails across Nevada\u2019s rugged backcountry",
+                        "description": "Nevada\u2019s wild places were made for those who move at their own pace. Wander through desert canyons, alpine lakes, and ancient rock formations, all in one trip. Whether you're chasing stars in a dark sky park or breathing deep in the high mountains, this is the untamed side of the Silver State, ready to be roamed, hiked, and discovered.",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fb/01/nevada.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 2844,
+                            "maxHeight": 556
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t153326521"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "ylWZXGL3e8o",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your guide to exploring Iceland's Golden Circle from Reykjavik",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "What is the Golden Circle in Iceland? Here is all you need to know about doing the Golden Circle from Reykjavik, whether you\u2019re self-driving or doing a Golden Circle tour."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Benjamin Tan"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/dc/3e/0e/caption.jpg?w={width}&h={height}&s=1&cx=1247&cy=612&chk=v1_d4d3c4c72ef552362905",
+                                "maxWidth": 1999,
+                                "maxHeight": 1333
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lylWZXGL3e8o-Guide_to_golden_circle_iceland.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 4
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "63b6c4f5-6b92-4fcb-92e6-38fb526263c6"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "0b795f34-2391-4f66-aaa3-80fee3a7c655"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 5
+    }
+  ],
+  "statistics": {
+    "total_graphql_responses": 6,
+    "has_jsonld_data": true,
+    "has_website_url": true,
+    "has_phone_number": true,
+    "has_cuisines": true,
+    "has_meal_types": false,
+    "has_features": false,
+    "has_special_diets": false,
+    "has_hours": false,
+    "error_count": 0
+  },
+  "api_update_success": true,
+  "timestamp": "2025-09-23T17:23:44.897629"
+}

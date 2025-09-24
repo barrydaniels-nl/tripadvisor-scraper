@@ -1,0 +1,2706 @@
+{
+  "restaurant_id": 813801,
+  "restaurant_name": "Hoek's Fish & Food",
+  "tripadvisor_url": "https://www.tripadvisor.com/Restaurant_Review-g612459-d11656933-Reviews-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html?m=69411",
+  "website_url": "https://www.tripadvisor.com/Restaurant_Review-g612459-d11656933-Reviews-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html",
+  "cuisines": [
+    "Seafood",
+    "Fast Food"
+  ],
+  "meal_types": [
+    "Lunch",
+    "Dinner"
+  ],
+  "features": [
+    "Seating",
+    "Takeout",
+    "Wheelchair Accessible"
+  ],
+  "special_diets": null,
+  "hours": {
+    "Sunday": "10:00 AM - 7:30 PM",
+    "Monday": "10:00 AM - 7:00 PM",
+    "Tuesday": "10:00 AM - 7:00 PM",
+    "Wednesday": "10:00 AM - 7:00 PM",
+    "Thursday": "10:00 AM - 7:00 PM",
+    "Friday": "10:00 AM - 7:30 PM",
+    "Saturday": "10:00 AM - 7:00 PM"
+  },
+  "scrape_status": "success",
+  "errors": [],
+  "jsonld_data": {
+    "name": "Hoek's Fish & Food",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/0e/87/d4/chips-part-of-a-full.jpg?w=500&h=-1&s=1",
+    "priceRange": "$",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g612459-d11656933-Reviews-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html",
+    "website": "https://www.tripadvisor.com/Restaurant_Review-g612459-d11656933-Reviews-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 53.17647,
+      "longitude": 5.41467
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "NL"
+      },
+      "streetAddress": "Waddenpromenade 3",
+      "addressLocality": "Harlingen",
+      "postalCode": "8861 NT"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 3.8,
+      "reviewCount": 27
+    },
+    "raw_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/0e/87/d4/chips-part-of-a-full.jpg?w=500&h=-1&s=1",
+      "name": "Hoek's Fish & Food",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.17647,
+        "longitude": 5.41467
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.8,
+        "reviewCount": 27
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "NL"
+        },
+        "streetAddress": "Waddenpromenade 3",
+        "addressLocality": "Harlingen",
+        "postalCode": "8861 NT"
+      },
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g612459-d11656933-Reviews-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html",
+      "priceRange": "$"
+    },
+    "cuisines": [
+      "Seafood",
+      "Fast Food"
+    ],
+    "meal_types": [
+      "Lunch",
+      "Dinner"
+    ],
+    "features": [
+      "Seating",
+      "Takeout",
+      "Wheelchair Accessible"
+    ],
+    "hours": {
+      "Sunday": "10:00 AM - 7:30 PM",
+      "Monday": "10:00 AM - 7:00 PM",
+      "Tuesday": "10:00 AM - 7:00 PM",
+      "Wednesday": "10:00 AM - 7:00 PM",
+      "Thursday": "10:00 AM - 7:00 PM",
+      "Friday": "10:00 AM - 7:30 PM",
+      "Saturday": "10:00 AM - 7:00 PM"
+    }
+  },
+  "graphql_responses": [
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "gtmData": {
+              "audienceIds": [],
+              "hashedPersistentCookie": "MzJlMDQ0YzM3MTk5Yzg5YjBkZmQ1N2VjNDc0YTI2ZTJlOTY2Y2I3Mg",
+              "hashedPersistentCookieSegmentPOC": "MzJlMDQ0YzM3MTk5Yzg5YjBkZmQ1N2VjNDc0YTI2ZTJlOTY2Y2I3Mg",
+              "hashedPersistentCookieSegmentMeta": "8f8ef83cd81e82f6b622f5a8665261e16117f855ef9dde1cc424959123dd83e8",
+              "hashedPersistentCookieSHA1": "8b3786aec87b67f0e969f03c8b2f3ea492ae2d07",
+              "hashedPersistentCookieSHA256": "e92c0751eb21321b7b64501e4d8bb81540aaa336b0cecf06de9d2d3f9e8ac416",
+              "ipAddressCountry": "NL",
+              "locationData": {
+                "regionName": null,
+                "regionId": null,
+                "countryName": "The Netherlands",
+                "countryId": 188553,
+                "locationHierarchy": ":11656933:1:4:188553:188561:612459:",
+                "stateName": null,
+                "stateId": null,
+                "cityName": "Harlingen"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "de6fe525-c07d-49c8-852d-ee14dad0e718"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "EatImpressionTracking_logImpressions": [
+              "c99a9eb8-171d-4159-8a2f-602107e9411d"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "EatImpressionTracking_logImpressions"
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "reviewAggregations": {
+                  "ratingCounts": [
+                    3,
+                    1,
+                    5,
+                    8,
+                    10
+                  ]
+                }
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "rating": 3.8,
+                  "count": 27
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "restaurantSubratingsData": {
+              "restaurants": [
+                {
+                  "sub_ratings": {
+                    "atmosphere": null,
+                    "food": 3.75,
+                    "service": 3.625,
+                    "value": 3.75
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "mediaAlbum": {
+              "album": {
+                "albumId": 107,
+                "totalMediaCount": 5
+              }
+            },
+            "mediaAlbumPage": {
+              "mediaList": [
+                {
+                  "mediaId": 737601664,
+                  "caption": "",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/f6/e8/80/caption.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/2b/f6/e8/80/caption.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/2b/f6/e8/80/caption.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/2b/f6/e8/80/caption.jpg"
+                    },
+                    {
+                      "width": 250,
+                      "height": 187,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/2b/f6/e8/80/caption.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 412,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/2b/f6/e8/80/caption.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 768,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/2b/f6/e8/80/caption.jpg"
+                    },
+                    {
+                      "width": 1138,
+                      "height": 853,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/2b/f6/e8/80/caption.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 445292441,
+                  "caption": "Kibbeling met ravigotesaus ",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8a/9f/99/kibbeling-met-ravigotesaus.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/8a/9f/99/kibbeling-met-ravigotesaus.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/8a/9f/99/kibbeling-met-ravigotesaus.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/1a/8a/9f/99/kibbeling-met-ravigotesaus.jpg"
+                    },
+                    {
+                      "width": 250,
+                      "height": 188,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/8a/9f/99/kibbeling-met-ravigotesaus.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 413,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/8a/9f/99/kibbeling-met-ravigotesaus.jpg"
+                    },
+                    {
+                      "width": 640,
+                      "height": 480,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/8a/9f/99/kibbeling-met-ravigotesaus.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 386828244,
+                  "caption": "Chips part of a full portion.  Fish I'd already eaten almost half; very decent portion to be enjoyed. What a wonderful treat.",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/0e/87/d4/chips-part-of-a-full.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/17/0e/87/d4/chips-part-of-a-full.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/17/0e/87/d4/chips-part-of-a-full.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/17/0e/87/d4/chips-part-of-a-full.jpg"
+                    },
+                    {
+                      "width": 250,
+                      "height": 188,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/17/0e/87/d4/chips-part-of-a-full.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 413,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/17/0e/87/d4/chips-part-of-a-full.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 768,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/17/0e/87/d4/chips-part-of-a-full.jpg"
+                    },
+                    {
+                      "width": 1280,
+                      "height": 960,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/17/0e/87/d4/chips-part-of-a-full.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 335239114,
+                  "caption": "",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/fb/57/ca/20180801-135911-largejpg.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/13/fb/57/ca/20180801-135911-largejpg.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/13/fb/57/ca/20180801-135911-largejpg.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/13/fb/57/ca/20180801-135911-largejpg.jpg"
+                    },
+                    {
+                      "width": 250,
+                      "height": 141,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/13/fb/57/ca/20180801-135911-largejpg.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 309,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/13/fb/57/ca/20180801-135911-largejpg.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 576,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/13/fb/57/ca/20180801-135911-largejpg.jpg"
+                    },
+                    {
+                      "width": 1280,
+                      "height": 720,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/13/fb/57/ca/20180801-135911-largejpg.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 226605988,
+                  "caption": "",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/81/bb/a4/ta-img-20161103-134021.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/0d/81/bb/a4/ta-img-20161103-134021.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/0d/81/bb/a4/ta-img-20161103-134021.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/0d/81/bb/a4/ta-img-20161103-134021.jpg"
+                    },
+                    {
+                      "width": 250,
+                      "height": 188,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/0d/81/bb/a4/ta-img-20161103-134021.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 412,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/0d/81/bb/a4/ta-img-20161103-134021.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 768,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/0d/81/bb/a4/ta-img-20161103-134021.jpg"
+                    },
+                    {
+                      "width": 4032,
+                      "height": 3024,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/0d/81/bb/a4/ta-img-20161103-134021.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "keywords": [
+              {
+                "responseData": {
+                  "keywords": []
+                }
+              }
+            ],
+            "reviewAggregations": [
+              {
+                "locationId": 11656933,
+                "overallRating": 3.8,
+                "reviewCount": 27,
+                "alertStatusCount": 0,
+                "reviewCountByRating": {
+                  "oneRatingCount": 3,
+                  "twoRatingCount": 1,
+                  "threeRatingCount": 5,
+                  "fourRatingCount": 8,
+                  "fiveRatingCount": 10
+                },
+                "reviewCountByLanguage": [
+                  {
+                    "language": "de",
+                    "count": 7
+                  },
+                  {
+                    "language": "en",
+                    "count": 5
+                  },
+                  {
+                    "language": "it",
+                    "count": 1
+                  },
+                  {
+                    "language": "nl",
+                    "count": 14
+                  }
+                ],
+                "nativeAndTransByLanguage": [
+                  {
+                    "language": "de",
+                    "count": 11
+                  },
+                  {
+                    "language": "en",
+                    "count": 8
+                  },
+                  {
+                    "language": "it",
+                    "count": 1
+                  },
+                  {
+                    "language": "nl",
+                    "count": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 8,
+                "reviews": [
+                  {
+                    "id": 1022767902,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g612459-d11656933-r1022767902-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 11656933,
+                      "name": "Hoek's Fish & Food",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2025-08-05",
+                    "publishedDate": "2025-08-05",
+                    "userProfile": {
+                      "id": "12A3C8EA1F6D867C7E7E7F5FE91DB620",
+                      "isVerified": false,
+                      "displayName": "Explore53195282822",
+                      "username": "Explore53195282822",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": null
+                      },
+                      "hometown": {
+                        "locationId": null,
+                        "fallbackString": null,
+                        "location": null
+                      },
+                      "route": {
+                        "url": "/Profile/Explore53195282822"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 1
+                      }
+                    },
+                    "rating": 1,
+                    "publishPlatform": null,
+                    "title": "Very bad food",
+                    "language": "en",
+                    "originalLanguage": "de",
+                    "text": "Worst food in the last 10 years.\nCrab rolls for 8 euros, value max. 0.5 Euro.\nSoft, muddy bun, cheap crab, cheap sauce.\n Garbage without end.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 11656933,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": "MACHINE",
+                    "mtProviderId": 10,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2025-08-31",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 1,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 1,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 1,
+                        "ratingLabelLocalizedString": "Food"
+                      },
+                      {
+                        "rating": 1,
+                        "ratingLabelLocalizedString": "Atmosphere"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": {
+                        "tips": [
+                          {
+                            "body": "Sehr schlecht, \u00fcberteuert.\nKrabbenbr\u00f6tchen f\u00fcr 8 Euro.\nWert max. 0.5 Euro.\nWeiches, matschiges Br\u00f6tchen, billige Krabben, billige So\u00dfe.\n",
+                            "published": true
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "id": 948374579,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g612459-d11656933-r948374579-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 11656933,
+                      "name": "Hoek's Fish & Food",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2024-04-26",
+                    "publishedDate": "2024-04-26",
+                    "userProfile": {
+                      "id": "F773F851F95FC88948935A994B923D46",
+                      "isVerified": false,
+                      "displayName": "Ctje51",
+                      "username": "Ctje51",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 369455724,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/05/72/6c/ctje51.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 541,
+                            "maxWidth": 541
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 1087412,
+                        "fallbackString": "1087412",
+                        "location": {
+                          "locationId": 1087412,
+                          "additionalNames": {
+                            "name": "Veenendaal",
+                            "long": "Veenendaal, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Ctje51"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 25
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": null,
+                    "title": "Eating delicious fried fish.....",
+                    "language": "en",
+                    "originalLanguage": "nl",
+                    "text": "We ate delicious kibbelingen and fries in this 'restaurant'! Big portion and freshly fried fish! Really great and for a very reasonable price!",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 11656933,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": "MACHINE",
+                    "mtProviderId": 5,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2024-04-30",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [],
+                    "photos": [
+                      {
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 737601664,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/f6/e8/80/caption.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 1138,
+                            "maxHeight": 853
+                          },
+                          "caption": "",
+                          "albumId": 100,
+                          "statuses": [
+                            "PUBLISHED"
+                          ]
+                        }
+                      }
+                    ],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 944373423,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g612459-d11656933-r944373423-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 11656933,
+                      "name": "Hoek's Fish & Food",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2024-03-29",
+                    "publishedDate": "2024-03-29",
+                    "userProfile": {
+                      "id": "3A89510870E639DDB0C98D0ADBBCD9B5",
+                      "isVerified": false,
+                      "displayName": "Passport21237825198",
+                      "username": "Passport21237825198",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452388731,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e7/7b/default-avatar-2020-56.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": null,
+                        "fallbackString": null,
+                        "location": null
+                      },
+                      "route": {
+                        "url": "/Profile/Passport21237825198"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 1
+                      }
+                    },
+                    "rating": 1,
+                    "publishPlatform": null,
+                    "title": "Bad service",
+                    "language": "en",
+                    "originalLanguage": "nl",
+                    "text": "We were in a hurry for the boat. The kibbeling was ready on time, but they refused to put it in the container. Reason unknown\u2026.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 11656933,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": "MACHINE",
+                    "mtProviderId": 5,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2024-03-31",
+                      "tripType": "FAMILY"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 865657218,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g612459-d11656933-r865657218-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 11656933,
+                      "name": "Hoek's Fish & Food",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2022-10-23",
+                    "publishedDate": "2022-10-23",
+                    "userProfile": {
+                      "id": "217085EEAFC9E8596671DDCD5EA99BCE",
+                      "isVerified": false,
+                      "displayName": "Fulwoodwhite",
+                      "username": "Fulwoodwhite72",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452388198,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e5/66/default-avatar-2020-53.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 186331,
+                        "fallbackString": "186331",
+                        "location": {
+                          "locationId": 186331,
+                          "additionalNames": {
+                            "name": "Lancashire",
+                            "long": "Lancashire, United Kingdom"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Fulwoodwhite72"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 19
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": null,
+                    "title": "Tremendous",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Drove from England and so thought I would head out up the coast away from chaos that is Amsterdam.   It's about 70 miles north.\n\nHarlingen is a cracking little picturesque seaside town.  The drive across 20 miles of the North Sea is quite bonkers. \n\nAnd so, feeling peckish,  I stopped at this little fish and chip shop. \n\nThe owner was very hospitable, putting us to shame with his command of the English language.\n\nAnd so to the thing they do, incredibly well.....the fish.  I had cod, it was battered, but it was like almost like a very fine fish finger crumb batter. Cross between tempura and fish finger batter. \n\npan\u00e9 as the French call it...\n\nI can honestly say this is one the best fish I have had in a \"chippy\" in a long long time. This place does fried fish as good as any of the top places in Britain.\n\nGiven it's a very simple restaurant, a takeaway with tables and licensed too, I am struggling to understand why no one has not given it five stars.  \n\nI think I will come back for but this time in summer.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": {
+                      "id": 866561567,
+                      "text": "Thank you for the review, it was very nice to have you. Hope to see you soon :)",
+                      "language": "en",
+                      "translationType": null,
+                      "publishedDate": "2022-10-30",
+                      "username": null,
+                      "connectionToSubject": "Eigenaar",
+                      "userProfile": {
+                        "userId": "9294E01826AFD5C7F6D644831968F645",
+                        "route": {
+                          "url": "/Profile/39martijnh"
+                        },
+                        "avatar": {
+                          "__typename": "MemberProfile_MediaId",
+                          "data": {
+                            "__typename": "Media_PhotoResult",
+                            "id": 452387929,
+                            "photoSizeDynamic": {
+                              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e4/59/default-avatar-2020-49.jpg?w={width}&h={height}&s=1",
+                              "maxHeight": 1200,
+                              "maxWidth": 1200
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "locationId": 11656933,
+                    "helpfulVotes": 1,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2022-10-31",
+                      "tripType": "FRIENDS"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 721496569,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g612459-d11656933-r721496569-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 11656933,
+                      "name": "Hoek's Fish & Food",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2019-10-26",
+                    "publishedDate": "2019-10-26",
+                    "userProfile": {
+                      "id": "282A2B511BD5F5911C1BFDBF7E3017B4",
+                      "isVerified": false,
+                      "displayName": "epserendipity11",
+                      "username": "epserendipity11",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 300451671,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/e8/87/57/epserendipity11.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 2128,
+                            "maxWidth": 2832
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 155003,
+                        "fallbackString": "155003",
+                        "location": {
+                          "locationId": 155003,
+                          "additionalNames": {
+                            "name": "Oshawa",
+                            "long": "Oshawa, Canada"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/epserendipity11"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 77
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": null,
+                    "title": "Hoek's Fish & Food - Terrific",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "I was there with an extremely large group of sailing friends.  Service was exceptional, considering there were 16 of us.  They were very accommodating.  They managed all of our orders at the take-out counter and got our food to us outdoors so we could enjoy our meals together.  The fish was so fresh, tasty and crispy...and the fries, well, I must say fries are THE BEST in Holland!",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 11656933,
+                    "helpfulVotes": 1,
+                    "labels": [],
+                    "mcid": 20253,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2019-09-30",
+                      "tripType": "NONE"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Food"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 663941196,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g612459-d11656933-r663941196-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 11656933,
+                      "name": "Hoek's Fish & Food",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2019-04-05",
+                    "publishedDate": "2019-04-05",
+                    "userProfile": {
+                      "id": "0A7CF9179FAC46EB9E458484FAAE0818",
+                      "isVerified": false,
+                      "displayName": "Suzette d",
+                      "username": "Suzetted72",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 244514695,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/92/ff/87/suzette-d.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 769,
+                            "maxWidth": 769
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 312583,
+                        "fallbackString": "312583",
+                        "location": {
+                          "locationId": 312583,
+                          "additionalNames": {
+                            "name": "Pretoria",
+                            "long": "Pretoria, South Africa"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Suzetted72"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 78
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": null,
+                    "title": "Yummy Yummy what a feast",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Fish & chips were soooo reasonably priced and oh boy, what a treat.  I can still taste the freshly baked chunks of fish, soooo filling, soooo tasty......never to be forgotten.\nSupport them, you will not be sorry, then go and sit next to the ferry harbour enjoy the view and your meal - eating with your fingers, savour the taste; it will linger with you forever!!!!!",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 11656933,
+                    "helpfulVotes": 3,
+                    "labels": [],
+                    "mcid": 58594,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2018-06-30",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Food"
+                      }
+                    ],
+                    "photos": [
+                      {
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 386828244,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/0e/87/d4/chips-part-of-a-full.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 3264,
+                            "maxHeight": 2448
+                          },
+                          "caption": "Chips part of a full portion.  Fish I'd already eaten almost half; very decent portion to be enjoyed. What a wonderful treat.",
+                          "albumId": 100,
+                          "statuses": [
+                            "PUBLISHED"
+                          ]
+                        }
+                      }
+                    ],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 623016076,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g612459-d11656933-r623016076-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 11656933,
+                      "name": "Hoek's Fish & Food",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2018-10-07",
+                    "publishedDate": "2018-10-07",
+                    "userProfile": {
+                      "id": "F039B0DB1C54B27DD7BFFC65F5B66BDC",
+                      "isVerified": false,
+                      "displayName": "SILTOA",
+                      "username": "SILTOA",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 86787301,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/2c/44/e5/siltoa.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 375,
+                            "maxWidth": 485
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 294458,
+                        "fallbackString": "294458",
+                        "location": {
+                          "locationId": 294458,
+                          "additionalNames": {
+                            "name": "Bucharest",
+                            "long": "Bucharest, Romania"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/SILTOA"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 11
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": null,
+                    "title": "Best Fish and Chips eat ever",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "I spend a day in Harlingen and my kids wanted to have a fish and chips lunch.\n    We chose Hoek's and was our best fish and chips experience ever; excelent food, very fresh, coked in the front of us and amaizing polite service\n    Congratulation!",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 11656933,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 10568,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2018-10-31",
+                      "tripType": "FAMILY"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Food"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 555458269,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g612459-d11656933-r555458269-Hoek_s_Fish_Food-Harlingen_Friesland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 11656933,
+                      "name": "Hoek's Fish & Food",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2018-01-22",
+                    "publishedDate": "2018-01-23",
+                    "userProfile": {
+                      "id": "C0C64DCBDB18CA7585E47B48804569E6",
+                      "isVerified": false,
+                      "displayName": "Bertus N",
+                      "username": "307bertusn",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452390619,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ee/db/default-avatar-2020-10.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": null,
+                        "fallbackString": "Midlum, Friesland, Netherlands",
+                        "location": null
+                      },
+                      "route": {
+                        "url": "/Profile/307bertusn"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 5
+                      }
+                    },
+                    "rating": 3,
+                    "publishPlatform": null,
+                    "title": "Good place to take a fish",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Harlingen is a seatown, so there are many fish-restaurants. This place is very good, to have a quick meal, or for take away.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 11656933,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 14747,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2017-12-31",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "routes": [
+              {
+                "webLinkUrl": "/ClientLink?value=OTZzXy9Vc2VyUmV2aWV3RWRpdC1nNjEyNDU5LWQxMTY1NjkzMy1Ib2VrX3NfRmlzaF9Gb29kLUhhcmxpbmdlbl9Gcmllc2xhbmRfUHJvdmluY2UuaHRtbF9DWDE%3D"
+              },
+              {
+                "webLinkUrl": "/ClientLink?value=dFJ2Xy9Qb3N0UGhvdG9zLWQxMTY1NjkzM19qTHM%3D"
+              },
+              {
+                "webLinkUrl": "/reviews?locationId=11656933&screen=allreviews"
+              },
+              {
+                "webLinkUrl": "/photosandvideos?locationId=11656933"
+              }
+            ],
+            "reviewDrafts": [
+              []
+            ],
+            "ownerStatus": [
+              {
+                "userId": null,
+                "isOwnedByUser": false
+              }
+            ],
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "placeType": "EATERY",
+                "accommodationCategory": "HOTEL",
+                "locationId": 11656933,
+                "localizedName": "Hoek's Fish & Food",
+                "parentGeoId": 612459,
+                "currentUserOwnerStatus": null,
+                "topicCount": 0
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "count": 27
+                }
+              }
+            ],
+            "tipCountReviewsProxy": [
+              {
+                "responseData": {
+                  "locationTipsTotalCount": 0
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "001ecaee-e583-4a22-aa9f-8dddd81acd93"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 0
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "QuestionsAndAnswers_getQuestionsByLocations": [
+              {
+                "questions": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "reduce_got_frequency_1751287771",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_terms_page_test_2_1705078152",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "light_mode_on_got_1752783783",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_disable_auto_login_1714679068",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 1
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 1
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 1
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 2
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "baSubscriptions": [
+              {
+                "subscriptions": []
+              }
+            ],
+            "ownerStatus": [
+              {
+                "isOwnedByUser": false
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "locationId": 11656933,
+                "parents": [
+                  {
+                    "locationId": 612459
+                  },
+                  {
+                    "locationId": 188561
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "mapbox_maps_web_1726204927",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 2
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "ec6e7919-7d32-4021-962a-fe415444c0a6"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "6908cdeb-4e9d-4296-9fa0-85c70168e2cc"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 3
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "data": {
+              "hashedPersistentCookieSHA256": "e92c0751eb21321b7b64501e4d8bb81540aaa336b0cecf06de9d2d3f9e8ac416"
+            }
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 1000,
+                  "maxHeight": 700,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2d/40/95/keep-on-planning.jpg?w={width}&h={height}&s=1&cx=492&cy=358&chk=v1_f64df95338d294710736"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 2000,
+                  "maxHeight": 1333,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/02/07/d4/caption.jpg?w={width}&h={height}&s=1&cx=1000&cy=666&chk=v1_763694e0140d23e6c8aa"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "parents": [
+                  {
+                    "locationId": 188561
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              },
+              {
+                "parents": [
+                  {
+                    "locationId": 612459
+                  },
+                  {
+                    "locationId": 188561
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "app_interstitial_tactic3_restaurants_1711980365",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 4
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "response": [
+              {
+                "randomContentList": [
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 1820,
+                    "sponsorId": 212,
+                    "sponsorDisplayName": "Korea Tourism Organization",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 294196,
+                      "name": "South Korea",
+                      "stateAndCountryOrEquivalent": "Asia",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g294196-South_Korea-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/10/2f/bb/south-korea.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 3840,
+                          "maxWidth": 5760
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "xpRs6rXFO14",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "6 audiobooks to download for your next road trip",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "From an iconic comedian's tale to a 26-hour-long epic"
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Kimberly Peiffer"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/63/81/45/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_fbb20c1ca4bacf2ba4dc",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lxpRs6rXFO14-Audiobooks_for_road_trips.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "0XxksqnmrSw",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "10 things NYC is known for (with local-approved experiences)",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "From hidden gems to fresh takes on iconic spots, here\u2019s how to explore NYC beyond the tourist traps."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Ivan Quintanilla"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/a2/2e/a2/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_3a8920209dc2bff637de",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l0XxksqnmrSw-10_ways_to_experience_what_nyc_is_known_for_like_a_local.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1753,
+                    "sponsorId": 696,
+                    "sponsorDisplayName": "The Wanderer in Arabia ",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 144539394,
+                      "tripContent": {
+                        "id": 144539394,
+                        "title": "The Wanderer's guide to Saudi Arabia",
+                        "description": "\"When Laviai, Marsha, and I set out for Saudi Arabia with \"The Wanderer\" we had no idea how much this journey would change us. We expected stunning landscapes, rich history, and great food\u2014but what we didn\u2019t expect was how deeply we\u2019d connect with the country and its people. From the moment we arrived, we were met with kindness and curiosity, and when we left, it felt as if we were saying goodbye to a home we'd only just discovered. This guide is our way of sharing our firsthand experiences. Whether you're planning your first visit or just curious about what makes Saudi Arabia so special, we hope our perspectives help you see this country with wide eyes, open hearts, and an endless sense of wonder.\" \u2013 Lina",
+                        "owner": {
+                          "profile": {
+                            "displayName": "The Wanderer"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/f2/4d/d3/caption.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 1280,
+                            "maxHeight": 853
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t144539394"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1409,
+                    "sponsorId": 244,
+                    "sponsorDisplayName": "Visit Galveston",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 55879,
+                      "name": "Galveston",
+                      "stateAndCountryOrEquivalent": "Texas, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g55879-Galveston_Galveston_Island_Texas-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/d3/f4/09/do-you-enjoy-watching.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 378,
+                          "maxWidth": 550
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "qoDR1KXDK6o",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "How many days in Las Vegas is enough?",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Whether you\u2019ve got 24 hours or a whole week, here\u2019s how to make the most of your time in Vegas."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Noah Cortez"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/09/59/04/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_81ff31f706e1ebcbf61f",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lqoDR1KXDK6o-How_many_days_las_vegas.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1980,
+                    "sponsorId": 511,
+                    "sponsorDisplayName": "Visit Dallas",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 55857,
+                      "name": "Fort Worth",
+                      "stateAndCountryOrEquivalent": "Texas, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g55857-Fort_Worth_Texas-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/a2/f5/ce/caption.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1000,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1356,
+                    "sponsorId": 295,
+                    "sponsorDisplayName": "Australia's Northern Territory",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 2277882,
+                      "name": "Tiwi Islands",
+                      "stateAndCountryOrEquivalent": "Northern Territory, Australia",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g2277882-Tiwi_Islands_Top_End_Northern_Territory-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4e/25/bc/patakijiayli-museum.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 3888,
+                          "maxWidth": 5184
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "hDY4p17nfR4",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "London's hottest hotel trend? Townhouses-turned-hotels",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Trade hotel chains for these intimate, homey retreats."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Janine Clements"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/ea/0d/3e/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_9479216b94c3b5f38d2c",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lhDY4p17nfR4-London_townhouse_hotels.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "ahsfbIPZ7vQ",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Why Jackson Heights is the Queer Latinx crown jewel of New York City",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Many outsiders don\u2019t know that Jackson Heights has one of the largest\u2014and most racially diverse\u2014\u201cgayborhoods\u201d in the U.S. Here's our guide in how to experience its welcoming and wonderful LGBTQ scene, both during Pride and year-round."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Bani Amor"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/45/87/8b/caption.jpg?w={width}&h={height}&s=1&cx=1152&cy=463&chk=v1_b2f1d55a2bc3b28c4902",
+                                "maxWidth": 2304,
+                                "maxHeight": 926
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lahsfbIPZ7vQ-Why_jackson_heights_is_the_queer_latinx_crown_of_new_york_city.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "ZAPcJPpsaBQ",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "The solo traveler\u2019s playbook",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Solo travel destinations, trip ideas, tips, and everything you need to know about traveling alone in the United States, Europe, Asia and beyond."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/62/34/6c/caption.jpg?w={width}&h={height}&s=1&cx=1350&cy=811&chk=v1_c5974e56bb8a0daeeaca",
+                                "maxWidth": 2700,
+                                "maxHeight": 1623
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lZAPcJPpsaBQ-Solo_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 5
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "067aaa0e-408b-4d5e-8f0d-205e509bdc18"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "92935745-cc5a-4b84-bcc4-dc8a89226cda"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 6
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 7
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "a98f9364-15ff-451f-b280-847caf4437f7"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "8087cbd0-bce8-4021-ace6-8288556d43ab"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "c4649744-1386-45a7-9d6c-a2ffbb90fa58"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getLocationTips": [
+              {
+                "responseData": {
+                  "locationTips": []
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "63beae5d-42af-494d-b562-6a3361f508b3"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "dd4f8986-075c-43ff-8ab4-46a1b53a5ec0"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "44975caa-7038-4314-9107-e29a9c5bba21"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "79e9b735-ac0c-42dc-acfa-e584cad4e864"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "17fec419-456f-475c-9a09-f746d4e34c8d"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 8
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "5f36334d-0845-428f-8888-c3fa9734d28d"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "7bfa2e19-b4a5-4964-97e6-2f44c61ca432"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 9
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 10
+    }
+  ],
+  "statistics": {
+    "total_graphql_responses": 11,
+    "has_jsonld_data": true,
+    "has_website_url": true,
+    "has_cuisines": true,
+    "has_meal_types": true,
+    "has_features": true,
+    "has_special_diets": false,
+    "has_hours": true,
+    "error_count": 0
+  },
+  "api_update_success": true,
+  "timestamp": "2025-09-23T15:24:33.581871"
+}

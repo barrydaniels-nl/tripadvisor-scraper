@@ -1,0 +1,3433 @@
+{
+  "restaurant_id": 757127,
+  "restaurant_name": "Bread Winner",
+  "tripadvisor_url": "https://www.tripadvisor.com/Restaurant_Review-g188590-d33400110-Reviews-Bread_Winner-Amsterdam_North_Holland_Province.html?m=69411",
+  "website_url": "https://breadwinneramsterdam.com/",
+  "phone_number": null,
+  "cuisines": null,
+  "meal_types": null,
+  "features": null,
+  "special_diets": null,
+  "hours": {
+    "Sunday": "9:30 AM - 3:00 PM",
+    "Monday": "Closed",
+    "Tuesday": "11:00 AM - 3:00 PM",
+    "Wednesday": "11:00 AM - 3:00 PM",
+    "Thursday": "9:30 AM - 3:00 PM",
+    "Friday": "9:30 AM - 3:00 PM",
+    "Saturday": "9:30 AM - 3:00 PM",
+    "current_status": "Closed now \u2022 Opens at 11:00 AM"
+  },
+  "scrape_status": "success",
+  "errors": [],
+  "jsonld_data": {
+    "name": "Bread Winner",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/c8/c6/0e/bagel-pastrami.jpg?w=500&h=-1&s=1",
+    "priceRange": "",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g188590-d33400110-Reviews-Bread_Winner-Amsterdam_North_Holland_Province.html",
+    "website": "https://breadwinneramsterdam.com/",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.37146,
+      "longitude": 4.879363
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "NL"
+      },
+      "streetAddress": "Tweede Laurierdwarsstraat 50hs",
+      "addressLocality": "Amsterdam",
+      "postalCode": "1016 RC"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 3.5,
+      "reviewCount": 2
+    },
+    "raw_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/c8/c6/0e/bagel-pastrami.jpg?w=500&h=-1&s=1",
+      "name": "Bread Winner",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.37146,
+        "longitude": 4.879363
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.5,
+        "reviewCount": 2
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "NL"
+        },
+        "streetAddress": "Tweede Laurierdwarsstraat 50hs",
+        "addressLocality": "Amsterdam",
+        "postalCode": "1016 RC"
+      },
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g188590-d33400110-Reviews-Bread_Winner-Amsterdam_North_Holland_Province.html"
+    },
+    "hours": {
+      "Sunday": "9:30 AM - 3:00 PM",
+      "Monday": "Closed",
+      "Tuesday": "11:00 AM - 3:00 PM",
+      "Wednesday": "11:00 AM - 3:00 PM",
+      "Thursday": "9:30 AM - 3:00 PM",
+      "Friday": "9:30 AM - 3:00 PM",
+      "Saturday": "9:30 AM - 3:00 PM",
+      "current_status": "Closed now \u2022 Opens at 11:00 AM"
+    }
+  },
+  "graphql_responses": [
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "5356d898-c661-4c17-b4ee-c49db45dd1cd"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 0
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "gtmData": {
+              "audienceIds": [],
+              "hashedPersistentCookie": "MGVmYjAzM2VkZjIzNzc5MjVhNjQxZGJmOTczMWYzN2Y2ZWVlZTRmMQ",
+              "hashedPersistentCookieSegmentPOC": "MGVmYjAzM2VkZjIzNzc5MjVhNjQxZGJmOTczMWYzN2Y2ZWVlZTRmMQ",
+              "hashedPersistentCookieSegmentMeta": "8e12bfbf56ef315473e0199fbc58b566f36f84008ba29138751d4c66daf5dc47",
+              "hashedPersistentCookieSHA1": "b52a862cc865cccf17e255dfc477c4bf7ab5587e",
+              "hashedPersistentCookieSHA256": "78a31310f2edcc56be2f14dd31dea6ea2c1270ac4329cfc75ab27b1ecf9f876b",
+              "ipAddressCountry": "NL",
+              "locationData": {
+                "regionName": null,
+                "regionId": null,
+                "countryName": "The Netherlands",
+                "countryId": 188553,
+                "locationHierarchy": ":33400110:1:4:188553:188587:188590:",
+                "stateName": null,
+                "stateId": null,
+                "cityName": "Amsterdam"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "EatImpressionTracking_logImpressions": [
+              "3bebe9f2-2e96-4d2a-b17d-7d51c3104a82"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "EatImpressionTracking_logImpressions"
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "reviewAggregations": {
+                  "ratingCounts": [
+                    0,
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                }
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "rating": 3.5,
+                  "count": 2
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "restaurantSubratingsData": {
+              "restaurants": [
+                {
+                  "sub_ratings": {
+                    "atmosphere": null,
+                    "food": null,
+                    "service": null,
+                    "value": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "mediaAlbum": {
+              "album": {
+                "albumId": 107,
+                "totalMediaCount": 2
+              }
+            },
+            "mediaAlbumPage": {
+              "mediaList": [
+                {
+                  "mediaId": 818464271,
+                  "caption": "Bagel pastrami",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/c8/c6/0f/bagel-pastrami.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 154,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 338,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 733,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-p/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 960,
+                      "height": 1280,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 1365,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/30/c8/c6/0f/bagel-pastrami.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 818464270,
+                  "caption": "Bagel pastrami",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/c8/c6/0e/bagel-pastrami.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 154,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 338,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 733,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-p/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 960,
+                      "height": 1280,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 1365,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/30/c8/c6/0e/bagel-pastrami.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "keywords": [
+              {
+                "responseData": {
+                  "keywords": []
+                }
+              }
+            ],
+            "reviewAggregations": [
+              {
+                "locationId": 33400110,
+                "overallRating": 3.5,
+                "reviewCount": 2,
+                "alertStatusCount": 0,
+                "reviewCountByRating": {
+                  "oneRatingCount": 0,
+                  "twoRatingCount": 0,
+                  "threeRatingCount": 1,
+                  "fourRatingCount": 1,
+                  "fiveRatingCount": 0
+                },
+                "reviewCountByLanguage": [
+                  {
+                    "language": "en",
+                    "count": 1
+                  },
+                  {
+                    "language": "fr",
+                    "count": 1
+                  }
+                ],
+                "nativeAndTransByLanguage": [
+                  {
+                    "language": "zhCN",
+                    "count": 1
+                  },
+                  {
+                    "language": "de",
+                    "count": 1
+                  },
+                  {
+                    "language": "no",
+                    "count": 1
+                  },
+                  {
+                    "language": "ru",
+                    "count": 1
+                  },
+                  {
+                    "language": "sv",
+                    "count": 1
+                  },
+                  {
+                    "language": "ko",
+                    "count": 1
+                  },
+                  {
+                    "language": "pt",
+                    "count": 1
+                  },
+                  {
+                    "language": "in",
+                    "count": 1
+                  },
+                  {
+                    "language": "el",
+                    "count": 1
+                  },
+                  {
+                    "language": "zhTW",
+                    "count": 1
+                  },
+                  {
+                    "language": "en",
+                    "count": 1
+                  },
+                  {
+                    "language": "it",
+                    "count": 1
+                  },
+                  {
+                    "language": "fr",
+                    "count": 2
+                  },
+                  {
+                    "language": "es",
+                    "count": 1
+                  },
+                  {
+                    "language": "iw",
+                    "count": 1
+                  },
+                  {
+                    "language": "ar",
+                    "count": 1
+                  },
+                  {
+                    "language": "vi",
+                    "count": 1
+                  },
+                  {
+                    "language": "th",
+                    "count": 1
+                  },
+                  {
+                    "language": "ja",
+                    "count": 1
+                  },
+                  {
+                    "language": "da",
+                    "count": 1
+                  },
+                  {
+                    "language": "nl",
+                    "count": 1
+                  },
+                  {
+                    "language": "tr",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 1,
+                "reviews": [
+                  {
+                    "id": 1027865247,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188590-d33400110-r1027865247-Bread_Winner-Amsterdam_North_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 33400110,
+                      "name": "Bread Winner",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2025-08-31",
+                    "publishedDate": "2025-08-31",
+                    "userProfile": {
+                      "id": "5F6B703CA5FC2ED3FEFB450970F60D22",
+                      "isVerified": false,
+                      "displayName": "Adventurer71233",
+                      "username": "Adventurer71233",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452390050,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ec/a2/default-avatar-2020-3.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 190791,
+                        "fallbackString": "190791",
+                        "location": {
+                          "locationId": 190791,
+                          "additionalNames": {
+                            "name": "Grantham",
+                            "long": "Grantham, United Kingdom"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Adventurer71233"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 18
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": null,
+                    "title": "Good option for a takeaway breakfast or lunch",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Good value for money and a good selection of menu options. Would be great if they had more coffee options as well. Really friendly and helpful staff.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 33400110,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2025-08-31",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "routes": [
+              {
+                "webLinkUrl": "/ClientLink?value=M1pOXy9Vc2VyUmV2aWV3RWRpdC1nMTg4NTkwLWQzMzQwMDExMC1CcmVhZF9XaW5uZXItQW1zdGVyZGFtX05vcnRoX0hvbGxhbmRfUHJvdmluY2UuaHRtbF8wSlI%3D"
+              },
+              {
+                "webLinkUrl": "/ClientLink?value=aFFzXy9Qb3N0UGhvdG9zLWQzMzQwMDExMF9wN2g%3D"
+              },
+              {
+                "webLinkUrl": "/reviews?locationId=33400110&screen=allreviews"
+              },
+              {
+                "webLinkUrl": "/photosandvideos?locationId=33400110"
+              }
+            ],
+            "reviewDrafts": [
+              []
+            ],
+            "ownerStatus": [
+              {
+                "userId": null,
+                "isOwnedByUser": false
+              }
+            ],
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "placeType": "EATERY",
+                "accommodationCategory": "HOTEL",
+                "locationId": 33400110,
+                "localizedName": "Bread Winner",
+                "parentGeoId": 188590,
+                "currentUserOwnerStatus": null,
+                "topicCount": 0
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "count": 2
+                }
+              }
+            ],
+            "tipCountReviewsProxy": [
+              {
+                "responseData": {
+                  "locationTipsTotalCount": 0
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "0c1a689e-d667-40e1-99af-406e06faa1a7"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "reduce_got_frequency_1751287771",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 1
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "QuestionsAndAnswers_getQuestionsByLocations": [
+              {
+                "questions": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_terms_page_test_2_1705078152",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "light_mode_on_got_1752783783",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_disable_auto_login_1714679068",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "12c5815c-9a57-4865-bd12-ffc2e99307f4"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 2
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "baSubscriptions": [
+              {
+                "subscriptions": []
+              }
+            ],
+            "ownerStatus": [
+              {
+                "isOwnedByUser": false
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "locationId": 33400110,
+                "parents": [
+                  {
+                    "locationId": 188590
+                  },
+                  {
+                    "locationId": 188587
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "mapbox_maps_web_1726204927",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 3
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "0faf40f2-8099-435d-8142-a79d8f847929"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 4
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "data": {
+              "hashedPersistentCookieSHA256": "78a31310f2edcc56be2f14dd31dea6ea2c1270ac4329cfc75ab27b1ecf9f876b"
+            }
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 1000,
+                  "maxHeight": 700,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2d/40/95/keep-on-planning.jpg?w={width}&h={height}&s=1&cx=492&cy=358&chk=v1_f64df95338d294710736"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "parents": [
+                  {
+                    "locationId": 188587
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              },
+              {
+                "parents": [
+                  {
+                    "locationId": 188590
+                  },
+                  {
+                    "locationId": 188587
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "app_interstitial_tactic3_restaurants_1711980365",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 5
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "response": [
+              {
+                "randomContentList": [
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "1jdwVBpqNHE",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "How many days in Amsterdam is enough?",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Whether you have a day or a weekend or a week, here\u2019s how to see the best of Amsterdam. "
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Chelsea Bengier"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/02/23/57/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_e0cbe817d47958b92d37",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l1jdwVBpqNHE-How_many_days_in_amsterdam.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "VeIP8mr6JEM",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Three ways to get from Amsterdam to Paris",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "From tips on snagging affordable train fares to the best road trip pit stops, we\u2019ve got you covered."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Elise Hofer Shaw"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/6c/d3/78/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_ed35a2246b96f898de43",
+                                "maxWidth": 3840,
+                                "maxHeight": 2161
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lVeIP8mr6JEM-Amsterdam_to_paris.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "4O1SnTIqWpo",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "10 best destinations for all-inclusive, adult-only vacations",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": ""
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Nicholas DeRenzo"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/58/fe/9c/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_9962c622a3465aca647b",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l4O1SnTIqWpo-All_inclusive_adult_only_vacations.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "YBC973rJPWM",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Navigating Amsterdam\u2019s museums like a pro",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "An art enthusiast shares seven of the city\u2019s best museums."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Christina Newberry"
+                              }
+                            },
+                            {
+                              "author": {
+                                "name": "Noah Cortez"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/5b/ad/89/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_6483b01c7c3f25d08dfe",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lYBC973rJPWM-Amsterdam_museum_guide.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1942,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 188590,
+                      "name": "Amsterdam",
+                      "stateAndCountryOrEquivalent": "North Holland Province, The Netherlands",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g188590-Amsterdam_North_Holland_Province-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/c9/cf/caption.jpg?w={width}&h={height}&s=1&pcx=1097&pcy=742&pchk=v1_15125732981dc7cf7364",
+                          "maxHeight": 1414,
+                          "maxWidth": 2121
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "iQt9Z4GhC5k",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "The ultimate beer-lover\u2019s guide to Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Whether by boat, bike, or barstool\u2014here\u2019s how to sip your way through Amsterdam\u2019s beer scene."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Tim Johnson"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/43/3a/54/caption.jpg?w={width}&h={height}&s=1&cx=700&cy=467&chk=v1_a7e7d78b944648e8a5a0",
+                                "maxWidth": 1400,
+                                "maxHeight": 935
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-liQt9Z4GhC5k-Amsterdam_beer_guide.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "6ZitWah1IpY",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "The best time to visit Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "When to visit for tulips, ideal weather, fewer crowds, and great deals"
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Tim Johnson"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/04/49/4b/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_2ef8dee5e95624273819",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l6ZitWah1IpY-Best_time_to_visit_amsterdam.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "apMtGgbWpgk",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Discovering Amsterdam as a solo traveler",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "A recent college grad takes a step into adulthood on a solo trip to Amsterdam."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Aleenah Ansari"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/70/de/f9/caption.jpg?w={width}&h={height}&s=1&cx=1535&cy=1920&chk=v1_14d3eb2f4c7df9296092",
+                                "maxWidth": 3071,
+                                "maxHeight": 3840
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lapMtGgbWpgk-Amsterdam_solo_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "OH1IfeEVaIw",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Amsterdam's Red Light District FAQs",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Where to go, what rules to follow, and everything else you need to know."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Jeff Bogle"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/02/0c/71/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_dc069da9faf37333f24a",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lOH1IfeEVaIw-Amsterdam_red_light_district_rules_faq.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "ncIZHMCsuFU",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Learn something new in Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Try out the centuries-old technique of Delft blue painting on your next trip."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Blane Bachelor"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/6e/0b/39/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_3226c6afd67640b0043b",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lncIZHMCsuFU-Learning_delft_painting_amsterdam.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "Ow9Lo1nizsk",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "5 best canals in Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "With more than 165 canals in Amsterdam to explore, deciding which ones are worth your time can be tricky. These are five on our can't-miss list, plus what to see and do around each of them. "
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Chelsea Bengier"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e3/d1/79/caption.jpg?w={width}&h={height}&s=1&cx=600&cy=400&chk=v1_67a05e5d62b9dd98f975",
+                                "maxWidth": 1200,
+                                "maxHeight": 800
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lOw9Lo1nizsk-Best_amsterdam_canals_to_visit.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 6
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "9fec0d27-eb47-4152-8b98-2855e2cf136d"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "91703008-e7d3-444c-a3ef-7e84ac542ffa"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 7
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 8
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "8f4ee86c-326c-479d-88b8-5c3be76b018a"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "94e1f0d1-8139-405e-96ab-80fcd23cf3f0"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "52cdc332-c986-42e8-85a5-a05a5f0fe1d6"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getLocationTips": [
+              {
+                "responseData": {
+                  "locationTips": []
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 9
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "cf0e4b05-ae55-40bd-b3be-9ad96b9abc7c"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "45f85f66-7f18-4e02-961c-34a604bc6fc8"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "7c1c7eb8-9687-413c-948d-58d16cf20834"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 10
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 11
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "gtmData": {
+              "audienceIds": [
+                17736,
+                17459,
+                17401,
+                17452,
+                17450,
+                17875,
+                17460,
+                15440,
+                16860,
+                20048,
+                17323,
+                17307,
+                50011,
+                90017,
+                16062,
+                90018
+              ],
+              "hashedPersistentCookie": "MGVmYjAzM2VkZjIzNzc5MjVhNjQxZGJmOTczMWYzN2Y2ZWVlZTRmMQ",
+              "hashedPersistentCookieSegmentPOC": "MGVmYjAzM2VkZjIzNzc5MjVhNjQxZGJmOTczMWYzN2Y2ZWVlZTRmMQ",
+              "hashedPersistentCookieSegmentMeta": "8e12bfbf56ef315473e0199fbc58b566f36f84008ba29138751d4c66daf5dc47",
+              "hashedPersistentCookieSHA1": "b52a862cc865cccf17e255dfc477c4bf7ab5587e",
+              "hashedPersistentCookieSHA256": "78a31310f2edcc56be2f14dd31dea6ea2c1270ac4329cfc75ab27b1ecf9f876b",
+              "ipAddressCountry": "NL",
+              "locationData": {
+                "regionName": null,
+                "regionId": null,
+                "countryName": "The Netherlands",
+                "countryId": 188553,
+                "locationHierarchy": ":33400110:1:4:188553:188587:188590:",
+                "stateName": null,
+                "stateId": null,
+                "cityName": "Amsterdam"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "EatImpressionTracking_logImpressions": [
+              "a6084880-7cba-4104-bb5f-fb43e47ec7bf"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "EatImpressionTracking_logImpressions"
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "reviewAggregations": {
+                  "ratingCounts": [
+                    0,
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                }
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "rating": 3.5,
+                  "count": 2
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "restaurantSubratingsData": {
+              "restaurants": [
+                {
+                  "sub_ratings": {
+                    "atmosphere": null,
+                    "food": null,
+                    "service": null,
+                    "value": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "mediaAlbum": {
+              "album": {
+                "albumId": 107,
+                "totalMediaCount": 2
+              }
+            },
+            "mediaAlbumPage": {
+              "mediaList": [
+                {
+                  "mediaId": 818464271,
+                  "caption": "Bagel pastrami",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/c8/c6/0f/bagel-pastrami.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 154,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 338,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 733,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-p/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 960,
+                      "height": 1280,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/30/c8/c6/0f/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 1365,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/30/c8/c6/0f/bagel-pastrami.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 818464270,
+                  "caption": "Bagel pastrami",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/c8/c6/0e/bagel-pastrami.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 154,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 338,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 733,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-p/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 960,
+                      "height": 1280,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/30/c8/c6/0e/bagel-pastrami.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 1365,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/30/c8/c6/0e/bagel-pastrami.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "keywords": [
+              {
+                "responseData": {
+                  "keywords": []
+                }
+              }
+            ],
+            "reviewAggregations": [
+              {
+                "locationId": 33400110,
+                "overallRating": 3.5,
+                "reviewCount": 2,
+                "alertStatusCount": 0,
+                "reviewCountByRating": {
+                  "oneRatingCount": 0,
+                  "twoRatingCount": 0,
+                  "threeRatingCount": 1,
+                  "fourRatingCount": 1,
+                  "fiveRatingCount": 0
+                },
+                "reviewCountByLanguage": [
+                  {
+                    "language": "en",
+                    "count": 1
+                  },
+                  {
+                    "language": "fr",
+                    "count": 1
+                  }
+                ],
+                "nativeAndTransByLanguage": [
+                  {
+                    "language": "zhCN",
+                    "count": 1
+                  },
+                  {
+                    "language": "de",
+                    "count": 1
+                  },
+                  {
+                    "language": "no",
+                    "count": 1
+                  },
+                  {
+                    "language": "ru",
+                    "count": 1
+                  },
+                  {
+                    "language": "sv",
+                    "count": 1
+                  },
+                  {
+                    "language": "ko",
+                    "count": 1
+                  },
+                  {
+                    "language": "pt",
+                    "count": 1
+                  },
+                  {
+                    "language": "in",
+                    "count": 1
+                  },
+                  {
+                    "language": "el",
+                    "count": 1
+                  },
+                  {
+                    "language": "zhTW",
+                    "count": 1
+                  },
+                  {
+                    "language": "en",
+                    "count": 1
+                  },
+                  {
+                    "language": "it",
+                    "count": 1
+                  },
+                  {
+                    "language": "fr",
+                    "count": 2
+                  },
+                  {
+                    "language": "es",
+                    "count": 1
+                  },
+                  {
+                    "language": "iw",
+                    "count": 1
+                  },
+                  {
+                    "language": "ar",
+                    "count": 1
+                  },
+                  {
+                    "language": "vi",
+                    "count": 1
+                  },
+                  {
+                    "language": "th",
+                    "count": 1
+                  },
+                  {
+                    "language": "ja",
+                    "count": 1
+                  },
+                  {
+                    "language": "da",
+                    "count": 1
+                  },
+                  {
+                    "language": "nl",
+                    "count": 1
+                  },
+                  {
+                    "language": "tr",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 1,
+                "reviews": [
+                  {
+                    "id": 1027865247,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188590-d33400110-r1027865247-Bread_Winner-Amsterdam_North_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 33400110,
+                      "name": "Bread Winner",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2025-08-31",
+                    "publishedDate": "2025-08-31",
+                    "userProfile": {
+                      "id": "5F6B703CA5FC2ED3FEFB450970F60D22",
+                      "isVerified": false,
+                      "displayName": "Adventurer71233",
+                      "username": "Adventurer71233",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452390050,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ec/a2/default-avatar-2020-3.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 190791,
+                        "fallbackString": "190791",
+                        "location": {
+                          "locationId": 190791,
+                          "additionalNames": {
+                            "name": "Grantham",
+                            "long": "Grantham, United Kingdom"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Adventurer71233"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 18
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": null,
+                    "title": "Good option for a takeaway breakfast or lunch",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Good value for money and a good selection of menu options. Would be great if they had more coffee options as well. Really friendly and helpful staff.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 33400110,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2025-08-31",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "routes": [
+              {
+                "webLinkUrl": "/ClientLink?value=eTZsXy9Vc2VyUmV2aWV3RWRpdC1nMTg4NTkwLWQzMzQwMDExMC1CcmVhZF9XaW5uZXItQW1zdGVyZGFtX05vcnRoX0hvbGxhbmRfUHJvdmluY2UuaHRtbF9Pank%3D"
+              },
+              {
+                "webLinkUrl": "/ClientLink?value=RjNZXy9Qb3N0UGhvdG9zLWQzMzQwMDExMF9nMHk%3D"
+              },
+              {
+                "webLinkUrl": "/reviews?locationId=33400110&screen=allreviews"
+              },
+              {
+                "webLinkUrl": "/photosandvideos?locationId=33400110"
+              }
+            ],
+            "reviewDrafts": [
+              []
+            ],
+            "ownerStatus": [
+              {
+                "userId": null,
+                "isOwnedByUser": false
+              }
+            ],
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "placeType": "EATERY",
+                "accommodationCategory": "HOTEL",
+                "locationId": 33400110,
+                "localizedName": "Bread Winner",
+                "parentGeoId": 188590,
+                "currentUserOwnerStatus": null,
+                "topicCount": 0
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "count": 2
+                }
+              }
+            ],
+            "tipCountReviewsProxy": [
+              {
+                "responseData": {
+                  "locationTipsTotalCount": 0
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "QuestionsAndAnswers_getQuestionsByLocations": [
+              {
+                "questions": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "7ad74ab4-96d8-4a41-88f9-72f8c86b7a32"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 12
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "reduce_got_frequency_1751287771",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "2ddfb985-5109-4b99-85e6-8404f7fe07f0"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_terms_page_test_2_1705078152",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "light_mode_on_got_1752783783",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_disable_auto_login_1714679068",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 13
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "parents": [
+                  {
+                    "locationId": 188587
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              },
+              {
+                "parents": [
+                  {
+                    "locationId": 188590
+                  },
+                  {
+                    "locationId": 188587
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "baSubscriptions": [
+              {
+                "subscriptions": []
+              }
+            ],
+            "ownerStatus": [
+              {
+                "isOwnedByUser": false
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "locationId": 33400110,
+                "parents": [
+                  {
+                    "locationId": 188590
+                  },
+                  {
+                    "locationId": 188587
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 1000,
+                  "maxHeight": 700,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2d/40/95/keep-on-planning.jpg?w={width}&h={height}&s=1&cx=492&cy=358&chk=v1_f64df95338d294710736"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 14
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "mapbox_maps_web_1726204927",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 15
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "response": [
+              {
+                "randomContentList": [
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2ipiderl4kY",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "2 perfect days in Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "This perfect two-day Amsterdam itinerary includes pretty neighborhoods, top attractions, and canal exploration based on Tripadvisor reviews and ratings."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Maria Kirsten Adelmann"
+                              }
+                            },
+                            {
+                              "author": {
+                                "name": "Mark Sullivan"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/c7/06/8a/caption.jpg?w={width}&h={height}&s=1&cx=3000&cy=2000&chk=v1_d86cc2733dd278f6e2d0",
+                                "maxWidth": 6000,
+                                "maxHeight": 4000
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2ipiderl4kY-2_days_in_amsterdam_itinerary.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "7G1Up3B0C4I",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "5 perfect days in Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "The Netherlands isn\u2019t all tulips, windmills, and weed shops. With five days in Amsterdam you\u2019ll go beyond the basics and see some of this capital city\u2019s hidden delights. Yes, of course you\u2019ll wander those iconic canals, stroll through street markets, and marvel at van Goghs, but you\u2019ll also see street art in an abandoned shipyard and a tiny Catholic Church in the eaves of a 17th-century canal house."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Maria Kirsten Adelmann"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0c/35/4d/caption.jpg?w={width}&h={height}&s=1&cx=2150&cy=1824&chk=v1_379331d7a82ad1a8d0ef",
+                                "maxWidth": 4301,
+                                "maxHeight": 3648
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l7G1Up3B0C4I-5_days_in_amsterdam_itinerary.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "VoUYQnWYnnE",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "3 perfect days in Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Three days doesn\u2019t sound like much, but in Amsterdam\u2014a small, walkable city with attractions clustered in its city center\u2014it\u2019s plenty of time. In three days you can check off all the must-dos, from masterpieces by Vermeer and van Gogh to beer in a brown cafe to snapping a charming canal photo (or ten).  The itinerary below packs together Amsterdam\u2019s hit list with downtime for wandering over canal bridges, dining, and drinking. "
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Maria Kirsten Adelmann"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/fc/7a/83/caption.jpg?w={width}&h={height}&s=1&cx=700&cy=466&chk=v1_17baf620ec8c972813c0",
+                                "maxWidth": 1400,
+                                "maxHeight": 933
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lVoUYQnWYnnE-3_days_in_amsterdam_itinerary.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "hDjR5AI3ZRY",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "7 perfect days in Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Amsterdam is said to have two sides. There\u2019s the charming side: quaint cobblestone streets that lead to picture-perfect canals lined with adorable gabled houses. And there\u2019s the rowdy side: the lively Red Light District where you\u2019ll find strip clubs and \u201ccoffee shops\u201d selling cannabis. But there\u2019s so much more to the city\u2014like its many colorful outdoor markets, the street art in the once-abandoned shipyards of Amsterdam-Noord, and the bright tulip fields just beyond the capital. And with seven days, you\u2019ll have the time to explore it all.  "
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Maria Kirsten Adelmann"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/be/09/31/caption.jpg?w={width}&h={height}&s=1&cx=2981&cy=1987&chk=v1_f57ed82f1741c2e1e375",
+                                "maxWidth": 5963,
+                                "maxHeight": 3975
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lhDjR5AI3ZRY-7_days_in_amsterdam_itinerary.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "6ZitWah1IpY",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "The best time to visit Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "When to visit for tulips, ideal weather, fewer crowds, and great deals"
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Tim Johnson"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/04/49/4b/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_2ef8dee5e95624273819",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l6ZitWah1IpY-Best_time_to_visit_amsterdam.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "YBEpbs44Db4",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "The 4 best areas to stay in Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Whether you\u2019re visiting for the first time or the fourth, the Dutch capital has a neighborhood for you."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Blane Bachelor"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/04/6b/fb/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_095d4980fe8bedbe13e2",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lYBEpbs44Db4-Best_area_to_stay_in_amsterdam.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "iQt9Z4GhC5k",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "The ultimate beer-lover\u2019s guide to Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Whether by boat, bike, or barstool\u2014here\u2019s how to sip your way through Amsterdam\u2019s beer scene."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Tim Johnson"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/43/3a/54/caption.jpg?w={width}&h={height}&s=1&cx=700&cy=467&chk=v1_a7e7d78b944648e8a5a0",
+                                "maxWidth": 1400,
+                                "maxHeight": 935
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-liQt9Z4GhC5k-Amsterdam_beer_guide.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "VeIP8mr6JEM",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Three ways to get from Amsterdam to Paris",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "From tips on snagging affordable train fares to the best road trip pit stops, we\u2019ve got you covered."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Elise Hofer Shaw"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/6c/d3/78/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_ed35a2246b96f898de43",
+                                "maxWidth": 3840,
+                                "maxHeight": 2161
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lVeIP8mr6JEM-Amsterdam_to_paris.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1942,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 188590,
+                      "name": "Amsterdam",
+                      "stateAndCountryOrEquivalent": "North Holland Province, The Netherlands",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g188590-Amsterdam_North_Holland_Province-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/c9/cf/caption.jpg?w={width}&h={height}&s=1&pcx=1097&pcy=742&pchk=v1_15125732981dc7cf7364",
+                          "maxHeight": 1414,
+                          "maxWidth": 2121
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "3BRcysLNmTQ",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "This Amsterdam canal cruise is the No. 1 experience in the world\u2014here\u2019s what it's really like",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Find out what earned this city cruise top marks from Tripadvisor reviewers."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Rachel Chang"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/5b/ac/f3/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_770168882b7431780e7e",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l3BRcysLNmTQ-Best_travel_experience_2022.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "ncIZHMCsuFU",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Learn something new in Amsterdam",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Try out the centuries-old technique of Delft blue painting on your next trip."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Blane Bachelor"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/6e/0b/39/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_3226c6afd67640b0043b",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lncIZHMCsuFU-Learning_delft_painting_amsterdam.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 16
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "0842abb5-5766-4755-b808-9ff549bdcdd9"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "c495187a-3e47-4446-8078-83a6dac8a057"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 17
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "data": {
+              "hashedPersistentCookieSHA256": "78a31310f2edcc56be2f14dd31dea6ea2c1270ac4329cfc75ab27b1ecf9f876b"
+            }
+          }
+        },
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "app_interstitial_tactic3_restaurants_1711980365",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 18
+    }
+  ],
+  "statistics": {
+    "total_graphql_responses": 19,
+    "has_jsonld_data": true,
+    "has_website_url": true,
+    "has_phone_number": false,
+    "has_cuisines": false,
+    "has_meal_types": false,
+    "has_features": false,
+    "has_special_diets": false,
+    "has_hours": true,
+    "error_count": 0
+  },
+  "api_update_success": true,
+  "timestamp": "2025-09-23T16:40:31.577871"
+}

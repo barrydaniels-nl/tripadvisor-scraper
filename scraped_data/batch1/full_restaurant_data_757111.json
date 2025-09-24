@@ -1,0 +1,2048 @@
+{
+  "restaurant_id": 757111,
+  "restaurant_name": "Mo\u00ebt & Chandon Bar",
+  "tripadvisor_url": "https://www.tripadvisor.com/Restaurant_Review-g187136-d33097856-Reviews-Moet_Chandon_Bar-Epernay_Marne_Grand_Est.html?m=69411",
+  "website_url": "https://www.tripadvisor.com/Restaurant_Review-g187136-d33097856-Reviews-Moet_Chandon_Bar-Epernay_Marne_Grand_Est.html",
+  "phone_number": null,
+  "cuisines": [
+    "French",
+    "Bar",
+    "Pub"
+  ],
+  "meal_types": null,
+  "features": null,
+  "special_diets": null,
+  "hours": null,
+  "scrape_status": "success",
+  "errors": [],
+  "jsonld_data": {
+    "name": "Mo\u00ebt & Chandon Bar",
+    "image": [],
+    "priceRange": "",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g187136-d33097856-Reviews-Moet_Chandon_Bar-Epernay_Marne_Grand_Est.html",
+    "website": "https://www.tripadvisor.com/Restaurant_Review-g187136-d33097856-Reviews-Moet_Chandon_Bar-Epernay_Marne_Grand_Est.html",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.04303,
+      "longitude": 3.95997
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "FR"
+      },
+      "streetAddress": "20 Avenue De Champagne",
+      "addressRegion": "Grand Est",
+      "postalCode": "51200"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 1
+    },
+    "raw_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "name": "Mo\u00ebt & Chandon Bar",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 49.04303,
+        "longitude": 3.95997
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "FR"
+        },
+        "streetAddress": "20 Avenue De Champagne",
+        "addressRegion": "Grand Est",
+        "postalCode": "51200"
+      },
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g187136-d33097856-Reviews-Moet_Chandon_Bar-Epernay_Marne_Grand_Est.html"
+    },
+    "cuisines": [
+      "French",
+      "Bar",
+      "Pub"
+    ]
+  },
+  "graphql_responses": [
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "reduce_got_frequency_1751287771",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_terms_page_test_2_1705078152",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "light_mode_on_got_1752783783",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_disable_auto_login_1714679068",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 0
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "mapbox_maps_web_1726204927",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 1
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "gtmData": {
+              "audienceIds": [],
+              "hashedPersistentCookie": "YTJkZTYyNTY1NGNkYTEyZjI4ZTYzZGM2ZTEyODQ1ZmU4ZTY5YWQxZg",
+              "hashedPersistentCookieSegmentPOC": "YTJkZTYyNTY1NGNkYTEyZjI4ZTYzZGM2ZTEyODQ1ZmU4ZTY5YWQxZg",
+              "hashedPersistentCookieSegmentMeta": "8029b9ea63e3e3c3f0742c0a5acbecd7d9b2db98291d37646da87a3fe5a37653",
+              "hashedPersistentCookieSHA1": "fcc9f7c44a4b639d63a289d57c4428549c84e1bc",
+              "hashedPersistentCookieSHA256": "6ce1c6059b043df67fef1bc3c944133418f4eeb4470bbfa1134436b938f1316b",
+              "ipAddressCountry": "NL",
+              "locationData": {
+                "regionName": "Grand Est",
+                "regionId": 11038876,
+                "countryName": "France",
+                "countryId": 187070,
+                "locationHierarchy": ":33097856:1:4:187070:11038876:2064952:187136:",
+                "stateName": null,
+                "stateId": null,
+                "cityName": null
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "EatImpressionTracking_logImpressions": [
+              "17909f69-5807-4515-a9fa-40d1e0d1d73e"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "EatImpressionTracking_logImpressions"
+            ]
+          }
+        },
+        {
+          "data": {
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "rating": 5,
+                  "count": 1
+                }
+              }
+            ],
+            "locations": [
+              {
+                "reviewAggregations": {
+                  "ratingCounts": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "restaurantSubratingsData": {
+              "restaurants": [
+                {
+                  "sub_ratings": {
+                    "atmosphere": null,
+                    "food": null,
+                    "service": null,
+                    "value": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "mediaAlbum": {
+              "album": {
+                "albumId": 107,
+                "totalMediaCount": 0
+              }
+            },
+            "mediaAlbumPage": {
+              "mediaList": []
+            }
+          }
+        },
+        {
+          "data": {
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "keywords": [
+              {
+                "responseData": {
+                  "keywords": []
+                }
+              }
+            ],
+            "reviewAggregations": [
+              {
+                "locationId": 33097856,
+                "overallRating": 5,
+                "reviewCount": 1,
+                "alertStatusCount": 0,
+                "reviewCountByRating": {
+                  "oneRatingCount": 0,
+                  "twoRatingCount": 0,
+                  "threeRatingCount": 0,
+                  "fourRatingCount": 0,
+                  "fiveRatingCount": 1
+                },
+                "reviewCountByLanguage": [
+                  {
+                    "language": "it",
+                    "count": 1
+                  }
+                ],
+                "nativeAndTransByLanguage": [
+                  {
+                    "language": "en",
+                    "count": 1
+                  },
+                  {
+                    "language": "it",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 1,
+                "reviews": [
+                  {
+                    "id": 1004505437,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g187136-d33097856-r1004505437-Moet_Chandon_Bar-Epernay_Marne_Grand_Est.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 33097856,
+                      "name": "Mo\u00ebt & Chandon Bar",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2025-04-27",
+                    "publishedDate": "2025-04-27",
+                    "userProfile": {
+                      "id": "93A75980D56F20B6A3ABA1ADA279588F",
+                      "isVerified": false,
+                      "displayName": "Linda",
+                      "username": "Cruiser10404222522",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 758451179,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/35/0b/eb/caption.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 2048,
+                            "maxWidth": 2048
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188092,
+                        "fallbackString": "188092",
+                        "location": {
+                          "locationId": 188092,
+                          "additionalNames": {
+                            "name": "Canton of Ticino",
+                            "long": "Canton of Ticino, Switzerland"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Cruiser10404222522"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 171
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": null,
+                    "title": "Taste an excellent Champagne",
+                    "language": "en",
+                    "originalLanguage": "it",
+                    "text": "We booked a table for 4 people to be sure to find a seat... after our arrival we were very well received and served at best. We chose to try the tastings of 3 types of champagne. Quality price excellent.\nThe bar room is very nice. Nearby you can make a visit to the shop.\nThe only flaw appetizers to eat are expensive and nothing big. Overall though a great experience.\nFree parking available on site",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 33097856,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": "MACHINE",
+                    "mtProviderId": 10,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2025-04-30",
+                      "tripType": "FRIENDS"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "routes": [
+              {
+                "webLinkUrl": "/ClientLink?value=VjlFXy9Vc2VyUmV2aWV3RWRpdC1nMTg3MTM2LWQzMzA5Nzg1Ni1Nb2V0X0NoYW5kb25fQmFyLUVwZXJuYXlfTWFybmVfR3JhbmRfRXN0Lmh0bWxfSXNy"
+              },
+              {
+                "webLinkUrl": "/ClientLink?value=YnZjXy9Qb3N0UGhvdG9zLWQzMzA5Nzg1Nl9WcEk%3D"
+              },
+              {
+                "webLinkUrl": "/reviews?locationId=33097856&screen=allreviews"
+              },
+              {
+                "webLinkUrl": "/photosandvideos?locationId=33097856"
+              }
+            ],
+            "reviewDrafts": [
+              []
+            ],
+            "ownerStatus": [
+              {
+                "userId": null,
+                "isOwnedByUser": false
+              }
+            ],
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "placeType": "EATERY",
+                "accommodationCategory": "HOTEL",
+                "locationId": 33097856,
+                "localizedName": "Mo\u00ebt & Chandon Bar",
+                "parentGeoId": 187136,
+                "currentUserOwnerStatus": null,
+                "topicCount": 0
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "count": 1
+                }
+              }
+            ],
+            "tipCountReviewsProxy": [
+              {
+                "responseData": {
+                  "locationTipsTotalCount": 0
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "QuestionsAndAnswers_getQuestionsByLocations": [
+              {
+                "questions": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "48bb9555-fb93-4c3f-8ed1-619f472d6d2b"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "c9c89fba-340c-4cf2-9003-cacb3b4008fe"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "80c5faa5-4fb7-447d-9876-d1729d54b836"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 2
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AdContext_deletePPIDUserData": [
+              {
+                "success": false,
+                "errorMessage": "Failed to delete PPID data - Received HTTP error code: 400 with no error message."
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 1000,
+                  "maxHeight": 700,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2d/40/95/keep-on-planning.jpg?w={width}&h={height}&s=1&cx=492&cy=358&chk=v1_f64df95338d294710736"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "parents": [
+                  {
+                    "locationId": 2064952
+                  },
+                  {
+                    "locationId": 11038876
+                  },
+                  {
+                    "locationId": 187070
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              },
+              {
+                "parents": [
+                  {
+                    "locationId": 187136
+                  },
+                  {
+                    "locationId": 2064952
+                  },
+                  {
+                    "locationId": 11038876
+                  },
+                  {
+                    "locationId": 187070
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 3
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "baSubscriptions": [
+              {
+                "subscriptions": []
+              }
+            ],
+            "ownerStatus": [
+              {
+                "isOwnedByUser": false
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "locationId": 33097856,
+                "parents": [
+                  {
+                    "locationId": 187136
+                  },
+                  {
+                    "locationId": 2064952
+                  },
+                  {
+                    "locationId": 11038876
+                  },
+                  {
+                    "locationId": 187070
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "3688449b-4675-4c88-9671-0c47e8873c72"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 4
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "response": [
+              {
+                "randomContentList": [
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 1673,
+                    "sponsorId": 199,
+                    "sponsorDisplayName": "Explore Branson",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 44160,
+                      "name": "Branson",
+                      "stateAndCountryOrEquivalent": "Missouri, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g44160-Branson_Missouri-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/3d/7c/bd/lake-taneycomo.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1329,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/f0/7f/7b/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 1000,
+                        "maxHeight": 1000
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/f0/7f/83/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 6720,
+                        "maxHeight": 4480
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "Lq7grTz3MDI",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Netflix host Jo Franco shows us her Rio",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "As one of the hosts of Netflix's Amazing Vacation Rentals, Jo Franco takes viewers around the world. But for all her globetrotting, Rio de Janeiro is the place she goes back to again and again. We get all her tips for where to go and what to do."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Jamie Ditaranto"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/d6/69/d4/caption.jpg?w={width}&h={height}&s=1&cx=576&cy=430&chk=v1_b9f94b6f5f1a495a417f",
+                                "maxWidth": 1152,
+                                "maxHeight": 860
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lLq7grTz3MDI-Netflix_travel_host_jo_franco_shows_us_her_rio.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1958,
+                    "sponsorId": 511,
+                    "sponsorDisplayName": "Visit Dallas",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 30183,
+                      "name": "Arlington",
+                      "stateAndCountryOrEquivalent": "Texas, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g30183-Arlington_Texas-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/1e/c9/79/globe-life-park.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 3024,
+                          "maxWidth": 4032
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1990,
+                    "sponsorId": 787,
+                    "sponsorDisplayName": "Visit Santa Fe",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 153968221,
+                      "tripContent": {
+                        "id": 153968221,
+                        "title": "Santa Fe: heritage & history on the Original Route 66",
+                        "description": "Looking for adventure on the original Route 66? Santa Fe, the oldest state capital, is a must-stop for history buffs. The city, founded in 1610, is older than the United States\u2014but the area has been populated for well over a thousand years. With so much history and heritage, you'll want to allow plenty of time to explore the best of the Southwest\u2014so here are 12 suggestions for things to see, do, and learn.",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-b/2560x500/03/06/08/5e/santa-fe-baldy.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 2560,
+                            "maxHeight": 500
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t153968221"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "Qtr6XhkdL2A",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "9 hotels where pickleball takes center court",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Try your hand at the world\u2019s fastest-growing sport. "
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Rachel Chang"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/ad/24/cf/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_2c0171502691b2980d2e",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lQtr6XhkdL2A-Best_pickelball_hotels.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1538,
+                    "sponsorId": 522,
+                    "sponsorDisplayName": "Fort Myers \u2013 Islands, Beaches and Neighborhoods",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "ENSmjDdgPF8",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "See Southwest Florida your way",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Explore Fort Myers - Islands, Beaches and Neighborhoods"
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Tripadvisor"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/dc/6d/d2/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_dd8da8584af6a899bb42",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lENSmjDdgPF8-See_southwest_florida_your_way.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1726,
+                    "sponsorId": 133,
+                    "sponsorDisplayName": "Visit Orlando",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 143554737,
+                      "tripContent": {
+                        "id": 143554737,
+                        "title": "A guide to Orlando Pride events and hotspots for LGBTQ+ travelers",
+                        "description": "\"Orlando is serving up way more than just theme parks. Join me, Meg Ten Eyck, on an adventure that's all about incredible food, outdoor thrills, and queer celebration. With LGBTQ-owned businesses to support, a vibrant culinary scene, and unique experiences like paddleboarding, kayaking with manatees, and a sunset airboat ride, there\u2019s no shortage of excitement. With Orlando Pride and legendary lesbian events, this city thrives on community, connection, and unforgettable moments. Whether you're enjoying the food, the culture, or the wild adventures, Orlando is all about making memories.\" - Meg Ten Eyc",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/9b/2d/f3/orlando.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 1080,
+                            "maxHeight": 650
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t143554737"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "CRcnWUtlQBU",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "10 common travel mistakes in Cancun\u2013and how to avoid them",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Planning a trip to Cancun? Don't make these travel mistakes. Here are the top tourist traps to avoid."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Anchit Kher"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/7b/46/51/caption.jpg?w={width}&h={height}&s=1&cx=999&cy=666&chk=v1_e31432794fdca3170ada",
+                                "maxWidth": 1999,
+                                "maxHeight": 1333
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lCRcnWUtlQBU-Tourist_traps_in_cancun.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1788,
+                    "sponsorId": 297,
+                    "sponsorDisplayName": "Go T\u00fcrkiye",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "iHMuyHgv02g",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Explore T\u00fcrkiye\u2019s natural playgrounds",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Whether you want to hike through epic backdrops, ski in storybook surroundings, or bathe in mineral-rich pools, T\u00fcrkiye\u2019s fabled landscapes are as varied as the adventures they contain. Looking for something a bit different? Go intrepid on your next trip with our pick of offbeat experiences in some of the country\u2019s most magnificent, yet undiscovered, regions."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/fa/26/caption.jpg?w={width}&h={height}&s=1&cx=960&cy=540&chk=v1_ea91980e5ed1a7663e5d",
+                                "maxWidth": 1920,
+                                "maxHeight": 1080
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-liHMuyHgv02g-Explore_trkiyes_natural_playgrounds.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1820,
+                    "sponsorId": 212,
+                    "sponsorDisplayName": "Korea Tourism Organization",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 294196,
+                      "name": "South Korea",
+                      "stateAndCountryOrEquivalent": "Asia",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g294196-South_Korea-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/10/2f/bb/south-korea.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 3840,
+                          "maxWidth": 5760
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1898,
+                    "sponsorId": 773,
+                    "sponsorDisplayName": "Visit Lauderdale",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "gNhpU6CDpvI",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "5 national parks that put accessibility first",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Wheelchair rentals, accessible trails, Braille-ready park maps, and so much more."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Syren Nagakyrie"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/d0/4e/43/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_c32551bdabaee31eb370",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lgNhpU6CDpvI-Accessible_national_parks.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 5
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "2f20bb42-1587-49c1-8fa7-e5302cb65a4b"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "7c51497b-188c-4d4a-a466-1bb2cc10ae74"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 6
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "f10eb041-0789-43ce-97eb-8e83d67cbe4b"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "aae35429-a75c-4449-ab5e-74ca551e2653"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 7
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "507d1b6b-03de-41bd-a864-c71ecf0ae9e0"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "7f9736d1-aa9a-43b3-989d-305838bbfb0a"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "d6ece913-2e01-4bfb-bb1e-305d76cdaf5c"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getLocationTips": [
+              {
+                "responseData": {
+                  "locationTips": []
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "e25e0e9f-19e2-4c00-981c-7873f2d98481"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "f399f5b7-907b-4c48-a922-6d20fea53716"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "63f57a07-9c20-48e7-98c3-e03ec5e5e349"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 8
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "438cf12f-f12b-4aab-8ca8-cda26b19bd66"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "aed190f4-8ba8-447e-95de-1ff031d758f7"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "dea238e7-7c6c-464d-84b6-4f2dc4436cfa"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 9
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 10
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Americas": [
+              {
+                "isoLanguage": "en",
+                "locale": "en-US",
+                "hostname": "www.tripadvisor.com",
+                "languageName": "English",
+                "pointOfSaleName": "United States",
+                "hreflang": "en"
+              },
+              {
+                "isoLanguage": "en",
+                "locale": "en-CA",
+                "hostname": "www.tripadvisor.ca",
+                "languageName": "English",
+                "pointOfSaleName": "Canada (English)",
+                "hreflang": "en-CA"
+              },
+              {
+                "isoLanguage": "fr",
+                "locale": "fr-CA",
+                "hostname": "fr.tripadvisor.ca",
+                "languageName": "Fran\u00e7ais",
+                "pointOfSaleName": "Canada (Fran\u00e7ais)",
+                "hreflang": "fr-CA"
+              },
+              {
+                "isoLanguage": "pt",
+                "locale": "pt-BR",
+                "hostname": "www.tripadvisor.com.br",
+                "languageName": "Portugu\u00eas",
+                "pointOfSaleName": "Brasil",
+                "hreflang": "pt"
+              },
+              {
+                "isoLanguage": "es",
+                "locale": "es-MX",
+                "hostname": "www.tripadvisor.com.mx",
+                "languageName": "Espa\u00f1ol",
+                "pointOfSaleName": "M\u00e9xico",
+                "hreflang": "es-MX"
+              },
+              {
+                "isoLanguage": "es",
+                "locale": "es-AR",
+                "hostname": "www.tripadvisor.com.ar",
+                "languageName": "Espa\u00f1ol",
+                "pointOfSaleName": "Argentina",
+                "hreflang": "es-AR"
+              },
+              {
+                "isoLanguage": "es",
+                "locale": "es-CL",
+                "hostname": "www.tripadvisor.cl",
+                "languageName": "Espa\u00f1ol",
+                "pointOfSaleName": "Chile",
+                "hreflang": "es-CL"
+              },
+              {
+                "isoLanguage": "es",
+                "locale": "es-CO",
+                "hostname": "www.tripadvisor.co",
+                "languageName": "Espa\u00f1ol",
+                "pointOfSaleName": "Colombia",
+                "hreflang": "es-CO"
+              },
+              {
+                "isoLanguage": "es",
+                "locale": "es-PE",
+                "hostname": "www.tripadvisor.com.pe",
+                "languageName": "Espa\u00f1ol",
+                "pointOfSaleName": "Per\u00fa",
+                "hreflang": "es-PE"
+              },
+              {
+                "isoLanguage": "es",
+                "locale": "es-VE",
+                "hostname": "www.tripadvisor.com.ve",
+                "languageName": "Espa\u00f1ol",
+                "pointOfSaleName": "Venezuela",
+                "hreflang": "es-VE"
+              }
+            ],
+            "Europe": [
+              {
+                "isoLanguage": "en",
+                "locale": "en-GB",
+                "hostname": "www.tripadvisor.co.uk",
+                "languageName": "English",
+                "pointOfSaleName": "United Kingdom",
+                "hreflang": "en-GB"
+              },
+              {
+                "isoLanguage": "it",
+                "locale": "it-IT",
+                "hostname": "www.tripadvisor.it",
+                "languageName": "Italiano",
+                "pointOfSaleName": "Italia",
+                "hreflang": "it"
+              },
+              {
+                "isoLanguage": "es",
+                "locale": "es-ES",
+                "hostname": "www.tripadvisor.es",
+                "languageName": "Espa\u00f1ol",
+                "pointOfSaleName": "Espa\u00f1a",
+                "hreflang": "es"
+              },
+              {
+                "isoLanguage": "de",
+                "locale": "de-DE",
+                "hostname": "www.tripadvisor.de",
+                "languageName": "Deutsch",
+                "pointOfSaleName": "Deutschland",
+                "hreflang": "de"
+              },
+              {
+                "isoLanguage": "fr",
+                "locale": "fr-FR",
+                "hostname": "www.tripadvisor.fr",
+                "languageName": "Fran\u00e7ais",
+                "pointOfSaleName": "France",
+                "hreflang": "fr"
+              },
+              {
+                "isoLanguage": "sv",
+                "locale": "sv-SE",
+                "hostname": "www.tripadvisor.se",
+                "languageName": "Svenska",
+                "pointOfSaleName": "Sverige",
+                "hreflang": "sv"
+              },
+              {
+                "isoLanguage": "nl",
+                "locale": "nl-NL",
+                "hostname": "www.tripadvisor.nl",
+                "languageName": "Nederlands",
+                "pointOfSaleName": "Nederland",
+                "hreflang": "nl"
+              },
+              {
+                "isoLanguage": "tr",
+                "locale": "tr-TR",
+                "hostname": "www.tripadvisor.com.tr",
+                "languageName": "T\u00fcrk\u00e7e",
+                "pointOfSaleName": "T\u00fcrkiye",
+                "hreflang": "tr"
+              },
+              {
+                "isoLanguage": "da",
+                "locale": "da-DK",
+                "hostname": "www.tripadvisor.dk",
+                "languageName": "Dansk",
+                "pointOfSaleName": "Danmark",
+                "hreflang": "da"
+              },
+              {
+                "isoLanguage": "en",
+                "locale": "en-IE",
+                "hostname": "www.tripadvisor.ie",
+                "languageName": "English",
+                "pointOfSaleName": "Ireland",
+                "hreflang": "en-IE"
+              },
+              {
+                "isoLanguage": "de",
+                "locale": "de-AT",
+                "hostname": "www.tripadvisor.at",
+                "languageName": "Deutsch",
+                "pointOfSaleName": "\u00d6sterreich",
+                "hreflang": "de-AT"
+              },
+              {
+                "isoLanguage": "el",
+                "locale": "el-GR",
+                "hostname": "www.tripadvisor.com.gr",
+                "languageName": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac",
+                "pointOfSaleName": "\u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+                "hreflang": "el"
+              },
+              {
+                "isoLanguage": "no",
+                "locale": "nb-NO",
+                "hostname": "no.tripadvisor.com",
+                "languageName": "Norsk",
+                "pointOfSaleName": "Norge",
+                "hreflang": "nb"
+              },
+              {
+                "isoLanguage": "pt",
+                "locale": "pt-PT",
+                "hostname": "www.tripadvisor.pt",
+                "languageName": "Portugu\u00eas",
+                "pointOfSaleName": "Portugal",
+                "hreflang": "pt-PT"
+              },
+              {
+                "isoLanguage": "ru",
+                "locale": "ru-RU",
+                "hostname": "www.tripadvisor.ru",
+                "languageName": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+                "pointOfSaleName": "\u0420\u043e\u0441\u0441\u0438\u044f",
+                "hreflang": "ru"
+              },
+              {
+                "isoLanguage": "de",
+                "locale": "de-CH",
+                "hostname": "www.tripadvisor.ch",
+                "languageName": "Deutsch",
+                "pointOfSaleName": "Schweiz",
+                "hreflang": "de-CH"
+              },
+              {
+                "isoLanguage": "fr",
+                "locale": "fr-CH",
+                "hostname": "fr.tripadvisor.ch",
+                "languageName": "Fran\u00e7ais",
+                "pointOfSaleName": "Suisse",
+                "hreflang": "fr-CH"
+              },
+              {
+                "isoLanguage": "it",
+                "locale": "it-CH",
+                "hostname": "it.tripadvisor.ch",
+                "languageName": "Italiano",
+                "pointOfSaleName": "Svizzera",
+                "hreflang": "it-CH"
+              },
+              {
+                "isoLanguage": "fr",
+                "locale": "fr-BE",
+                "hostname": "fr.tripadvisor.be",
+                "languageName": "Fran\u00e7ais",
+                "pointOfSaleName": "Belgique",
+                "hreflang": "fr-BE"
+              },
+              {
+                "isoLanguage": "nl",
+                "locale": "nl-BE",
+                "hostname": "www.tripadvisor.be",
+                "languageName": "Nederlands",
+                "pointOfSaleName": "Belgi\u00eb",
+                "hreflang": "nl-BE"
+              }
+            ],
+            "APAC": [
+              {
+                "isoLanguage": "ja",
+                "locale": "ja-JP",
+                "hostname": "www.tripadvisor.jp",
+                "languageName": "\u65e5\u672c\u8a9e",
+                "pointOfSaleName": "\u65e5\u672c",
+                "hreflang": "ja"
+              },
+              {
+                "isoLanguage": "zhCN",
+                "locale": "zh-Hans-US",
+                "hostname": "cn.tripadvisor.com",
+                "languageName": "\u4e2d\u6587",
+                "pointOfSaleName": "\u4e2d\u6587\u56fd\u9645\u7248",
+                "hreflang": "zh-Hans"
+              },
+              {
+                "isoLanguage": "en",
+                "locale": "en-IN",
+                "hostname": "www.tripadvisor.in",
+                "languageName": "English",
+                "pointOfSaleName": "India",
+                "hreflang": "en-IN"
+              },
+              {
+                "isoLanguage": "en",
+                "locale": "en-AU",
+                "hostname": "www.tripadvisor.com.au",
+                "languageName": "English",
+                "pointOfSaleName": "Australia",
+                "hreflang": "en-AU"
+              },
+              {
+                "isoLanguage": "en",
+                "locale": "en-MY",
+                "hostname": "www.tripadvisor.com.my",
+                "languageName": "English",
+                "pointOfSaleName": "Malaysia",
+                "hreflang": "en-MY"
+              },
+              {
+                "isoLanguage": "en",
+                "locale": "en-NZ",
+                "hostname": "www.tripadvisor.co.nz",
+                "languageName": "English",
+                "pointOfSaleName": "New Zealand",
+                "hreflang": "en-NZ"
+              },
+              {
+                "isoLanguage": "en",
+                "locale": "en-PH",
+                "hostname": "www.tripadvisor.com.ph",
+                "languageName": "English",
+                "pointOfSaleName": "Philippines",
+                "hreflang": "en-PH"
+              },
+              {
+                "isoLanguage": "en",
+                "locale": "en-SG",
+                "hostname": "www.tripadvisor.com.sg",
+                "languageName": "English",
+                "pointOfSaleName": "Singapore",
+                "hreflang": "en-SG"
+              },
+              {
+                "isoLanguage": "in",
+                "locale": "id-ID",
+                "hostname": "www.tripadvisor.co.id",
+                "languageName": "Indonesia",
+                "pointOfSaleName": "Indonesia",
+                "hreflang": "id"
+              },
+              {
+                "isoLanguage": "ko",
+                "locale": "ko-KR",
+                "hostname": "www.tripadvisor.co.kr",
+                "languageName": "\ud55c\uad6d\uc5b4",
+                "pointOfSaleName": "\ub300\ud55c\ubbfc\uad6d",
+                "hreflang": "ko"
+              },
+              {
+                "isoLanguage": "th",
+                "locale": "th-u-ca-gregory",
+                "hostname": "th.tripadvisor.com",
+                "languageName": "\u0e44\u0e17\u0e22",
+                "pointOfSaleName": "\u0e44\u0e17\u0e22",
+                "hreflang": "th"
+              },
+              {
+                "isoLanguage": "vi",
+                "locale": "vi-VN",
+                "hostname": "www.tripadvisor.com.vn",
+                "languageName": "Ti\u00ea\u0301ng Vi\u00ea\u0323t",
+                "pointOfSaleName": "Vi\u1ec7t Nam",
+                "hreflang": "vi"
+              },
+              {
+                "isoLanguage": "zhTW",
+                "locale": "zh-Hant-TW",
+                "hostname": "www.tripadvisor.com.tw",
+                "languageName": "\u4e2d\u6587",
+                "pointOfSaleName": "\u53f0\u7063",
+                "hreflang": "zh-Hant"
+              },
+              {
+                "isoLanguage": "en",
+                "locale": "en-HK",
+                "hostname": "en.tripadvisor.com.hk",
+                "languageName": "English",
+                "pointOfSaleName": "Hong Kong SAR",
+                "hreflang": "en-HK"
+              },
+              {
+                "isoLanguage": "zhHK",
+                "locale": "zh-Hant-HK",
+                "hostname": "www.tripadvisor.com.hk",
+                "languageName": "\u4e2d\u6587",
+                "pointOfSaleName": "\u9999\u6e2f\u7279\u5225\u884c\u653f\u5340",
+                "hreflang": "zh-hk"
+              }
+            ],
+            "AfricaAndMiddleEast": [
+              {
+                "isoLanguage": "ar",
+                "locale": "ar-US-u-nu-latn",
+                "hostname": "ar.tripadvisor.com",
+                "languageName": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+                "pointOfSaleName": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+                "hreflang": "ar"
+              },
+              {
+                "isoLanguage": "ar",
+                "locale": "ar-EG-u-nu-latn",
+                "hostname": "www.tripadvisor.com.eg",
+                "languageName": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+                "pointOfSaleName": "\u0645\u0635\u0631",
+                "hreflang": "ar-EG"
+              },
+              {
+                "isoLanguage": "en",
+                "locale": "en-ZA",
+                "hostname": "www.tripadvisor.co.za",
+                "languageName": "English",
+                "pointOfSaleName": "South Africa",
+                "hreflang": "en-ZA"
+              },
+              {
+                "isoLanguage": "iw",
+                "locale": "he-IL",
+                "hostname": "www.tripadvisor.co.il",
+                "languageName": "\u05e2\u05d1\u05e8\u05d9\u05ea",
+                "pointOfSaleName": "\u05d9\u05e9\u05e8\u05d0\u05dc",
+                "hreflang": "he"
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 11
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "dfef234d-7795-4b14-ac63-74be702b76bb"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 12
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true,
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 13
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 14
+    }
+  ],
+  "statistics": {
+    "total_graphql_responses": 15,
+    "has_jsonld_data": true,
+    "has_website_url": true,
+    "has_phone_number": false,
+    "has_cuisines": true,
+    "has_meal_types": false,
+    "has_features": false,
+    "has_special_diets": false,
+    "has_hours": false,
+    "error_count": 0
+  },
+  "api_update_success": true,
+  "timestamp": "2025-09-23T17:22:38.023481"
+}

@@ -14,7 +14,7 @@ def get_empty_results_city():
     """Fetches cities with no TripAdvisor restaurant URL or results."""
     url = (
         "http://127.0.0.1:8000/api/cities/search/"
-        "?restaurants_is_null=true&tripadvisor_geo_id_is_null=false&page_size=10000"
+        "?tripadvisor_geo_id_is_null=false&page_size=10000"
     )
 
     response = requests.get(url)
@@ -26,12 +26,25 @@ def get_empty_results_city():
             raise ValueError("No Cities with null results found")
 
 
-def parse_results_number(city_data: dict) -> Optional[int]:
-    """Filters out the number of results from the city data using data-automation='resultsTotal'."""
+def parse_results_number(city_data: dict) -> tuple[Optional[int], bool]:
+    """
+    Filters out the number of results from the city data using data-automation='resultsTotal'.
+    
+    Returns:
+        tuple[Optional[int], bool]: (results_count, parsing_successful)
+        - results_count: The number of results found, or None if not found/error
+        - parsing_successful: True if parsing was successful (even if 0 results), False if error occurred
+    """
     from bs4 import BeautifulSoup
     
     try:
-        decoded = ''.join(chr(c) for c in city_data[0]['content'])
+        content = city_data[0]['content']
+        # Check if content is already a string or needs decoding
+        if isinstance(content, str):
+            decoded = content
+        else:
+            # If it's a list of character codes, decode it
+            decoded = ''.join(chr(c) for c in content)
         soup = BeautifulSoup(decoded, 'html.parser')
         
         # Find element with data-automation="resultsTotal"
@@ -46,10 +59,15 @@ def parse_results_number(city_data: dict) -> Optional[int]:
             if match:
                 # Remove commas and convert to int
                 number_str = match.group(1).replace(',', '')
-                return int(number_str)
+                result = int(number_str)
+                return result, True
             else:
+                # Check if the text indicates 0 results explicitly
+                if 'no results' in text.lower() or '0 results' in text.lower():
+                    print(f"Found explicit zero results indication: '{text}'")
+                    return 0, True
                 print(f"Could not parse number from text: '{text}'")
-                return None
+                return None, False
         else:
             print("Element with data-automation='resultsTotal' not found")
             # Fallback: try to find any element containing "results"
@@ -59,13 +77,21 @@ def parse_results_number(city_data: dict) -> Optional[int]:
                     match = re.search(r'([\d,]+)', text)
                     if match:
                         number_str = match.group(1).replace(',', '')
-                        print(f"Found results using fallback method: {number_str}")
-                        return int(number_str)
-            return None
+                        result = int(number_str)
+                        print(f"Found results using fallback method: {result}")
+                        return result, True
+            
+            # Check for explicit "no results" messages
+            no_results_elements = soup.find_all(string=re.compile(r'no.*results|0.*results', re.I))
+            if no_results_elements:
+                print("Found 'no results' indication")
+                return 0, True
+                
+            return None, False
             
     except Exception as e:
         print(f"Error parsing results number: {e}")
-        return None
+        return None, False
 
 
 def update_city_results_number(geoname_id: int, results: int) -> bool:
@@ -138,9 +164,10 @@ def process_city(city: Dict) -> Dict:
             return result
 
         # Parse results
-        results = parse_results_number(tripadvisor_city_data)
+        results, parsing_successful = parse_results_number(tripadvisor_city_data)
 
-        if results is not None:
+        if parsing_successful:
+            # Parsing was successful, results could be 0 or a positive number
             result['results_count'] = results
             print(
                 f"Found {results} results for {city['name']} "
@@ -158,18 +185,12 @@ def process_city(city: Dict) -> Dict:
                 result['error'] = "Failed to update via API"
                 print(f"Failed to update {city['name']} results via API.")
         else:
-            result['error'] = "No results found"
+            # Parsing failed, don't update the database
+            result['error'] = "Failed to parse results from scraped data"
             print(
-                f"No results found for {city.get('name')} "
-                f"(geoname_id: {geoname_id})"
+                f"Failed to parse results for {city.get('name')} "
+                f"(geoname_id: {geoname_id}) - not updating database"
             )
-            if update_city_results_number(geoname_id, 0):
-                print(
-                    f"Updated {city['name']} with 0 results."
-                )
-            else:
-                result['error'] = "Failed to update 0 results via API"
-                print(f"Failed to update {city['name']} with 0 results via API.")
 
     except Exception as e:
         result['error'] = str(e)
