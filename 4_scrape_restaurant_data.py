@@ -1965,11 +1965,7 @@ def scrape_restaurants():
 
         try:
             with Camoufox(
-                # proxy={
-                #     'server': 'https://premium-residential.evomi-proxy.com:1001',
-                #     'username': 'proxies6',
-                #     'password': 'kmcohO5P6DD0CGaVrfNH'
-                # }
+                headless=True
             ) as browser:
                 page = browser.new_page()
 

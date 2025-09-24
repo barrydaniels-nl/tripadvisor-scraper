@@ -1,0 +1,2612 @@
+{
+  "restaurant_id": 756853,
+  "restaurant_name": "Barista Caf\u00e9 Wilhelminaplein",
+  "tripadvisor_url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d10862794-Reviews-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html?m=69411",
+  "website_url": "http://www.baristacafewilhelminaplein.nl/",
+  "phone_number": "+31 10 737 0019",
+  "cuisines": [
+    "Dutch",
+    "European"
+  ],
+  "meal_types": null,
+  "features": [
+    "Dutch",
+    "European"
+  ],
+  "special_diets": null,
+  "hours": null,
+  "scrape_status": "success",
+  "errors": [],
+  "jsonld_data": {
+    "name": "Barista Caf\u00e9 Wilhelminaplein",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/68/ec/39/sandwich.jpg?w=500&h=-1&s=1",
+    "priceRange": "$",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d10862794-Reviews-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html",
+    "website": "http://www.baristacafewilhelminaplein.nl/",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.907864,
+      "longitude": 4.492353
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "NL"
+      },
+      "streetAddress": "Wilhelminaplein 41",
+      "addressLocality": "Rotterdam",
+      "postalCode": "3072 DE"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.8,
+      "reviewCount": 6
+    },
+    "raw_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/68/ec/39/sandwich.jpg?w=500&h=-1&s=1",
+      "name": "Barista Caf\u00e9 Wilhelminaplein",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.907864,
+        "longitude": 4.492353
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": 6
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "NL"
+        },
+        "streetAddress": "Wilhelminaplein 41",
+        "addressLocality": "Rotterdam",
+        "postalCode": "3072 DE"
+      },
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d10862794-Reviews-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html",
+      "priceRange": "$"
+    },
+    "phone": "+31 10 737 0019",
+    "cuisines": [
+      "Dutch",
+      "European"
+    ],
+    "features": [
+      "Dutch",
+      "European"
+    ],
+    "price": "$"
+  },
+  "graphql_responses": [
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "EatImpressionTracking_logImpressions": [
+              "2490b691-c28a-4432-bdb0-256567cd0cf4"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "EatImpressionTracking_logImpressions"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "rating": 4.8,
+                  "count": 6
+                }
+              }
+            ],
+            "locations": [
+              {
+                "reviewAggregations": {
+                  "ratingCounts": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    5
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "restaurantSubratingsData": {
+              "restaurants": [
+                {
+                  "sub_ratings": {
+                    "atmosphere": null,
+                    "food": null,
+                    "service": null,
+                    "value": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "mediaAlbum": {
+              "album": {
+                "albumId": 107,
+                "totalMediaCount": 1
+              }
+            },
+            "mediaAlbumPage": {
+              "mediaList": [
+                {
+                  "mediaId": 677964857,
+                  "caption": "Sandwich",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/68/ec/39/sandwich.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/28/68/ec/39/sandwich.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/28/68/ec/39/sandwich.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/28/68/ec/39/sandwich.jpg"
+                    },
+                    {
+                      "width": 250,
+                      "height": 188,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/28/68/ec/39/sandwich.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 413,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/28/68/ec/39/sandwich.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 768,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/28/68/ec/39/sandwich.jpg"
+                    },
+                    {
+                      "width": 1280,
+                      "height": 960,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/28/68/ec/39/sandwich.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "keywords": [
+              {
+                "responseData": {
+                  "keywords": []
+                }
+              }
+            ],
+            "reviewAggregations": [
+              {
+                "locationId": 10862794,
+                "overallRating": 4.8,
+                "reviewCount": 6,
+                "alertStatusCount": 0,
+                "reviewCountByRating": {
+                  "oneRatingCount": 0,
+                  "twoRatingCount": 0,
+                  "threeRatingCount": 0,
+                  "fourRatingCount": 1,
+                  "fiveRatingCount": 5
+                },
+                "reviewCountByLanguage": [
+                  {
+                    "language": "en",
+                    "count": 3
+                  },
+                  {
+                    "language": "nl",
+                    "count": 3
+                  }
+                ],
+                "nativeAndTransByLanguage": [
+                  {
+                    "language": "de",
+                    "count": 1
+                  },
+                  {
+                    "language": "no",
+                    "count": 1
+                  },
+                  {
+                    "language": "fi",
+                    "count": 1
+                  },
+                  {
+                    "language": "ru",
+                    "count": 1
+                  },
+                  {
+                    "language": "pt",
+                    "count": 1
+                  },
+                  {
+                    "language": "zhTW",
+                    "count": 1
+                  },
+                  {
+                    "language": "fr",
+                    "count": 1
+                  },
+                  {
+                    "language": "hu",
+                    "count": 1
+                  },
+                  {
+                    "language": "sk",
+                    "count": 1
+                  },
+                  {
+                    "language": "sr",
+                    "count": 1
+                  },
+                  {
+                    "language": "zhCN",
+                    "count": 1
+                  },
+                  {
+                    "language": "sv",
+                    "count": 1
+                  },
+                  {
+                    "language": "ko",
+                    "count": 1
+                  },
+                  {
+                    "language": "in",
+                    "count": 1
+                  },
+                  {
+                    "language": "el",
+                    "count": 1
+                  },
+                  {
+                    "language": "en",
+                    "count": 3
+                  },
+                  {
+                    "language": "it",
+                    "count": 1
+                  },
+                  {
+                    "language": "es",
+                    "count": 1
+                  },
+                  {
+                    "language": "iw",
+                    "count": 1
+                  },
+                  {
+                    "language": "cs",
+                    "count": 1
+                  },
+                  {
+                    "language": "ar",
+                    "count": 1
+                  },
+                  {
+                    "language": "vi",
+                    "count": 1
+                  },
+                  {
+                    "language": "th",
+                    "count": 1
+                  },
+                  {
+                    "language": "ja",
+                    "count": 1
+                  },
+                  {
+                    "language": "pl",
+                    "count": 1
+                  },
+                  {
+                    "language": "da",
+                    "count": 1
+                  },
+                  {
+                    "language": "nl",
+                    "count": 4
+                  },
+                  {
+                    "language": "tr",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 3,
+                "reviews": [
+                  {
+                    "id": 930513157,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d10862794-r930513157-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 10862794,
+                      "name": "Barista Caf\u00e9 Wilhelminaplein",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2023-12-21",
+                    "publishedDate": "2023-12-21",
+                    "userProfile": {
+                      "id": "5F561929C6E39C3AF25F68CF83E2A704",
+                      "isVerified": false,
+                      "displayName": "Marcus",
+                      "username": "Adventure33751222158",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 683647918,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/bf/a3/ae/caption.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1044,
+                            "maxWidth": 1042
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 187331,
+                        "fallbackString": "187331",
+                        "location": {
+                          "locationId": 187331,
+                          "additionalNames": {
+                            "name": "Hamburg",
+                            "long": "Hamburg, Germany"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Adventure33751222158"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 152
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": null,
+                    "title": "Very good breakfast!",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Nice breakfast, good coffee and interesting items on the menu. We found that the barista breakfast could use some \u201emodularity\u201c since one of us would have liked more savory than sweet options.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 10862794,
+                    "helpfulVotes": 8,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2023-12-31",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 881437318,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d10862794-r881437318-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 10862794,
+                      "name": "Barista Caf\u00e9 Wilhelminaplein",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2023-03-08",
+                    "publishedDate": "2023-03-08",
+                    "userProfile": {
+                      "id": "6BAFEC6C10545B3A9D82D26774107DEF",
+                      "isVerified": false,
+                      "displayName": "Benoit",
+                      "username": "Benooit",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 42869175,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/8e/21/b7/benooit.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 450,
+                            "maxWidth": 395
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 635568,
+                        "fallbackString": "635568",
+                        "location": {
+                          "locationId": 635568,
+                          "additionalNames": {
+                            "name": "Asnieres-sur-Seine",
+                            "long": "Asnieres-sur-Seine, France"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Benooit"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 586
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": null,
+                    "title": "Fresh sandwiches in a peaceful setting",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "It's a quiet place that offers fresh products. The sandwiches are amazing. The staff is friendly. The room is peaceful and bright. This is the perfect place to take a break and relax.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 10862794,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 10568,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2023-03-31",
+                      "tripType": "NONE"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Food"
+                      }
+                    ],
+                    "photos": [
+                      {
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 677964857,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/68/ec/39/sandwich.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 3024,
+                            "maxHeight": 2268
+                          },
+                          "caption": "Sandwich",
+                          "albumId": 100,
+                          "statuses": [
+                            "PUBLISHED"
+                          ]
+                        }
+                      }
+                    ],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 553625633,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d10862794-r553625633-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 10862794,
+                      "name": "Barista Caf\u00e9 Wilhelminaplein",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2018-01-13",
+                    "publishedDate": "2018-01-14",
+                    "userProfile": {
+                      "id": "0D63BA0DB1F8B9A151926A04B585C33A",
+                      "isVerified": false,
+                      "displayName": "AndreaTomo6190",
+                      "username": "AndreaTomo6190",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452391715,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f3/23/default-avatar-2020-28.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/AndreaTomo6190"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 1
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": null,
+                    "title": "Best coffee!",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Best coffee in town! Good cookies and cakes, and very nice staff. I would absolutely recommend to visit this place. ",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 10862794,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 13091,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2018-01-31",
+                      "tripType": "NONE"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "routes": [
+              {
+                "webLinkUrl": "/ClientLink?value=MFVNXy9Vc2VyUmV2aWV3RWRpdC1nMTg4NjMyLWQxMDg2Mjc5NC1CYXJpc3RhX0NhZmVfV2lsaGVsbWluYXBsZWluLVJvdHRlcmRhbV9Tb3V0aF9Ib2xsYW5kX1Byb3ZpbmNlLmh0bWxfTEpm"
+              },
+              {
+                "webLinkUrl": "/ClientLink?value=ZWwwXy9Qb3N0UGhvdG9zLWQxMDg2Mjc5NF9TZVc%3D"
+              },
+              {
+                "webLinkUrl": "/reviews?locationId=10862794&screen=allreviews"
+              },
+              {
+                "webLinkUrl": "/photosandvideos?locationId=10862794"
+              }
+            ],
+            "reviewDrafts": [
+              []
+            ],
+            "ownerStatus": [
+              {
+                "userId": null,
+                "isOwnedByUser": false
+              }
+            ],
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "placeType": "EATERY",
+                "accommodationCategory": "HOTEL",
+                "locationId": 10862794,
+                "localizedName": "Barista Caf\u00e9 Wilhelminaplein",
+                "parentGeoId": 188632,
+                "currentUserOwnerStatus": null,
+                "topicCount": 0
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "count": 6
+                }
+              }
+            ],
+            "tipCountReviewsProxy": [
+              {
+                "responseData": {
+                  "locationTipsTotalCount": 0
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "restaurants_standard_listing_sp_label_redesign_1752519226",
+                    "bucket": "control"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "gtmData": {
+              "audienceIds": [],
+              "hashedPersistentCookie": "ZGVjNWI3NTVjODhjYmFjYjVlMGQ2MDQwYTNmOGE2NDUyMjVlYzRhNA",
+              "hashedPersistentCookieSegmentPOC": "ZGVjNWI3NTVjODhjYmFjYjVlMGQ2MDQwYTNmOGE2NDUyMjVlYzRhNA",
+              "hashedPersistentCookieSegmentMeta": "2c83343196874db6355b2c9d6869eca20586305a96b832377c7b7d96571b327c",
+              "hashedPersistentCookieSHA1": "693c6db3ea2b9090f9d6a54cae7a34a2acf996e0",
+              "hashedPersistentCookieSHA256": "1ce619e927aa4cb6728c4395b3e6b663fe50054c8628f9048ab0bb39abb28235",
+              "ipAddressCountry": "NL",
+              "locationData": {
+                "regionName": null,
+                "regionId": null,
+                "countryName": "The Netherlands",
+                "countryId": 188553,
+                "locationHierarchy": ":10862794:1:4:188553:188622:188632:",
+                "stateName": null,
+                "stateId": null,
+                "cityName": "Rotterdam"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "0d0e3794-bf4a-499b-bb0c-7d021d231207"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "8f058a2b-d4f7-4232-be5b-e6b65154a435"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "reduce_got_frequency_1751287771",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 0
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "QuestionsAndAnswers_getQuestionsByLocations": [
+              {
+                "questions": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_terms_page_test_2_1705078152",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "light_mode_on_got_1752783783",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_disable_auto_login_1714679068",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 1
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 7
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "baSubscriptions": [
+              {
+                "subscriptions": []
+              }
+            ],
+            "ownerStatus": [
+              {
+                "isOwnedByUser": false
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "locationId": 10862794,
+                "parents": [
+                  {
+                    "locationId": 188632
+                  },
+                  {
+                    "locationId": 188622
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "mapbox_maps_web_1726204927",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 2
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AdContext_deletePPIDUserData": [
+              {
+                "success": false,
+                "errorMessage": "Failed to delete PPID data - Received HTTP error code: 400 with no error message."
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 1000,
+                  "maxHeight": 700,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2d/40/95/keep-on-planning.jpg?w={width}&h={height}&s=1&cx=492&cy=358&chk=v1_f64df95338d294710736"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "parents": [
+                  {
+                    "locationId": 188622
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              },
+              {
+                "parents": [
+                  {
+                    "locationId": 188632
+                  },
+                  {
+                    "locationId": 188622
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 3
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "response": [
+              {
+                "randomContentList": [
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 676,
+                    "sponsorId": 297,
+                    "sponsorDisplayName": "Go T\u00fcrkiye",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 293969,
+                      "name": "T\u00fcrkiye",
+                      "stateAndCountryOrEquivalent": "Europe",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g293969-Turkiye-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/d7/4c/c8/caption.jpg?w={width}&h={height}&s=1&cx=2050&cy=1193&chk=v1_fcab07e6563fcfc3086c",
+                          "maxHeight": 1740,
+                          "maxWidth": 3000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "xvp2L5HhmiY",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "4 can\u2019t-miss neighborhoods in Buenos Aires",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "From hipster hangouts to design districts, these are the best areas to stay in Buenos Aires. "
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Chelsea Bengier"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/39/dc/42/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_f0dae188cdb85d83e09c",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lxvp2L5HhmiY-Where_to_stay_buenos_aires.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1395,
+                    "sponsorId": 103,
+                    "sponsorDisplayName": "Louisville Tourism",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 107792076,
+                      "tripContent": {
+                        "id": 107792076,
+                        "title": "The bourbon lover\u2019s guide to Louisville",
+                        "description": "No trip to Louisville is complete without a proper sampling of world-famous Kentucky Bourbon. From centuries-old distillers to newcomers with their own modern twists, here's where you can get a taste of America's only native spirit on your next trip. \n\nPlease drink responsibly.",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-c/2560x500/1d/c0/16/94/caption.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 2560,
+                            "maxHeight": 1506
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t107792076"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1980,
+                    "sponsorId": 511,
+                    "sponsorDisplayName": "Visit Dallas",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 30196,
+                      "name": "Austin",
+                      "stateAndCountryOrEquivalent": "Texas, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g30196-Austin_Texas-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/cd/04/caption.jpg?w={width}&h={height}&s=1&cx=1440&cy=949&chk=v1_1dc18af01397ba07dac9",
+                          "maxHeight": 1902,
+                          "maxWidth": 2880
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "y5sYhOH2D2E",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Black-owned guide to Barbados ",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Where to stay, eat, and play to support Black-owned businesses on the Caribbean island."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Chazeen Pemberton for TravelCoterie in partnership with Tripadvisor"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/07/85/ae/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_676b65ca82a30180891f",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-ly5sYhOH2D2E-Blacked_owned_businesses_barbados.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 897,
+                    "sponsorId": 522,
+                    "sponsorDisplayName": "Fort Myers \u2013 Islands, Beaches and Neighborhoods",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 123495323,
+                      "tripContent": {
+                        "id": 123495323,
+                        "title": "Head to Fort Myers for amazing outdoor adventures",
+                        "description": "Seeking adventure on your next vacation? Head to the greater Fort Myers area, where action-packed onshore and offshore activities are yours to enjoy year-round. Water sports, nature parks and wildlife excursions are just some of the highlights on this itinerary that is all about having fun in the sun.",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/f2/17/05/photo3jpg.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 2048,
+                            "maxHeight": 1365
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t123495323"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1356,
+                    "sponsorId": 295,
+                    "sponsorDisplayName": "Australia's Northern Territory",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 256205,
+                      "name": "Uluru-Kata Tjuta National Park",
+                      "stateAndCountryOrEquivalent": "Northern Territory, Australia",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g256205-Uluru_Kata_Tjuta_National_Park_Red_Centre_Northern_Territory-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/48/46/53/ayers-rock.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 402,
+                          "maxWidth": 604
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1449,
+                    "sponsorId": 313,
+                    "sponsorDisplayName": "Visit Music City",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 55229,
+                      "name": "Nashville",
+                      "stateAndCountryOrEquivalent": "Tennessee, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g55229-Nashville_Davidson_County_Tennessee-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/5e/12/59/caption.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1000,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 1822,
+                    "sponsorId": 267,
+                    "sponsorDisplayName": "Morocco",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 293730,
+                      "name": "Morocco",
+                      "stateAndCountryOrEquivalent": "Africa",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g293730-Morocco-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/fb/25/a5/caption.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 3840,
+                          "maxWidth": 5760
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1978,
+                    "sponsorId": 228,
+                    "sponsorDisplayName": "VisitGreenvilleSC",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "9sQ0XC2wQ2Y",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Why Greenville, SC is the perfect mix of adventure and luxury",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "There are few places that blend luxury and outdoor adventure like Greenville, South Carolina. The days (and mild weather) are made for adrenaline rushes of all types, while the region\u2019s spas, fine dining, and boutique properties serve up luxury experiences that last well into the evening. It\u2019s not hard to dive into a handful of the many treats on offer, and crafting an itinerary that incorporates a little bit of everything is how you\u2019ll find yourself with a Greenville-shaped spot forever in your heart."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/d7/cd/50/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_83d8b446260b444db10a",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l9sQ0XC2wQ2Y-Why_greenville_sc_is_the_perfect_mix_of_adventure_and_luxury.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 4
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "485fc3b4-e38a-417f-b57e-05fc201b7fa9"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "163e031c-b406-45e7-b098-6a559b21dc48"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 5
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "68617d8e-2c4c-4f48-b186-de70fe713534"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "5f35b6b3-3daa-4b78-ac0e-0aae0ea3215d"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "efbbff0d-ec6a-4d7b-a77b-0837ba4570ac"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "89d7bbe0-b8c6-40bf-8a12-8d0fcedd8036"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getLocationTips": [
+              {
+                "responseData": {
+                  "locationTips": []
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 6
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 6,
+                "reviews": [
+                  {
+                    "id": 930513157,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d10862794-r930513157-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 10862794,
+                      "name": "Barista Caf\u00e9 Wilhelminaplein",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2023-12-21",
+                    "publishedDate": "2023-12-21",
+                    "userProfile": {
+                      "id": "5F561929C6E39C3AF25F68CF83E2A704",
+                      "isVerified": false,
+                      "displayName": "Marcus",
+                      "username": "Adventure33751222158",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 683647918,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/bf/a3/ae/caption.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1044,
+                            "maxWidth": 1042
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 187331,
+                        "fallbackString": "187331",
+                        "location": {
+                          "locationId": 187331,
+                          "additionalNames": {
+                            "name": "Hamburg",
+                            "long": "Hamburg, Germany"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Adventure33751222158"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 152
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "MOBILE",
+                    "title": "Very good breakfast!",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Nice breakfast, good coffee and interesting items on the menu. We found that the barista breakfast could use some \u201emodularity\u201c since one of us would have liked more savory than sweet options.",
+                    "username": "Adventure33751222158",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 10862794,
+                    "helpfulVotes": 8,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2023-12-31",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 881437318,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d10862794-r881437318-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 10862794,
+                      "name": "Barista Caf\u00e9 Wilhelminaplein",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2023-03-08",
+                    "publishedDate": "2023-03-08",
+                    "userProfile": {
+                      "id": "6BAFEC6C10545B3A9D82D26774107DEF",
+                      "isVerified": false,
+                      "displayName": "Benoit",
+                      "username": "Benooit",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 42869175,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/8e/21/b7/benooit.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 450,
+                            "maxWidth": 395
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 635568,
+                        "fallbackString": "635568",
+                        "location": {
+                          "locationId": 635568,
+                          "additionalNames": {
+                            "name": "Asnieres-sur-Seine",
+                            "long": "Asnieres-sur-Seine, France"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Benooit"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 586
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": "OTHER",
+                    "title": "Fresh sandwiches in a peaceful setting",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "It's a quiet place that offers fresh products. The sandwiches are amazing. The staff is friendly. The room is peaceful and bright. This is the perfect place to take a break and relax.",
+                    "username": "Benooit",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 10862794,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 10568,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2023-03-31",
+                      "tripType": "NONE"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Food"
+                      }
+                    ],
+                    "photos": [
+                      {
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 677964857,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/68/ec/39/sandwich.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 3024,
+                            "maxHeight": 2268
+                          },
+                          "caption": "Sandwich",
+                          "albumId": 100,
+                          "statuses": [
+                            "PUBLISHED"
+                          ]
+                        }
+                      }
+                    ],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 645099156,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d10862794-r645099156-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 10862794,
+                      "name": "Barista Caf\u00e9 Wilhelminaplein",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2019-01-11",
+                    "publishedDate": "2019-01-11",
+                    "userProfile": {
+                      "id": "61479FDE0FA8F13C3906B18C6698A3DF",
+                      "isVerified": false,
+                      "displayName": "Frans",
+                      "username": "Zeeuwswereldreiziger",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 401228256,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/ea/41/e0/zeeuwswereldreiziger.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 634,
+                            "maxWidth": 634
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188621,
+                        "fallbackString": "188621",
+                        "location": {
+                          "locationId": 188621,
+                          "additionalNames": {
+                            "name": "Vlissingen",
+                            "long": "Vlissingen, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Zeeuwswereldreiziger"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 263
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": "OTHER",
+                    "title": "Verborgen topper om goed te lunchen",
+                    "language": "nl",
+                    "originalLanguage": "nl",
+                    "text": "Meerdere keren bezocht. Uitstekende plek om te lunchen of voor een lekker kopje koffie. Uitstekende broodjes voor prima prijs. Vlotte vriendelijke bediening. Leuk ingericht. ",
+                    "username": "FranssD58",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 10862794,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2019-01-31",
+                      "tripType": "FRIENDS"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 567741276,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d10862794-r567741276-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 10862794,
+                      "name": "Barista Caf\u00e9 Wilhelminaplein",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2018-03-20",
+                    "publishedDate": "2018-03-20",
+                    "userProfile": {
+                      "id": "611D69386053530DA3044B36CBD0F3BC",
+                      "isVerified": false,
+                      "displayName": "Jasper",
+                      "username": "Tjabbo13",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 243326926,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/80/df/ce/tjabbo13.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 682,
+                            "maxWidth": 682
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 3861194,
+                        "fallbackString": "3861194",
+                        "location": {
+                          "locationId": 3861194,
+                          "additionalNames": {
+                            "name": "Hendrik-Ido-Ambacht",
+                            "long": "Hendrik-Ido-Ambacht, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Tjabbo13"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 695
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": "MOBILE",
+                    "title": "Verrassing",
+                    "language": "nl",
+                    "originalLanguage": "nl",
+                    "text": "Erg verrassend en lekker geluncht. Zeker onder werktijd is het ook een goede optie want ligt pal naast de in- en uitgang van metrostation. ",
+                    "username": "Tjabbo13",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 10862794,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2018-03-31",
+                      "tripType": "FRIENDS"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 553625633,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d10862794-r553625633-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 10862794,
+                      "name": "Barista Caf\u00e9 Wilhelminaplein",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2018-01-13",
+                    "publishedDate": "2018-01-13",
+                    "userProfile": {
+                      "id": "0D63BA0DB1F8B9A151926A04B585C33A",
+                      "isVerified": false,
+                      "displayName": "AndreaTomo6190",
+                      "username": "AndreaTomo6190",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452391715,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f3/23/default-avatar-2020-28.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/AndreaTomo6190"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 1
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": "MOBILE",
+                    "title": "Best coffee!",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Best coffee in town! Good cookies and cakes, and very nice staff. I would absolutely recommend to visit this place. ",
+                    "username": "AndreaTomo6190",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 10862794,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 13091,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2018-01-31",
+                      "tripType": "NONE"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 458245409,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d10862794-r458245409-Barista_Cafe_Wilhelminaplein-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 10862794,
+                      "name": "Barista Caf\u00e9 Wilhelminaplein",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2017-02-09",
+                    "publishedDate": "2017-02-09",
+                    "userProfile": {
+                      "id": "309927DB8AA2C9EDEBF2CA7E3635BD67",
+                      "isVerified": false,
+                      "displayName": "janenjan",
+                      "username": "janenjan",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 230653739,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/bf/7f/2b/janenjan.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1024,
+                            "maxWidth": 1024
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188618,
+                        "fallbackString": "188618",
+                        "location": {
+                          "locationId": 188618,
+                          "additionalNames": {
+                            "name": "Middelburg",
+                            "long": "Middelburg, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/janenjan"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 37
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": "MOBILE",
+                    "title": "Lunch",
+                    "language": "nl",
+                    "originalLanguage": "nl",
+                    "text": "Lekkere lunch in leuke omgeving met erg leuke, vriendelijke medewerkers. \nLeuke gevarieerde kaart met dagverse taart en versnaperingen. \nEchte aanrader! ",
+                    "username": "JanenJan",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 10862794,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2017-02-28",
+                      "tripType": "SOLO"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 7
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 8
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "a198d633-7a4a-4684-99c8-e78256e63e36"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "461824a4-4ffe-451c-9045-06fc27c75710"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "f9b5f3b0-91e5-4dc7-b8d6-6c67447dc846"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "5bb36f86-c041-4342-b245-5446ce27afdf"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "3abf072c-198e-4844-8bda-d8132894b9ec"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 9
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "e88a3f94-4dc0-441f-9391-b3787a3b3c04"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "c371ad3d-38b9-4846-8afa-87671fd778de"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "da2e94bf-5760-4e80-8953-d20b72ee516f"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "d90bb599-419f-4367-80a8-b1471f9646a2"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 10
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 11
+    }
+  ],
+  "statistics": {
+    "total_graphql_responses": 12,
+    "has_jsonld_data": true,
+    "has_website_url": true,
+    "has_phone_number": true,
+    "has_cuisines": true,
+    "has_meal_types": false,
+    "has_features": true,
+    "has_special_diets": false,
+    "has_hours": false,
+    "error_count": 0
+  },
+  "api_update_success": true,
+  "timestamp": "2025-09-24T16:54:22.939694"
+}

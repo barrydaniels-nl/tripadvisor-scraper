@@ -1,0 +1,2084 @@
+{
+  "restaurant_id": 756865,
+  "restaurant_name": "INCONCEPTcafe",
+  "tripadvisor_url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d19940102-Reviews-INCONCEPTcafe-Rotterdam_South_Holland_Province.html?m=69411",
+  "website_url": "http://inconcept.nl/?page_id=111",
+  "phone_number": "+31 10 226 2290",
+  "cuisines": [
+    "Dutch",
+    "European",
+    "Asian",
+    "Indonesian"
+  ],
+  "meal_types": null,
+  "features": [
+    "Dutch",
+    "European",
+    "Asian",
+    "Indonesian"
+  ],
+  "special_diets": null,
+  "hours": null,
+  "scrape_status": "success",
+  "errors": [],
+  "jsonld_data": {
+    "name": "INCONCEPTcafe",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/39/inconceptcafe.jpg?w=500&h=-1&s=1",
+    "priceRange": "$",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d19940102-Reviews-INCONCEPTcafe-Rotterdam_South_Holland_Province.html",
+    "website": "http://inconcept.nl/?page_id=111",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.9215,
+      "longitude": 4.478692
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "NL"
+      },
+      "streetAddress": "Coolsingel 83",
+      "addressLocality": "Rotterdam",
+      "postalCode": "3012 AE"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 1
+    },
+    "raw_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/39/inconceptcafe.jpg?w=500&h=-1&s=1",
+      "name": "INCONCEPTcafe",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.9215,
+        "longitude": 4.478692
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "NL"
+        },
+        "streetAddress": "Coolsingel 83",
+        "addressLocality": "Rotterdam",
+        "postalCode": "3012 AE"
+      },
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d19940102-Reviews-INCONCEPTcafe-Rotterdam_South_Holland_Province.html",
+      "priceRange": "$"
+    },
+    "phone": "+31 10 226 2290",
+    "cuisines": [
+      "Dutch",
+      "European",
+      "Asian",
+      "Indonesian"
+    ],
+    "features": [
+      "Dutch",
+      "European",
+      "Asian",
+      "Indonesian"
+    ],
+    "price": "$"
+  },
+  "graphql_responses": [
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "gtmData": {
+              "audienceIds": [],
+              "hashedPersistentCookie": "OTI1MTJmNmFjNWU2MjZiMDdlZGMxZWRmN2I2MWQ5YTc3OTMzOTNhNQ",
+              "hashedPersistentCookieSegmentPOC": "OTI1MTJmNmFjNWU2MjZiMDdlZGMxZWRmN2I2MWQ5YTc3OTMzOTNhNQ",
+              "hashedPersistentCookieSegmentMeta": "ddbf23b8415138440e83280f103b35f485dd94614fb7c9ec12a34374c6c06815",
+              "hashedPersistentCookieSHA1": "8932c87a685e2b7c3df97e8c79ebca88b5cf6523",
+              "hashedPersistentCookieSHA256": "fc1c8acfc71452d137aff835310d79ea3a1ecb7b60ff035cdc8abb49a1339c1f",
+              "ipAddressCountry": "NL",
+              "locationData": {
+                "regionName": null,
+                "regionId": null,
+                "countryName": "The Netherlands",
+                "countryId": 188553,
+                "locationHierarchy": ":19940102:1:4:188553:188622:188632:",
+                "stateName": null,
+                "stateId": null,
+                "cityName": "Rotterdam"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "25d48f8d-ad64-4358-b3e5-05fb0cafaf79"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "EatImpressionTracking_logImpressions": [
+              "ee31a9fe-cd9a-4957-b336-c0fce0a2e22a"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "EatImpressionTracking_logImpressions"
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "reviewAggregations": {
+                  "ratingCounts": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "rating": 5,
+                  "count": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "restaurantSubratingsData": {
+              "restaurants": [
+                {
+                  "sub_ratings": {
+                    "atmosphere": null,
+                    "food": null,
+                    "service": null,
+                    "value": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "mediaAlbum": {
+              "album": {
+                "albumId": 107,
+                "totalMediaCount": 5
+              }
+            },
+            "mediaAlbumPage": {
+              "mediaList": [
+                {
+                  "mediaId": 448210749,
+                  "caption": "Inconceptcaf\u00e9",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/3d/inconceptcafe.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/b7/27/3d/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/b7/27/3d/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/1a/b7/27/3d/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 207,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/b7/27/3d/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 455,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/b7/27/3d/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 960,
+                      "height": 950,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/3d/inconceptcafe.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 448210748,
+                  "caption": "Inconceptcaf\u00e9",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/3c/inconceptcafe.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/b7/27/3c/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/b7/27/3c/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 170,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/b7/27/3c/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/1a/b7/27/3c/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 374,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/b7/27/3c/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 532,
+                      "height": 640,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/3c/inconceptcafe.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 448210747,
+                  "caption": "Inconceptcaf\u00e9",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/3b/inconceptcafe.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/b7/27/3b/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/b7/27/3b/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/1a/b7/27/3b/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 193,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/b7/27/3b/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 423,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/b7/27/3b/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 586,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-p/1a/b7/27/3b/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 601,
+                      "height": 640,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/3b/inconceptcafe.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 448210746,
+                  "caption": "Inconceptcaf\u00e9",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/3a/inconceptcafe.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/b7/27/3a/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/b7/27/3a/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/1a/b7/27/3a/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 250,
+                      "height": 166,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/b7/27/3a/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 366,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/b7/27/3a/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 960,
+                      "height": 639,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/3a/inconceptcafe.jpg"
+                    }
+                  ]
+                },
+                {
+                  "mediaId": 448210745,
+                  "caption": "Inconceptcaf\u00e9",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/39/inconceptcafe.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/b7/27/39/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/b7/27/39/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/1a/b7/27/39/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 205,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/b7/27/39/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 450,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/b7/27/39/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 550,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-p/1a/b7/27/39/inconceptcafe.jpg"
+                    },
+                    {
+                      "width": 640,
+                      "height": 640,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/b7/27/39/inconceptcafe.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "keywords": [
+              {
+                "responseData": {
+                  "keywords": []
+                }
+              }
+            ],
+            "reviewAggregations": [
+              {
+                "locationId": 19940102,
+                "overallRating": 5,
+                "reviewCount": 1,
+                "alertStatusCount": 0,
+                "reviewCountByRating": {
+                  "oneRatingCount": 0,
+                  "twoRatingCount": 0,
+                  "threeRatingCount": 0,
+                  "fourRatingCount": 0,
+                  "fiveRatingCount": 1
+                },
+                "reviewCountByLanguage": [
+                  {
+                    "language": "nl",
+                    "count": 1
+                  }
+                ],
+                "nativeAndTransByLanguage": [
+                  {
+                    "language": "nl",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 0,
+                "reviews": [],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "routes": [
+              {
+                "webLinkUrl": "/ClientLink?value=VUxwXy9Vc2VyUmV2aWV3RWRpdC1nMTg4NjMyLWQxOTk0MDEwMi1JTkNPTkNFUFRjYWZlLVJvdHRlcmRhbV9Tb3V0aF9Ib2xsYW5kX1Byb3ZpbmNlLmh0bWxfNTdw"
+              },
+              {
+                "webLinkUrl": "/ClientLink?value=Nkx6Xy9Qb3N0UGhvdG9zLWQxOTk0MDEwMl9uOHY%3D"
+              },
+              {
+                "webLinkUrl": "/reviews?locationId=19940102&screen=allreviews"
+              },
+              {
+                "webLinkUrl": "/photosandvideos?locationId=19940102"
+              }
+            ],
+            "reviewDrafts": [
+              []
+            ],
+            "ownerStatus": [
+              {
+                "userId": null,
+                "isOwnedByUser": false
+              }
+            ],
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "placeType": "EATERY",
+                "accommodationCategory": "HOTEL",
+                "locationId": 19940102,
+                "localizedName": "INCONCEPTcafe",
+                "parentGeoId": 188632,
+                "currentUserOwnerStatus": null,
+                "topicCount": 0
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "count": 1
+                }
+              }
+            ],
+            "tipCountReviewsProxy": [
+              {
+                "responseData": {
+                  "locationTipsTotalCount": 0
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "restaurants_standard_listing_sp_label_redesign_1752519226",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "8ec22b6b-b7da-4968-b4f9-21a496313a79"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 0
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "QuestionsAndAnswers_getQuestionsByLocations": [
+              {
+                "questions": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "reduce_got_frequency_1751287771",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_terms_page_test_2_1705078152",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "light_mode_on_got_1752783783",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_disable_auto_login_1714679068",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 1
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "mapbox_maps_web_1726204927",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 2
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "85ea19f8-be22-42da-8de9-48dea1775c89"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "90d6f004-fc8b-47b3-98da-7eb46476a32f"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 3
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 1000,
+                  "maxHeight": 700,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2d/40/95/keep-on-planning.jpg?w={width}&h={height}&s=1&cx=492&cy=358&chk=v1_f64df95338d294710736"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "parents": [
+                  {
+                    "locationId": 188622
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              },
+              {
+                "parents": [
+                  {
+                    "locationId": 188632
+                  },
+                  {
+                    "locationId": 188622
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 4
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "response": [
+              {
+                "randomContentList": [
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 1980,
+                    "sponsorId": 511,
+                    "sponsorDisplayName": "Visit Dallas",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 30196,
+                      "name": "Austin",
+                      "stateAndCountryOrEquivalent": "Texas, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g30196-Austin_Texas-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/cd/04/caption.jpg?w={width}&h={height}&s=1&cx=1440&cy=949&chk=v1_1dc18af01397ba07dac9",
+                          "maxHeight": 1902,
+                          "maxWidth": 2880
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1958,
+                    "sponsorId": 511,
+                    "sponsorDisplayName": "Visit Dallas",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 30183,
+                      "name": "Arlington",
+                      "stateAndCountryOrEquivalent": "Texas, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g30183-Arlington_Texas-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/1e/c9/79/globe-life-park.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 3024,
+                          "maxWidth": 4032
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1822,
+                    "sponsorId": 267,
+                    "sponsorDisplayName": "Morocco",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 293730,
+                      "name": "Morocco",
+                      "stateAndCountryOrEquivalent": "Africa",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g293730-Morocco-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/fb/25/a5/caption.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 3840,
+                          "maxWidth": 5760
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1984,
+                    "sponsorId": 791,
+                    "sponsorDisplayName": "Universal Horror Unleashed",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 45963,
+                      "name": "Las Vegas",
+                      "stateAndCountryOrEquivalent": "Nevada, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g45963-Las_Vegas_Nevada-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/34/2d/28/caption.jpg?w={width}&h={height}&s=1&cx=662&cy=604&chk=v1_8984ddf3493edfb8c896",
+                          "maxHeight": 1328,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1960,
+                    "sponsorId": 785,
+                    "sponsorDisplayName": "Australian Open",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "JGupoAQp3gg",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your Ultimate Melbourne Summer with AO Travel & Experiences Packages",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "It\u2019s game, set, and a winning Melbourne adventure for tennis fans heading to the Australian Open in January. With AO Travel & Experiences - the official travel provider of the AO - you\u2019ll make the most of every break in play, stepping beyond the court to discover everything the vibrant city of Melbourne has to offer."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/f0/5a/04/caption.jpg?w={width}&h={height}&s=1&cx=3884&cy=2752&chk=v1_1036d134da96a6ea9666",
+                                "maxWidth": 7768,
+                                "maxHeight": 5504
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lJGupoAQp3gg-Your_ultimate_melbourne_summer_with_ao_travel_experiences_packages.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1981,
+                    "sponsorId": 237,
+                    "sponsorDisplayName": "San Diego Tourism",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 153876754,
+                      "tripContent": {
+                        "id": 153876754,
+                        "title": "Discover San Diego's top spots for family fun",
+                        "description": "\"We used Visit San Diego & Tripadvisor's AI trip generator to create the most fun, family adventure itinerary for our trip to San Diego! From thrill rides and fun games at Belmont Park and LEGOLAND California, to beautiful views at Mission Beach to activities at Mission Bay Resort. We played, explored, and enjoyed delicious meals at top restaurants. So many unforgettable family moments on this vacation!\" \u2014partyof4sometimes2",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c9/62/b2/caption.jpg?w={width}&h={height}&s=1&cx=960&cy=640&chk=v1_4980f8958312dde2edce",
+                            "maxWidth": 1920,
+                            "maxHeight": 1282
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t153876754"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/34/b3/30/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 2253,
+                        "maxHeight": 2816
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/34/b3/39/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 2253,
+                        "maxHeight": 2816
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 1490,
+                    "sponsorId": 621,
+                    "sponsorDisplayName": "Travel Costa Mesa",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 32253,
+                      "name": "Costa Mesa",
+                      "stateAndCountryOrEquivalent": "California, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g32253-Costa_Mesa_California-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/4c/65/fe/tewinkle-park-a-pretty.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1500,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1409,
+                    "sponsorId": 244,
+                    "sponsorDisplayName": "Visit Galveston",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 1887325,
+                      "name": "Galveston Island",
+                      "stateAndCountryOrEquivalent": "Texas, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g1887325-Galveston_Island_Texas-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/64/cb/75/the-seawall.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1328,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1817,
+                    "sponsorId": 748,
+                    "sponsorDisplayName": "Costa Sunglasses",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "Es2HHEB5O8I",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": null,
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "It\u2019s a privilege to visit the world\u2019s most beautiful oceans. Celebrate World Oceans Day by learning how to protect them."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/1d/23/0c/caption.jpg?w={width}&h={height}&s=1",
+                                "maxWidth": 3840,
+                                "maxHeight": 1200
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lEs2HHEB5O8I-5_stunning_ocean_destinationsand_how_you_can_help_protect_them.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1973,
+                    "sponsorId": 268,
+                    "sponsorDisplayName": "North Myrtle Beach",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "8V6THhYwiF8",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Family fun in North Myrtle Beach: the ultimate trip planner",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "From laid-back beach days to sweet memories, find more of what your family loves in North Myrtle Beach. Its sun-drenched shores and easygoing pace offer a well-deserved break for always-on parents and busy kids. "
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/af/fb/64/caption.jpg?w={width}&h={height}&s=1&cx=960&cy=540&chk=v1_41ae16481247c815997a",
+                                "maxWidth": 1920,
+                                "maxHeight": 1080
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l8V6THhYwiF8-Family_fun_in_north_myrtle_beach_the_ultimate_trip_planner.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "ICvBpnjzCJM",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "10 toiletry bags to keep you organized on your travels",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Zip up your personal care routine in these versatile cases."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Rachel Chang"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/df/72/d1/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_b8245ecf5045ce956acb",
+                                "maxWidth": 3840,
+                                "maxHeight": 2161
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lICvBpnjzCJM-Best_travel_toiletry_bags.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 5
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "c7fe4f00-7ea9-48a1-8998-3f3c90dfa3d1"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 6
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "data": {
+              "hashedPersistentCookieSHA256": "fc1c8acfc71452d137aff835310d79ea3a1ecb7b60ff035cdc8abb49a1339c1f"
+            }
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "app_interstitial_tactic3_restaurants_1711980365",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 7
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "braze_membership_us_mw_dw_attr_rest_1754600310",
+                    "bucket": "Interstitial"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 8
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "PlacementManager_getPlacementById": [
+              {
+                "variantConfig": {
+                  "topImageModalInterstitialV2": null,
+                  "leftImageModalInterstitialV2": {
+                    "description": {
+                      "localizedString": "It pays to plan, book, and share with Tripadvisor Rewards. Join now (it\u2019s free!) to claim your Welcome Offer."
+                    },
+                    "image": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b0/20/3e/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 768,
+                        "maxHeight": 1000
+                      }
+                    },
+                    "primaryButton": {
+                      "localizedString": "Learn more"
+                    },
+                    "primaryButtonLink": "https://tripadvisor.onelink.me/dIWJ/l4mwucnd",
+                    "secondaryButton": {
+                      "localizedString": null
+                    },
+                    "secondaryButtonLink": "",
+                    "logoMediaSource": "",
+                    "title": {
+                      "localizedString": "Take $30 off Things to Do in Rotterdam"
+                    },
+                    "autoAppliedPromoCode": "",
+                    "autoAppliedPromoCodeTermsUrl": "",
+                    "autoAppliedPromoCodeReplacementTitle": {
+                      "localizedString": null
+                    },
+                    "autoAppliedPromoCodeReplacementDescription": {
+                      "localizedString": null
+                    },
+                    "autoAppliedPromoCodeReplacementButton": {
+                      "localizedString": null
+                    }
+                  },
+                  "stickyFooterV2": null,
+                  "nudgeInterstitial": null,
+                  "floatingBottomBanner": null,
+                  "promoBannerCard": null,
+                  "bottomSheet": null
+                },
+                "placementConfig": {
+                  "topImageModalInterstitial": null,
+                  "leftImageModalInterstitial": null,
+                  "stickyFooter": null
+                },
+                "templateType": "LEFT_IMAGE_MODAL_INTERSTITIAL_V2",
+                "displayName": "Membership_OSM_App_v1_mw-dw_A-AR-R-RR_Q3_2025__EN-US",
+                "variantId": 2
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 9
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "PlacementManager_logMetrics": [
+              "Ok"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "PlacementManager_logMetrics"
+            ]
+          }
+        }
+      ],
+      "timestamp": 10
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "a86365ed-00ee-4843-bf43-d64046a4bd1b"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "1735a6ee-f2c5-432f-aa7d-8a62ba75b452"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "607d4d7f-9723-43c5-8bbd-0a5fab9adc36"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "306213d8-a40e-4b2b-b36e-ab5ce03067ef"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "10e269bb-f948-44d6-b41d-8d06f39c7692"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getLocationTips": [
+              {
+                "responseData": {
+                  "locationTips": []
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "ab08f549-c8f0-4a99-b42f-06556d19ce68"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "6e7078af-a303-41aa-89fe-a8120a6abc20"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "5150ea6a-172b-4949-8547-2a1776aa8233"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 11
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 12
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "b23c5616-b648-4dc1-ac0f-18672eeceda4"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "ca2a3b09-c45d-4ea7-a7c3-b86de5919d2e"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "352945e9-c1d2-4522-b89a-f8602102174c"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "1f414f9c-4069-43da-a5c1-8f7f64b0d131"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "7bcf1a37-3af4-4a9c-943a-9322bc9ec30d"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 13
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "82a8db33-9f31-4693-9cdc-9d2fd5ed29de"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 14
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__typedAddEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__typedAddEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 15
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "2351450b-e827-483f-8bf5-0d337b063971"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "df622ce7-3fc3-452a-a652-b89591130404"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "60189aab-0f07-49b2-9d07-b87af131e983"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "0c2c192c-462a-4331-8fc5-3b71bb2d1196"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "8133ef33-8275-4e3a-afb7-0cf2c5671c28"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 16
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 17
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 18
+    }
+  ],
+  "statistics": {
+    "total_graphql_responses": 19,
+    "has_jsonld_data": true,
+    "has_website_url": true,
+    "has_phone_number": true,
+    "has_cuisines": true,
+    "has_meal_types": false,
+    "has_features": true,
+    "has_special_diets": false,
+    "has_hours": false,
+    "error_count": 0
+  },
+  "api_update_success": true,
+  "timestamp": "2025-09-24T16:44:37.183659"
+}

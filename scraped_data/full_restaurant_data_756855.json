@@ -1,0 +1,3744 @@
+{
+  "restaurant_id": 756855,
+  "restaurant_name": "YoYo! Fresh Tea Bar - Markthal",
+  "tripadvisor_url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d7148423-Reviews-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html?m=69411",
+  "website_url": "http://www.yoyotea.nl/",
+  "phone_number": null,
+  "cuisines": null,
+  "meal_types": [
+    "Lunch",
+    "Dinner"
+  ],
+  "features": [
+    "Wheelchair Accessible"
+  ],
+  "special_diets": null,
+  "hours": {
+    "Sunday": "12:00 PM - 6:00 PM",
+    "Monday": "12:00 PM - 8:00 PM",
+    "Tuesday": "12:00 PM - 8:00 PM",
+    "Wednesday": "12:00 PM - 8:00 PM",
+    "Thursday": "12:00 PM - 8:00 PM",
+    "Friday": "12:00 PM - 9:00 PM",
+    "Saturday": "12:00 PM - 8:00 PM"
+  },
+  "scrape_status": "success",
+  "errors": [],
+  "jsonld_data": {
+    "name": "YoYo! Fresh Tea Bar - Markthal",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c8/11/2a/yoyo-fresh-tea-bar-markthal.jpg?w=500&h=-1&s=1",
+    "priceRange": "$",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d7148423-Reviews-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html",
+    "website": "http://www.yoyotea.nl/",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.919815,
+      "longitude": 4.486277
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "NL"
+      },
+      "streetAddress": "Ds. Jan Scharpstraat 298 Unit 88",
+      "addressLocality": "Rotterdam",
+      "postalCode": "3011 GZ"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.1,
+      "reviewCount": 16
+    },
+    "raw_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c8/11/2a/yoyo-fresh-tea-bar-markthal.jpg?w=500&h=-1&s=1",
+      "name": "YoYo! Fresh Tea Bar - Markthal",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.919815,
+        "longitude": 4.486277
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.1,
+        "reviewCount": 16
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "NL"
+        },
+        "streetAddress": "Ds. Jan Scharpstraat 298 Unit 88",
+        "addressLocality": "Rotterdam",
+        "postalCode": "3011 GZ"
+      },
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d7148423-Reviews-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html",
+      "priceRange": "$"
+    },
+    "meal_types": [
+      "Lunch",
+      "Dinner"
+    ],
+    "features": [
+      "Wheelchair Accessible"
+    ],
+    "price": "$",
+    "hours": {
+      "Sunday": "12:00 PM - 6:00 PM",
+      "Monday": "12:00 PM - 8:00 PM",
+      "Tuesday": "12:00 PM - 8:00 PM",
+      "Wednesday": "12:00 PM - 8:00 PM",
+      "Thursday": "12:00 PM - 8:00 PM",
+      "Friday": "12:00 PM - 9:00 PM",
+      "Saturday": "12:00 PM - 8:00 PM"
+    }
+  },
+  "graphql_responses": [
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "gtmData": {
+              "audienceIds": [],
+              "hashedPersistentCookie": "ZGUzMTI3N2E1ODkxNzdmOGNkZWU4NDgyNzdlOTljNjEzZDg2ZjIxZA",
+              "hashedPersistentCookieSegmentPOC": "ZGUzMTI3N2E1ODkxNzdmOGNkZWU4NDgyNzdlOTljNjEzZDg2ZjIxZA",
+              "hashedPersistentCookieSegmentMeta": "cac8dd5f132dafc716149ce2b37e3580f8e52af05bb8f57308f8cf950342edc4",
+              "hashedPersistentCookieSHA1": "e3186530d53772eb82d0636fc9237ca5522253ca",
+              "hashedPersistentCookieSHA256": "0eeb00d381f41d9fd726e464b099dfa3cd4e03ddb31efca45caf8e21745b9e2e",
+              "ipAddressCountry": "NL",
+              "locationData": {
+                "regionName": null,
+                "regionId": null,
+                "countryName": "The Netherlands",
+                "countryId": 188553,
+                "locationHierarchy": ":7148423:1:4:188553:188622:188632:",
+                "stateName": null,
+                "stateId": null,
+                "cityName": "Rotterdam"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "09dd2e42-04a6-44ff-a80e-37bff886754e"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "EatImpressionTracking_logImpressions": [
+              "b3e62fde-53c2-4c28-9b23-d3b966fb287e"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "EatImpressionTracking_logImpressions"
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "reviewAggregations": {
+                  "ratingCounts": [
+                    1,
+                    0,
+                    1,
+                    9,
+                    5
+                  ]
+                }
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "rating": 4.1,
+                  "count": 16
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "restaurantSubratingsData": {
+              "restaurants": [
+                {
+                  "sub_ratings": {
+                    "atmosphere": null,
+                    "food": null,
+                    "service": 4.4,
+                    "value": 4
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "mediaAlbum": {
+              "album": {
+                "albumId": 107,
+                "totalMediaCount": 1
+              }
+            },
+            "mediaAlbumPage": {
+              "mediaList": [
+                {
+                  "mediaId": 195108768,
+                  "caption": "YoYo! Fresh Tea Bar - Markthal",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/a1/1f/a0/yoyo-fresh-tea-bar-markthal.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/0b/a1/1f/a0/yoyo-fresh-tea-bar-markthal.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/0b/a1/1f/a0/yoyo-fresh-tea-bar-markthal.jpg"
+                    },
+                    {
+                      "width": 154,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/0b/a1/1f/a0/yoyo-fresh-tea-bar-markthal.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/0b/a1/1f/a0/yoyo-fresh-tea-bar-markthal.jpg"
+                    },
+                    {
+                      "width": 338,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/0b/a1/1f/a0/yoyo-fresh-tea-bar-markthal.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 733,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-p/0b/a1/1f/a0/yoyo-fresh-tea-bar-markthal.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 1365,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/0b/a1/1f/a0/yoyo-fresh-tea-bar-markthal.jpg"
+                    },
+                    {
+                      "width": 1536,
+                      "height": 2048,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/0b/a1/1f/a0/yoyo-fresh-tea-bar-markthal.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "keywords": [
+              {
+                "responseData": {
+                  "keywords": []
+                }
+              }
+            ],
+            "reviewAggregations": [
+              {
+                "locationId": 7148423,
+                "overallRating": 4.1,
+                "reviewCount": 16,
+                "alertStatusCount": 0,
+                "reviewCountByRating": {
+                  "oneRatingCount": 1,
+                  "twoRatingCount": 0,
+                  "threeRatingCount": 1,
+                  "fourRatingCount": 9,
+                  "fiveRatingCount": 5
+                },
+                "reviewCountByLanguage": [
+                  {
+                    "language": "pt",
+                    "count": 1
+                  },
+                  {
+                    "language": "in",
+                    "count": 1
+                  },
+                  {
+                    "language": "zhTW",
+                    "count": 2
+                  },
+                  {
+                    "language": "en",
+                    "count": 6
+                  },
+                  {
+                    "language": "nl",
+                    "count": 6
+                  }
+                ],
+                "nativeAndTransByLanguage": [
+                  {
+                    "language": "de",
+                    "count": 5
+                  },
+                  {
+                    "language": "no",
+                    "count": 5
+                  },
+                  {
+                    "language": "fi",
+                    "count": 3
+                  },
+                  {
+                    "language": "ru",
+                    "count": 5
+                  },
+                  {
+                    "language": "pt",
+                    "count": 5
+                  },
+                  {
+                    "language": "zhTW",
+                    "count": 7
+                  },
+                  {
+                    "language": "fr",
+                    "count": 4
+                  },
+                  {
+                    "language": "hu",
+                    "count": 3
+                  },
+                  {
+                    "language": "sk",
+                    "count": 3
+                  },
+                  {
+                    "language": "sr",
+                    "count": 3
+                  },
+                  {
+                    "language": "zhCN",
+                    "count": 7
+                  },
+                  {
+                    "language": "sv",
+                    "count": 5
+                  },
+                  {
+                    "language": "ko",
+                    "count": 4
+                  },
+                  {
+                    "language": "in",
+                    "count": 6
+                  },
+                  {
+                    "language": "el",
+                    "count": 5
+                  },
+                  {
+                    "language": "en",
+                    "count": 7
+                  },
+                  {
+                    "language": "it",
+                    "count": 5
+                  },
+                  {
+                    "language": "es",
+                    "count": 5
+                  },
+                  {
+                    "language": "iw",
+                    "count": 3
+                  },
+                  {
+                    "language": "cs",
+                    "count": 3
+                  },
+                  {
+                    "language": "ar",
+                    "count": 5
+                  },
+                  {
+                    "language": "vi",
+                    "count": 3
+                  },
+                  {
+                    "language": "th",
+                    "count": 5
+                  },
+                  {
+                    "language": "ja",
+                    "count": 4
+                  },
+                  {
+                    "language": "pl",
+                    "count": 5
+                  },
+                  {
+                    "language": "da",
+                    "count": 5
+                  },
+                  {
+                    "language": "nl",
+                    "count": 11
+                  },
+                  {
+                    "language": "tr",
+                    "count": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 7,
+                "reviews": [
+                  {
+                    "id": 928246536,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r928246536-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2023-12-03",
+                    "publishedDate": "2023-12-03",
+                    "userProfile": {
+                      "id": "EBD477C6992A680768A7D8189F81EB17",
+                      "isVerified": false,
+                      "displayName": "Dreamer43667289588",
+                      "username": "Dreamer43667289588",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452388900,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e8/24/default-avatar-2020-60.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": null,
+                        "fallbackString": null,
+                        "location": null
+                      },
+                      "route": {
+                        "url": "/Profile/Dreamer43667289588"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 2
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": null,
+                    "title": "Best bubble tea!",
+                    "language": "en",
+                    "originalLanguage": "nl",
+                    "text": "Delicious bubble tea with friendly employees. Taro milk tea with tapioca is highly recommended.\nYoyo market hall",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": "MACHINE",
+                    "mtProviderId": 5,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2023-12-31",
+                      "tripType": "SOLO"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 679661928,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r679661928-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2019-06-07",
+                    "publishedDate": "2019-06-07",
+                    "userProfile": {
+                      "id": "63FF0DAC89310B9336965C5CD7FFA8DC",
+                      "isVerified": false,
+                      "displayName": "Mochi",
+                      "username": "mochich",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452386535,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/e7/default-avatar-2020-37.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/mochich"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 11
+                      }
+                    },
+                    "rating": 1,
+                    "publishPlatform": null,
+                    "title": "Always out of boba",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "They are most of the time out of boba and they have zero flexibility. Also the taste of the bubble teas are way too sweat and it consists 1/3 of ice cubes. Some drinks are available without ice tho.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 1,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2019-05-31",
+                      "tripType": "NONE"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 624681525,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r624681525-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2018-10-14",
+                    "publishedDate": "2018-10-14",
+                    "userProfile": {
+                      "id": "C84B8BCCCE107C0F0B7382FABB0EEEF0",
+                      "isVerified": false,
+                      "displayName": "Drew KM",
+                      "username": "kornvadrew",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 134062583,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/fd/a1/f7/kornvalee-m.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 50,
+                            "maxWidth": 50
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/kornvadrew"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 13
+                      }
+                    },
+                    "rating": 3,
+                    "publishPlatform": null,
+                    "title": "Nice taste but should reduce plastic wastes",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Nice various kind of drinks in combination with bubble topping. Good taste. Quick serve. Anyway, they didn\u2019t accept to serve in my own cup that I brought. So you cannot help reduce plastic use here.\n",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2018-10-31",
+                      "tripType": "NONE"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 491277607,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r491277607-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2017-06-07",
+                    "publishedDate": "2017-06-08",
+                    "userProfile": {
+                      "id": "98D6C629A06E6A974C904695A047FF48",
+                      "isVerified": false,
+                      "displayName": "Shreya V",
+                      "username": "22shreyav",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452387615,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e3/1f/default-avatar-2020-46.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188582,
+                        "fallbackString": "188582",
+                        "location": {
+                          "locationId": 188582,
+                          "additionalNames": {
+                            "name": "Eindhoven",
+                            "long": "Eindhoven, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/22shreyav"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 23
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": null,
+                    "title": "Loved it",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "I had been craving for bubble tea ever since I moved to Netherlands. This has hit a very sweet spot. I would make it a point to visit whenever I visit rotterdam. \nThey have special offers on Monday!",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 1,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2017-06-30",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 3,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Food"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 485052848,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r485052848-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2017-05-17",
+                    "publishedDate": "2017-05-18",
+                    "userProfile": {
+                      "id": "3A7613F90819FCEE102BB7D1C7386B38",
+                      "isVerified": false,
+                      "displayName": "Lapyan W",
+                      "username": "LapyanW2",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 411928911,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/8d/89/4f/caption.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 450,
+                            "maxWidth": 450
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 294217,
+                        "fallbackString": "294217",
+                        "location": {
+                          "locationId": 294217,
+                          "additionalNames": {
+                            "name": "Hong Kong",
+                            "long": "Hong Kong, China"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/LapyanW2"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 19
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": null,
+                    "title": "Authentic enough for a homesick girl",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "This is like a gem for me after leaving Hong Kong for four months to study in Europe and finally I got a taste of bubble tea. The Hong Kong style milk-tea tasted a bit to sweet for me, as I always order the 'less sweet' preference in Hong Kong, but overall good enough to ease my homesick. Can't wait to have more bubble tea when I'm back home lol.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2017-05-31",
+                      "tripType": "SOLO"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 445252315,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r445252315-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2016-12-19",
+                    "publishedDate": "2016-12-20",
+                    "userProfile": {
+                      "id": "82A6333AC676D8363DC96A177EDDE053",
+                      "isVerified": false,
+                      "displayName": "Nuray84",
+                      "username": "Nuray84",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 233471730,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ea/7e/f2/nuray84.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 2340,
+                            "maxWidth": 2340
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Nuray84"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 116
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": null,
+                    "title": "Addictive but healthy!",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Super service and really fresh! I love this place. \nYou have to get your YoYo if you are nearby.\nAll age appropriate!",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 13091,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2016-12-31",
+                      "tripType": "FRIENDS"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 335628317,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r335628317-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2015-12-29",
+                    "publishedDate": "2015-12-29",
+                    "userProfile": {
+                      "id": "4D2D5371C8A976A2D5F6150F3FFFBE35",
+                      "isVerified": false,
+                      "displayName": "Walt W",
+                      "username": "waltw2187",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452388139,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e5/2b/default-avatar-2020-52.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188622,
+                        "fallbackString": "188622",
+                        "location": {
+                          "locationId": 188622,
+                          "additionalNames": {
+                            "name": "South Holland Province",
+                            "long": "South Holland Province, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/waltw2187"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 77
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": null,
+                    "title": "Sweet Bubble Tea!",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Very good and flavorful bubble teas. Unlike the other places we've been to, YoYo makes them sweet and don't skimp on the flavoring. The Mango Milkshake and Hong Kong Milk Teas are our favorites. Ask for a stamp/loyalty card if you plan on returning. We're on our 5th!",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2015-12-31",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Food"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "routes": [
+              {
+                "webLinkUrl": "/ClientLink?value=ekhQXy9Vc2VyUmV2aWV3RWRpdC1nMTg4NjMyLWQ3MTQ4NDIzLVlvWW9fRnJlc2hfVGVhX0Jhcl9NYXJrdGhhbC1Sb3R0ZXJkYW1fU291dGhfSG9sbGFuZF9Qcm92aW5jZS5odG1sX3ExUg%3D%3D"
+              },
+              {
+                "webLinkUrl": "/ClientLink?value=MUlUXy9Qb3N0UGhvdG9zLWQ3MTQ4NDIzX3lFdw%3D%3D"
+              },
+              {
+                "webLinkUrl": "/reviews?locationId=7148423&screen=allreviews"
+              },
+              {
+                "webLinkUrl": "/photosandvideos?locationId=7148423"
+              }
+            ],
+            "reviewDrafts": [
+              []
+            ],
+            "ownerStatus": [
+              {
+                "userId": null,
+                "isOwnedByUser": false
+              }
+            ],
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "placeType": "EATERY",
+                "accommodationCategory": "HOTEL",
+                "locationId": 7148423,
+                "localizedName": "YoYo! Fresh Tea Bar - Markthal",
+                "parentGeoId": 188632,
+                "currentUserOwnerStatus": null,
+                "topicCount": 0
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "count": 16
+                }
+              }
+            ],
+            "tipCountReviewsProxy": [
+              {
+                "responseData": {
+                  "locationTipsTotalCount": 0
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "restaurants_standard_listing_sp_label_redesign_1752519226",
+                    "bucket": "control"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "RestaurantAwards_getRestaurantAwards": [
+              {
+                "awardHeader": null,
+                "awardReadMore": null,
+                "awards": [],
+                "summaries": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "1b672c8d-7e0e-44ff-88ce-358ed4289f55"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 0
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "QuestionsAndAnswers_getQuestionsByLocations": [
+              {
+                "questions": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "reduce_got_frequency_1751287771",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        }
+      ],
+      "timestamp": 1
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_terms_page_test_2_1705078152",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "light_mode_on_got_1752783783",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_disable_auto_login_1714679068",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 2
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 1
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "baSubscriptions": [
+              {
+                "subscriptions": []
+              }
+            ],
+            "ownerStatus": [
+              {
+                "isOwnedByUser": false
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "locationId": 7148423,
+                "parents": [
+                  {
+                    "locationId": 188632
+                  },
+                  {
+                    "locationId": 188622
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "mapbox_maps_web_1726204927",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 3
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AdContext_deletePPIDUserData": [
+              {
+                "success": false,
+                "errorMessage": "Failed to delete PPID data - Received HTTP error code: 400 with no error message."
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 1000,
+                  "maxHeight": 700,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2d/40/95/keep-on-planning.jpg?w={width}&h={height}&s=1&cx=492&cy=358&chk=v1_f64df95338d294710736"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "parents": [
+                  {
+                    "locationId": 188622
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              },
+              {
+                "parents": [
+                  {
+                    "locationId": 188632
+                  },
+                  {
+                    "locationId": 188622
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 4
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "response": [
+              {
+                "randomContentList": [
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 1984,
+                    "sponsorId": 791,
+                    "sponsorDisplayName": "Universal Horror Unleashed",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 45963,
+                      "name": "Las Vegas",
+                      "stateAndCountryOrEquivalent": "Nevada, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g45963-Las_Vegas_Nevada-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/34/2d/28/caption.jpg?w={width}&h={height}&s=1&cx=662&cy=604&chk=v1_8984ddf3493edfb8c896",
+                          "maxHeight": 1328,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 676,
+                    "sponsorId": 297,
+                    "sponsorDisplayName": "Go T\u00fcrkiye",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 293969,
+                      "name": "T\u00fcrkiye",
+                      "stateAndCountryOrEquivalent": "Europe",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g293969-Turkiye-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/d7/4c/c8/caption.jpg?w={width}&h={height}&s=1&cx=2050&cy=1193&chk=v1_fcab07e6563fcfc3086c",
+                          "maxHeight": 1740,
+                          "maxWidth": 3000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1726,
+                    "sponsorId": 133,
+                    "sponsorDisplayName": "Visit Orlando",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 143554797,
+                      "tripContent": {
+                        "id": 143554797,
+                        "title": "Orlando: An LGBTQ+ guide for families",
+                        "description": "\"As a two-mom family who has been traveling to Orlando five to six times a year, we see the city like a second home. We absolutely love the theme parks but Orlando has so much more to offer! We love experiencing Orlando's rich diversity, fantastic food, incredible art and culture, plus a fun soccer game here and there. Join me, Allison Mertzman, as I share some of my family's favorite Orlando attractions with you!\" - Allison Mertzman",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/9b/2d/f3/orlando.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 1080,
+                            "maxHeight": 650
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t143554797"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1538,
+                    "sponsorId": 522,
+                    "sponsorDisplayName": "Fort Myers \u2013 Islands, Beaches and Neighborhoods",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "ENSmjDdgPF8",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "See Southwest Florida your way",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Explore Fort Myers - Islands, Beaches and Neighborhoods"
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Tripadvisor"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/dc/6d/d2/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_dd8da8584af6a899bb42",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lENSmjDdgPF8-See_southwest_florida_your_way.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1286,
+                    "sponsorId": 133,
+                    "sponsorDisplayName": "Visit Orlando",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_TripContent",
+                      "campaignContentType": "TRIP",
+                      "tripId": 133468276,
+                      "tripContent": {
+                        "id": 133468276,
+                        "title": "Orlando (Francis' Version)",
+                        "description": "\"The way I do Orlando is magical, memorable, and insanely mesmirizing! From bookstores to living out fantasy worlds in real life, my version of Orlando leaves you inspired and feeling welcomed and safe.\" \u2013 Francis ",
+                        "owner": {
+                          "profile": {
+                            "displayName": "Tripadvisor"
+                          }
+                        },
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/9b/2d/f3/orlando.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 1080,
+                            "maxHeight": 650
+                          }
+                        },
+                        "route": {
+                          "url": "/TripDetails-t133468276"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1973,
+                    "sponsorId": 268,
+                    "sponsorDisplayName": "North Myrtle Beach",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "8V6THhYwiF8",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Family fun in North Myrtle Beach: the ultimate trip planner",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "From laid-back beach days to sweet memories, find more of what your family loves in North Myrtle Beach. Its sun-drenched shores and easygoing pace offer a well-deserved break for always-on parents and busy kids. "
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/af/fb/64/caption.jpg?w={width}&h={height}&s=1&cx=960&cy=540&chk=v1_41ae16481247c815997a",
+                                "maxWidth": 1920,
+                                "maxHeight": 1080
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l8V6THhYwiF8-Family_fun_in_north_myrtle_beach_the_ultimate_trip_planner.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1316,
+                    "sponsorId": 640,
+                    "sponsorDisplayName": "IHG Hotels and Resorts",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 27490344,
+                      "name": "IHG Hotels & Resorts",
+                      "stateAndCountryOrEquivalent": "United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g27490344-IHG_Hotels_Resorts-Vacations.html"
+                      },
+                      "thumbnail": null
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1311,
+                    "sponsorId": 584,
+                    "sponsorDisplayName": "Hiroshima Tourism (HIT)",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 298130,
+                      "name": "Hiroshima Prefecture",
+                      "stateAndCountryOrEquivalent": "Chugoku, Japan",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g298130-Hiroshima_Prefecture_Chugoku-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/d4/06/8d/dsc-0685-largejpg.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 2448,
+                          "maxWidth": 3264
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1311,
+                    "sponsorId": 584,
+                    "sponsorDisplayName": "Hiroshima Tourism (HIT)",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 298561,
+                      "name": "Hiroshima",
+                      "stateAndCountryOrEquivalent": "Chugoku, Japan",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g298561-Hiroshima_Hiroshima_Prefecture_Chugoku-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a4/aa/02/caption.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1333,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1356,
+                    "sponsorId": 295,
+                    "sponsorDisplayName": "Australia's Northern Territory",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 256206,
+                      "name": "Tennant Creek",
+                      "stateAndCountryOrEquivalent": "Northern Territory, Australia",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g256206-Tennant_Creek_Red_Centre_Northern_Territory-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/c9/83/fb/tennant-creek.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 834,
+                          "maxWidth": 1280
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "REUmNODDgwM",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "7 islands to visit in Europe, from the Arctic to the Aegean ",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": " And what to do in each."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Nicholas DeRenzo"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/1a/ee/45/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_ed920fa0492ee69d081e",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lREUmNODDgwM-Best_islands_in_europe.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 5
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "7164b875-b360-4e81-b797-580de9ae90b9"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "f682e310-20ea-4bf4-89e3-113fd0cb5ae1"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 6
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "2295b336-e639-4f21-acaf-311d3dd2f829"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "d347ad4f-27b4-4b76-8f89-bdc8722ca2da"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "e81b7832-8fa0-479f-ab56-21e8fe94476b"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "b0df8959-83a8-4d3d-a25e-7fe2d185f633"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getLocationTips": [
+              {
+                "responseData": {
+                  "locationTips": []
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 7
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 16,
+                "reviews": [
+                  {
+                    "id": 928246536,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r928246536-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2023-12-03",
+                    "publishedDate": "2023-12-03",
+                    "userProfile": {
+                      "id": "EBD477C6992A680768A7D8189F81EB17",
+                      "isVerified": false,
+                      "displayName": "Dreamer43667289588",
+                      "username": "Dreamer43667289588",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452388900,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e8/24/default-avatar-2020-60.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": null,
+                        "fallbackString": null,
+                        "location": null
+                      },
+                      "route": {
+                        "url": "/Profile/Dreamer43667289588"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 2
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "OTHER",
+                    "title": "Best bubble tea!",
+                    "language": "en",
+                    "originalLanguage": "nl",
+                    "text": "Delicious bubble tea with friendly employees. Taro milk tea with tapioca is highly recommended.\nYoyo market hall",
+                    "username": "Dreamer43667289588",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": "MACHINE",
+                    "mtProviderId": 5,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2023-12-31",
+                      "tripType": "SOLO"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 679661928,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r679661928-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2019-06-07",
+                    "publishedDate": "2019-06-07",
+                    "userProfile": {
+                      "id": "63FF0DAC89310B9336965C5CD7FFA8DC",
+                      "isVerified": false,
+                      "displayName": "Mochi",
+                      "username": "mochich",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452386535,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/e7/default-avatar-2020-37.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/mochich"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 11
+                      }
+                    },
+                    "rating": 1,
+                    "publishPlatform": "MOBILE",
+                    "title": "Always out of boba",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "They are most of the time out of boba and they have zero flexibility. Also the taste of the bubble teas are way too sweat and it consists 1/3 of ice cubes. Some drinks are available without ice tho.",
+                    "username": "mochich",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 1,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2019-05-31",
+                      "tripType": "NONE"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 624681525,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r624681525-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2018-10-14",
+                    "publishedDate": "2018-10-14",
+                    "userProfile": {
+                      "id": "C84B8BCCCE107C0F0B7382FABB0EEEF0",
+                      "isVerified": false,
+                      "displayName": "Drew KM",
+                      "username": "kornvadrew",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 134062583,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/fd/a1/f7/kornvalee-m.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 50,
+                            "maxWidth": 50
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/kornvadrew"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 13
+                      }
+                    },
+                    "rating": 3,
+                    "publishPlatform": "MOBILE",
+                    "title": "Nice taste but should reduce plastic wastes",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Nice various kind of drinks in combination with bubble topping. Good taste. Quick serve. Anyway, they didn\u2019t accept to serve in my own cup that I brought. So you cannot help reduce plastic use here.\n",
+                    "username": "Kornvalee M",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2018-10-31",
+                      "tripType": "NONE"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 602056651,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r602056651-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2018-08-02",
+                    "publishedDate": "2018-08-02",
+                    "userProfile": {
+                      "id": "003D32AADE954EB9D6D2AF4AC967C86D",
+                      "isVerified": false,
+                      "displayName": "rorita1107",
+                      "username": "rorita1107",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452387558,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e2/e6/default-avatar-2020-45.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/rorita1107"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 56
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": "OTHER",
+                    "title": "\u5f88\u5730\u9053\u7684\u5976\u8336\u5e97",
+                    "language": "zhTW",
+                    "originalLanguage": "zhTW",
+                    "text": "\u6bcf\u9031\u4e00\u90fd\u6709\u5976\u8336\u7279\u50f9\uff0c\u4e2d\u676f2.5\u6b50\n\u559c\u6b61\u8309\u9999\u5976\u7da0\uff0c\u8981\u7684\u666e\u901a\u73cd\u73e0\uff0c\u5c31\u5f88\u6709\u5bb6\u9109\u7684\u5473\u9053\n\u5976\u8336\u662f\u7528\u8336\u7c89\u6c96\u7684\uff0c\u8981\u662f\u80fd\u7528\u725b\u5976\u6ce1\u5c31\u66f4\u597d\u4e86\n\u4e0d\u904e\u4e0d\u7ba1\u600e\u6a23\uff0c\u53ef\u4ee5\u89e3\u89e3\u995e",
+                    "username": "rorita1107",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 14706,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2018-07-31",
+                      "tripType": "SOLO"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Food"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 579735151,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r579735151-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2018-05-12",
+                    "publishedDate": "2018-05-12",
+                    "userProfile": {
+                      "id": "5397FAB9A71144FC970D16AF6FEC9B0F",
+                      "isVerified": false,
+                      "displayName": "Hsiao-Yun Chan",
+                      "username": "HsiaoYunChan",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 40161848,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/64/d2/38/hsiaoyunchan.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 450,
+                            "maxWidth": 337
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 293913,
+                        "fallbackString": "293913",
+                        "location": {
+                          "locationId": 293913,
+                          "additionalNames": {
+                            "name": "Taipei",
+                            "long": "Taipei, Taiwan"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/HsiaoYunChan"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 2020
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "OTHER",
+                    "title": "\u73cd\u73e0\u5976\u8336",
+                    "language": "zhTW",
+                    "originalLanguage": "zhTW",
+                    "text": "\u963f\u59c6\u65af\u7279\u4e39\u4e5f\u6709\u7684\u73cd\u5976\u5e97\uff01\u73cd\u5976\u597d\u559d\uff0c\u53ef\u60dc\u4e0d\u80fd\u8abf\u6574\u751c\u5ea6\u51b0\u5ea6\u5ba2\u88fd\u5316\uff0c\u50f9\u683c\u5dee\u4e0d\u591a\u56db\u6b50\uff0c\u8ddf\u53f0\u7063\u50f9\u683c\u6bd4\uff0c\u6709\u9ede\u504f\u8cb4\u3002",
+                    "username": "HsiaoYunChan",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2018-05-31",
+                      "tripType": "FRIENDS"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 491277607,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r491277607-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2017-06-07",
+                    "publishedDate": "2017-06-07",
+                    "userProfile": {
+                      "id": "98D6C629A06E6A974C904695A047FF48",
+                      "isVerified": false,
+                      "displayName": "Shreya V",
+                      "username": "22shreyav",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452387615,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e3/1f/default-avatar-2020-46.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188582,
+                        "fallbackString": "188582",
+                        "location": {
+                          "locationId": 188582,
+                          "additionalNames": {
+                            "name": "Eindhoven",
+                            "long": "Eindhoven, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/22shreyav"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 23
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": "OTHER",
+                    "title": "Loved it",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "I had been craving for bubble tea ever since I moved to Netherlands. This has hit a very sweet spot. I would make it a point to visit whenever I visit rotterdam. \nThey have special offers on Monday!",
+                    "username": "Shreya V",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 1,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2017-06-30",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 3,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Food"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 485052848,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r485052848-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2017-05-17",
+                    "publishedDate": "2017-05-17",
+                    "userProfile": {
+                      "id": "3A7613F90819FCEE102BB7D1C7386B38",
+                      "isVerified": false,
+                      "displayName": "Lapyan W",
+                      "username": "LapyanW2",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 411928911,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/8d/89/4f/caption.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 450,
+                            "maxWidth": 450
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 294217,
+                        "fallbackString": "294217",
+                        "location": {
+                          "locationId": 294217,
+                          "additionalNames": {
+                            "name": "Hong Kong",
+                            "long": "Hong Kong, China"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/LapyanW2"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 19
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "MOBILE",
+                    "title": "Authentic enough for a homesick girl",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "This is like a gem for me after leaving Hong Kong for four months to study in Europe and finally I got a taste of bubble tea. The Hong Kong style milk-tea tasted a bit to sweet for me, as I always order the 'less sweet' preference in Hong Kong, but overall good enough to ease my homesick. Can't wait to have more bubble tea when I'm back home lol.",
+                    "username": "Lapyan W",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2017-05-31",
+                      "tripType": "SOLO"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 445252315,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r445252315-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2016-12-19",
+                    "publishedDate": "2016-12-19",
+                    "userProfile": {
+                      "id": "82A6333AC676D8363DC96A177EDDE053",
+                      "isVerified": false,
+                      "displayName": "Nuray84",
+                      "username": "Nuray84",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 233471730,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ea/7e/f2/nuray84.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 2340,
+                            "maxWidth": 2340
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Nuray84"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 116
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": "OTHER",
+                    "title": "Addictive but healthy!",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Super service and really fresh! I love this place. \nYou have to get your YoYo if you are nearby.\nAll age appropriate!",
+                    "username": "Nuray84",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 13091,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2016-12-31",
+                      "tripType": "FRIENDS"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 390745215,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r390745215-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2016-07-09",
+                    "publishedDate": "2016-07-09",
+                    "userProfile": {
+                      "id": "2B52A515B8FD575D41B22C9B13AE0659",
+                      "isVerified": false,
+                      "displayName": "Lizzy",
+                      "username": "plantdragon",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 353096051,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0b/d1/73/highestcloud.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1024,
+                            "maxWidth": 1024
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/plantdragon"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 107
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "OTHER",
+                    "title": "Bubble Teaaaa",
+                    "language": "nl",
+                    "originalLanguage": "nl",
+                    "text": "Heerlijk in de zomer. Ik neem meestal een honey dew green tea met tapioca balletjes. Zeer aan te raden!",
+                    "username": "Highestcloud",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 14706,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2015-09-30",
+                      "tripType": "FRIENDS"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 387219080,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r387219080-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2016-06-28",
+                    "publishedDate": "2016-06-28",
+                    "userProfile": {
+                      "id": "6138994F35CBC6D84FF0E7C22E1E55F6",
+                      "isVerified": false,
+                      "displayName": "LSartistes",
+                      "username": "LSartistes",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 154258384,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/31/cb/d0/lsartistes.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 640,
+                            "maxWidth": 640
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/LSartistes"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 266
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "OTHER",
+                    "title": "YoYo! stelt nooit teleur",
+                    "language": "nl",
+                    "originalLanguage": "nl",
+                    "text": "Ondanks dat de prijzen met de tijd gestegen zijn, stelt YoYo! nooit teleur. \nJe weet wat je kunt verwachten en het is te merken dat de kwaliteit van het product altijd even goed is. \nEr is nooit een moment dat je bij YoYo! dingen hoort als \"de machine is kapot\", \"die smaak is op\" of \"die is uit het assortiment\". \nEr is blijkbaar zulke controle en ook de werkwijze is bij alle vestigingen hetzelfde zodat je overal een goede bubble tea hebt. Perfect!",
+                    "username": "LSartistes",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2016-04-30",
+                      "tripType": "FRIENDS"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Food"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 346797136,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r346797136-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2016-02-11",
+                    "publishedDate": "2016-02-10",
+                    "userProfile": {
+                      "id": "822B3315178C3C24286E176C15875EEB",
+                      "isVerified": false,
+                      "displayName": "Dan A",
+                      "username": "DannyR956",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 68262497,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/04/11/9a/61/danny-r.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 450,
+                            "maxWidth": 351
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188628,
+                        "fallbackString": "188628",
+                        "location": {
+                          "locationId": 188628,
+                          "additionalNames": {
+                            "name": "Gouda",
+                            "long": "Gouda, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/DannyR956"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 458
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "OTHER",
+                    "title": "Veel keuze en heerlijke bubble tea",
+                    "language": "nl",
+                    "originalLanguage": "nl",
+                    "text": "Veel keuze en heerlijke bubble tea. Had de lycee-smaak geprobeerd en die is zeker aan te raden. Vriendelijk personeel ook. ",
+                    "username": "Danny R",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 21950,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2016-02-29",
+                      "tripType": "FRIENDS"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 335628317,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r335628317-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2015-12-29",
+                    "publishedDate": "2015-12-29",
+                    "userProfile": {
+                      "id": "4D2D5371C8A976A2D5F6150F3FFFBE35",
+                      "isVerified": false,
+                      "displayName": "Walt W",
+                      "username": "waltw2187",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452388139,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e5/2b/default-avatar-2020-52.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188622,
+                        "fallbackString": "188622",
+                        "location": {
+                          "locationId": 188622,
+                          "additionalNames": {
+                            "name": "South Holland Province",
+                            "long": "South Holland Province, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/waltw2187"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 77
+                      }
+                    },
+                    "rating": 5,
+                    "publishPlatform": "OTHER",
+                    "title": "Sweet Bubble Tea!",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "Very good and flavorful bubble teas. Unlike the other places we've been to, YoYo makes them sweet and don't skimp on the flavoring. The Mango Milkshake and Hong Kong Milk Teas are our favorites. Ask for a stamp/loyalty card if you plan on returning. We're on our 5th!",
+                    "username": "Walt2187",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2015-12-31",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Food"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 329048127,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r329048127-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2015-11-25",
+                    "publishedDate": "2015-11-25",
+                    "userProfile": {
+                      "id": "FFD379921D450E6826C0636238BAA1E9",
+                      "isVerified": false,
+                      "displayName": "avanderkamp",
+                      "username": "avanderkamp",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452386603,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/df/2b/default-avatar-2020-39.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188632,
+                        "fallbackString": "188632",
+                        "location": {
+                          "locationId": 188632,
+                          "additionalNames": {
+                            "name": "Rotterdam",
+                            "long": "Rotterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/avanderkamp"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 13
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "OTHER",
+                    "title": "Verfrissende icetea",
+                    "language": "nl",
+                    "originalLanguage": "nl",
+                    "text": "Ik kom hier vaak om een lekkere icetea te halen tussen het boodschappen doen door. Mijn favoriet is de aardbei icetea met munt. Erg fris en heerlijk op een warme zomerse dag. ",
+                    "username": "avanderkamp",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2015-07-31",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 290627949,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r290627949-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2015-07-20",
+                    "publishedDate": "2015-07-20",
+                    "userProfile": {
+                      "id": "C58E7B8349250446D526574E7FF4D0CC",
+                      "isVerified": false,
+                      "displayName": "Amanda L",
+                      "username": "Amanda_Laut",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 135231995,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/0f/79/fb/amanda-l.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 480,
+                            "maxWidth": 480
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 188590,
+                        "fallbackString": "188590",
+                        "location": {
+                          "locationId": 188590,
+                          "additionalNames": {
+                            "name": "Amsterdam",
+                            "long": "Amsterdam, The Netherlands"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/Amanda_Laut"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 47
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "OTHER",
+                    "title": "Veel keuze!",
+                    "language": "nl",
+                    "originalLanguage": "nl",
+                    "text": "Veel keuze in verschillende soorten Bubble Tea! Aanrader: Lycee smaak :) En natuurlijk de originele Taro.",
+                    "username": "Amanda L",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2015-07-31",
+                      "tripType": "NONE"
+                    },
+                    "additionalRatings": [],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 275047097,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d7148423-r275047097-YoYo_Fresh_Tea_Bar_Markthal-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 7148423,
+                      "name": "YoYo! Fresh Tea Bar - Markthal",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2015-05-27",
+                    "publishedDate": "2015-05-27",
+                    "userProfile": {
+                      "id": "41867B58FF01289582A134470AFB7E7B",
+                      "isVerified": false,
+                      "displayName": "MissTool",
+                      "username": "MissTool",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 98926885,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e5/81/25/misstool.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 3264,
+                            "maxWidth": 2448
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": 303504,
+                        "fallbackString": "303504",
+                        "location": {
+                          "locationId": 303504,
+                          "additionalNames": {
+                            "name": "Petropolis",
+                            "long": "Petropolis, RJ"
+                          }
+                        }
+                      },
+                      "route": {
+                        "url": "/Profile/MissTool"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 627
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "OTHER",
+                    "title": "Sabores interessantes",
+                    "language": "pt",
+                    "originalLanguage": "pt",
+                    "text": "Possui diversos sabores de ch\u00e1s quentes e frios. Eu pedi um gelado que inclu\u00eda rosas e folhas frescas de hortel\u00e3, que era uma combina\u00e7\u00e3o bem interessante e refrescante. Uma boa op\u00e7\u00e3o de bebidas saud\u00e1veis no mercado.",
+                    "username": "MissTool",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 7148423,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2015-04-30",
+                      "tripType": "FRIENDS"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Service"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 8
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "34a0422f-782d-4740-81f5-311c3c3c0892"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "457de6f5-b571-4e19-a085-3f0bc310af5e"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "d4c6e8a2-3a5c-44ee-8ed8-031f80b3021b"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "534b5a29-2b9f-41e0-9163-ae6d48e9c8e6"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "837cb4d1-f8a0-49f5-9f5e-936e6a401bab"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "16d2fb5e-2648-4417-bcc5-e2ba50689379"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "4708ba42-daed-4d35-bb97-40e9086a205c"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 9
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "958b53df-f198-4b7f-a806-b6506b96bfd1"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "3de2be8f-1e41-4b18-8a08-b6074ad245af"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 10
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 11
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 12
+    }
+  ],
+  "statistics": {
+    "total_graphql_responses": 13,
+    "has_jsonld_data": true,
+    "has_website_url": true,
+    "has_phone_number": false,
+    "has_cuisines": false,
+    "has_meal_types": true,
+    "has_features": true,
+    "has_special_diets": false,
+    "has_hours": true,
+    "error_count": 0
+  },
+  "api_update_success": true,
+  "timestamp": "2025-09-24T16:53:44.091112"
+}

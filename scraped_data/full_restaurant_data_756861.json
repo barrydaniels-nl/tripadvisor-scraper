@@ -1,0 +1,2371 @@
+{
+  "restaurant_id": 756861,
+  "restaurant_name": "Charlie's Koffie En Wijnbar",
+  "tripadvisor_url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d27520795-Reviews-Charlie_s_Koffie_En_Wijnbar-Rotterdam_South_Holland_Province.html?m=69411",
+  "website_url": "http://www.charlieswijnbar.nl/",
+  "phone_number": "+31 10 316 1010",
+  "cuisines": [
+    "Wine Bar"
+  ],
+  "meal_types": [
+    "Lunch",
+    "Dinner"
+  ],
+  "features": [
+    "Lunch",
+    "DinnerWine Bar",
+    "Dinner",
+    "Wine Bar"
+  ],
+  "special_diets": null,
+  "hours": {
+    "Sunday": "11:00 AM - 11:00 PM",
+    "Monday": "Closed",
+    "Tuesday": "4:00 PM - 11:00 PM",
+    "Wednesday": "10:00 AM - 11:00 PM",
+    "Thursday": "10:00 AM - 11:00 PM",
+    "Friday": "10:00 AM - 11:00 PM",
+    "Saturday": "11:00 AM - 11:00 PM"
+  },
+  "scrape_status": "success",
+  "errors": [],
+  "jsonld_data": {
+    "name": "Charlie's Koffie En Wijnbar",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/28/56/a2/caption.jpg?w=500&h=-1&s=1",
+    "priceRange": "",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d27520795-Reviews-Charlie_s_Koffie_En_Wijnbar-Rotterdam_South_Holland_Province.html",
+    "website": "http://www.charlieswijnbar.nl/",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.909084,
+      "longitude": 4.478936
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "NL"
+      },
+      "streetAddress": "Westplein 107",
+      "addressLocality": "Rotterdam",
+      "postalCode": "3016 BM"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4,
+      "reviewCount": 2
+    },
+    "raw_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/28/56/a2/caption.jpg?w=500&h=-1&s=1",
+      "name": "Charlie's Koffie En Wijnbar",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.909084,
+        "longitude": 4.478936
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 2
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "NL"
+        },
+        "streetAddress": "Westplein 107",
+        "addressLocality": "Rotterdam",
+        "postalCode": "3016 BM"
+      },
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g188632-d27520795-Reviews-Charlie_s_Koffie_En_Wijnbar-Rotterdam_South_Holland_Province.html"
+    },
+    "phone": "+31 10 316 1010",
+    "cuisines": [
+      "Wine Bar"
+    ],
+    "meal_types": [
+      "Lunch",
+      "Dinner"
+    ],
+    "features": [
+      "Lunch",
+      "DinnerWine Bar",
+      "Dinner",
+      "Wine Bar"
+    ],
+    "hours": {
+      "Sunday": "11:00 AM - 11:00 PM",
+      "Monday": "Closed",
+      "Tuesday": "4:00 PM - 11:00 PM",
+      "Wednesday": "10:00 AM - 11:00 PM",
+      "Thursday": "10:00 AM - 11:00 PM",
+      "Friday": "10:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM"
+    }
+  },
+  "graphql_responses": [
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "gtmData": {
+              "audienceIds": [],
+              "hashedPersistentCookie": "YTlmMTg4NmM5YjY0ZGVkNjM3ZTU5M2NjNDY0MjEwODVlYWQwY2RkMg",
+              "hashedPersistentCookieSegmentPOC": "YTlmMTg4NmM5YjY0ZGVkNjM3ZTU5M2NjNDY0MjEwODVlYWQwY2RkMg",
+              "hashedPersistentCookieSegmentMeta": "b67b4d529f9322a963815cf943e8c68c1427a9847f7ebff7dc290e68d582bd70",
+              "hashedPersistentCookieSHA1": "a08611e7405bb7113c7f5ec8d95bf3f5a084980d",
+              "hashedPersistentCookieSHA256": "d51838e2e66a42a7e83fd3b46e6649709d7b14a5254a5203bc0a8be8a98d80bc",
+              "ipAddressCountry": "NL",
+              "locationData": {
+                "regionName": null,
+                "regionId": null,
+                "countryName": "The Netherlands",
+                "countryId": 188553,
+                "locationHierarchy": ":27520795:1:4:188553:188622:188632:",
+                "stateName": null,
+                "stateId": null,
+                "cityName": "Rotterdam"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "cea41c5d-6266-4992-9060-70fec95f42bf"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "EatImpressionTracking_logImpressions": [
+              "7af985f8-3b1c-4508-97fb-99518a6c454b"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "EatImpressionTracking_logImpressions"
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "reviewAggregations": {
+                  "ratingCounts": [
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                  ]
+                }
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "rating": 4,
+                  "count": 2
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "restaurantSubratingsData": {
+              "restaurants": [
+                {
+                  "sub_ratings": {
+                    "atmosphere": null,
+                    "food": null,
+                    "service": null,
+                    "value": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "mediaAlbum": {
+              "album": {
+                "albumId": 107,
+                "totalMediaCount": 1
+              }
+            },
+            "mediaAlbumPage": {
+              "mediaList": [
+                {
+                  "mediaId": 774395554,
+                  "caption": "",
+                  "photoSizes": [
+                    {
+                      "width": 0,
+                      "height": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/28/56/a2/caption.jpg?w=100&h=100&s=1"
+                    },
+                    {
+                      "width": 50,
+                      "height": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/2e/28/56/a2/caption.jpg"
+                    },
+                    {
+                      "width": 150,
+                      "height": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/2e/28/56/a2/caption.jpg"
+                    },
+                    {
+                      "width": 154,
+                      "height": 205,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/2e/28/56/a2/caption.jpg"
+                    },
+                    {
+                      "width": 180,
+                      "height": 200,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/2e/28/56/a2/caption.jpg"
+                    },
+                    {
+                      "width": 338,
+                      "height": 450,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/2e/28/56/a2/caption.jpg"
+                    },
+                    {
+                      "width": 550,
+                      "height": 733,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-p/2e/28/56/a2/caption.jpg"
+                    },
+                    {
+                      "width": 960,
+                      "height": 1280,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2e/28/56/a2/caption.jpg"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 1365,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/2e/28/56/a2/caption.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "keywords": [
+              {
+                "responseData": {
+                  "keywords": []
+                }
+              }
+            ],
+            "reviewAggregations": [
+              {
+                "locationId": 27520795,
+                "overallRating": 4,
+                "reviewCount": 2,
+                "alertStatusCount": 0,
+                "reviewCountByRating": {
+                  "oneRatingCount": 0,
+                  "twoRatingCount": 0,
+                  "threeRatingCount": 0,
+                  "fourRatingCount": 2,
+                  "fiveRatingCount": 0
+                },
+                "reviewCountByLanguage": [
+                  {
+                    "language": "en",
+                    "count": 1
+                  },
+                  {
+                    "language": "nl",
+                    "count": 1
+                  }
+                ],
+                "nativeAndTransByLanguage": [
+                  {
+                    "language": "zhCN",
+                    "count": 1
+                  },
+                  {
+                    "language": "de",
+                    "count": 1
+                  },
+                  {
+                    "language": "no",
+                    "count": 1
+                  },
+                  {
+                    "language": "ru",
+                    "count": 1
+                  },
+                  {
+                    "language": "sv",
+                    "count": 1
+                  },
+                  {
+                    "language": "ko",
+                    "count": 1
+                  },
+                  {
+                    "language": "pt",
+                    "count": 1
+                  },
+                  {
+                    "language": "el",
+                    "count": 1
+                  },
+                  {
+                    "language": "zhTW",
+                    "count": 1
+                  },
+                  {
+                    "language": "en",
+                    "count": 2
+                  },
+                  {
+                    "language": "it",
+                    "count": 1
+                  },
+                  {
+                    "language": "fr",
+                    "count": 1
+                  },
+                  {
+                    "language": "es",
+                    "count": 1
+                  },
+                  {
+                    "language": "ar",
+                    "count": 1
+                  },
+                  {
+                    "language": "vi",
+                    "count": 1
+                  },
+                  {
+                    "language": "th",
+                    "count": 1
+                  },
+                  {
+                    "language": "ja",
+                    "count": 1
+                  },
+                  {
+                    "language": "da",
+                    "count": 1
+                  },
+                  {
+                    "language": "nl",
+                    "count": 2
+                  },
+                  {
+                    "language": "tr",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 2,
+                "reviews": [
+                  {
+                    "id": 980872566,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d27520795-r980872566-Charlie_s_Koffie_En_Wijnbar-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 27520795,
+                      "name": "Charlie's Koffie En Wijnbar",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2024-11-18",
+                    "publishedDate": "2024-11-18",
+                    "userProfile": {
+                      "id": "38C43087F45DCBFE1EE2514565A4C13C",
+                      "isVerified": false,
+                      "displayName": "Nante",
+                      "username": "NanteO",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452386603,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/df/2b/default-avatar-2020-39.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": null,
+                        "fallbackString": "Rotterdam, Nederland",
+                        "location": null
+                      },
+                      "route": {
+                        "url": "/Profile/NanteO"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 267
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": null,
+                    "title": "Very nice wine bar!",
+                    "language": "en",
+                    "originalLanguage": "nl",
+                    "text": "Very nice small wine bar with upstairs and heated terrace. Good atmosphere, great wines and very tasty snacks. Friendly professional service. A beautiful place in Rotterdam!",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 27520795,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": "MACHINE",
+                    "mtProviderId": 10,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2024-11-30",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [],
+                    "photos": [
+                      {
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 774395554,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/28/56/a2/caption.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 1536,
+                            "maxHeight": 2048
+                          },
+                          "caption": "",
+                          "albumId": 100,
+                          "statuses": [
+                            "PUBLISHED"
+                          ]
+                        }
+                      }
+                    ],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 955475916,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d27520795-r955475916-Charlie_s_Koffie_En_Wijnbar-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 27520795,
+                      "name": "Charlie's Koffie En Wijnbar",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2024-06-17",
+                    "publishedDate": "2024-06-17",
+                    "userProfile": {
+                      "id": "A68DDF3B3CEFF46405D0B02A7031DC9C",
+                      "isVerified": false,
+                      "displayName": "steve l",
+                      "username": "stevel532",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 35736334,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/21/4b/0e/watraveler75.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 412,
+                            "maxWidth": 550
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": null,
+                        "fallbackString": "Victoria MN USA",
+                        "location": null
+                      },
+                      "route": {
+                        "url": "/Profile/stevel532"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 427
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": null,
+                    "title": "Nice Little Bar/Cafe in Rotterdam!",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "This was a great little bar in a nice area of Rotterdam. We enjoyed a nice bottle of wine and some snacks. We went for dinner, but it had a very limited menu. Plenty of snacks to much on and some good wine. We were happy without dinner as the snacks were plentiful.",
+                    "username": null,
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 27520795,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": null,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2024-06-30",
+                      "tripType": "FAMILY"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Food"
+                      },
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Atmosphere"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": {
+                        "tips": [
+                          {
+                            "body": "We sat outside on the sidewalk area as it was a nice sunny day. Outside is great if it is not raining!",
+                            "published": true
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "routes": [
+              {
+                "webLinkUrl": "/ClientLink?value=OWExXy9Vc2VyUmV2aWV3RWRpdC1nMTg4NjMyLWQyNzUyMDc5NS1DaGFybGllX3NfS29mZmllX0VuX1dpam5iYXItUm90dGVyZGFtX1NvdXRoX0hvbGxhbmRfUHJvdmluY2UuaHRtbF9MM20%3D"
+              },
+              {
+                "webLinkUrl": "/ClientLink?value=UGwyXy9Qb3N0UGhvdG9zLWQyNzUyMDc5NV9NeUo%3D"
+              },
+              {
+                "webLinkUrl": "/reviews?locationId=27520795&screen=allreviews"
+              },
+              {
+                "webLinkUrl": "/photosandvideos?locationId=27520795"
+              }
+            ],
+            "reviewDrafts": [
+              []
+            ],
+            "ownerStatus": [
+              {
+                "userId": null,
+                "isOwnedByUser": false
+              }
+            ],
+            "activeNotices": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "placeType": "EATERY",
+                "accommodationCategory": "HOTEL",
+                "locationId": 27520795,
+                "localizedName": "Charlie's Koffie En Wijnbar",
+                "parentGeoId": 188632,
+                "currentUserOwnerStatus": null,
+                "topicCount": 0
+              }
+            ],
+            "reviewSummaryInfo": [
+              {
+                "responseData": {
+                  "count": 2
+                }
+              }
+            ],
+            "tipCountReviewsProxy": [
+              {
+                "responseData": {
+                  "locationTipsTotalCount": 1
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "QuestionsAndAnswers_getQuestionsByLocations": [
+              {
+                "questions": []
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "425600e7-ff4f-4f48-b44e-19275263eb3e"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 0
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "award": [
+              null
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "reduce_got_frequency_1751287771",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_terms_page_test_2_1705078152",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "light_mode_on_got_1752783783",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "google_one_tap_disable_auto_login_1714679068",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 1
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "socialStatistics": [
+              {
+                "isLiked": false,
+                "likeCount": 0
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "baSubscriptions": [
+              {
+                "subscriptions": []
+              }
+            ],
+            "ownerStatus": [
+              {
+                "isOwnedByUser": false
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "locationId": 27520795,
+                "parents": [
+                  {
+                    "locationId": 188632
+                  },
+                  {
+                    "locationId": 188622
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "mapbox_maps_web_1726204927",
+                    "bucket": "test"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 2
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "locations": [
+              {
+                "parents": [
+                  {
+                    "locationId": 188622
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              },
+              {
+                "parents": [
+                  {
+                    "locationId": 188632
+                  },
+                  {
+                    "locationId": 188622
+                  },
+                  {
+                    "locationId": 188553
+                  },
+                  {
+                    "locationId": 4
+                  },
+                  {
+                    "locationId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 1000,
+                  "maxHeight": 700,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2d/40/95/keep-on-planning.jpg?w={width}&h={height}&s=1&cx=492&cy=358&chk=v1_f64df95338d294710736"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "Media_getMediaByIds": [
+              {
+                "mediaType": "PHOTO",
+                "photoSizeDynamic": {
+                  "maxWidth": 2000,
+                  "maxHeight": 1333,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/02/07/d4/caption.jpg?w={width}&h={height}&s=1&cx=1000&cy=666&chk=v1_763694e0140d23e6c8aa"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 3
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "response": [
+              {
+                "randomContentList": [
+                  {
+                    "campaignId": 1268,
+                    "sponsorId": 603,
+                    "sponsorDisplayName": "CESAR\u00ae",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "2cB2pP2AiZc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Your go-to guide for dog-friendly travel",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Traveling with your dog has never been easier\u2014or more fun. Cities across the country boast pet-friendly hotels, parks, and activities. With CESAR\u00ae brand\u2019s mission to make the world more pet-friendly and Tripadvisor\u2019s top-rated spots, you can plan with confidence. Whether it\u2019s a quick getaway or a bucket-list trip, our guides help you stay, play, and explore with your pup. Grab the leash and go!"
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b4/dd/ea/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=750&chk=v1_03752b3cd584d18f4aa3",
+                                "maxWidth": 3840,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l2cB2pP2AiZc-Pet_friendly_travel.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/b5/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 738,
+                        "maxHeight": 738
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/da/e2/be/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 499,
+                        "maxHeight": 748
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 1673,
+                    "sponsorId": 199,
+                    "sponsorDisplayName": "Explore Branson",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 44160,
+                      "name": "Branson",
+                      "stateAndCountryOrEquivalent": "Missouri, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g44160-Branson_Missouri-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/3d/7c/bd/lake-taneycomo.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1329,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/f0/7f/7b/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 1000,
+                        "maxHeight": 1000
+                      }
+                    },
+                    "widgetImageShortRailOverride": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/f0/7f/83/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 6720,
+                        "maxHeight": 4480
+                      }
+                    }
+                  },
+                  {
+                    "campaignId": 1980,
+                    "sponsorId": 511,
+                    "sponsorDisplayName": "Visit Dallas",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 60956,
+                      "name": "San Antonio",
+                      "stateAndCountryOrEquivalent": "Texas, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g60956-San_Antonio_Texas-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/8f/f8/ae/tower-of-the-americas.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1728,
+                          "maxWidth": 2304
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "VzHswpOFvhU",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "3 perfect days in Punta Cana",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "This three-day Punta Cana itinerary mixes plenty of beach time with some thrilling adventures ( plus insider tips and tricks to experience the area like a local)."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Stephanie Smith"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/75/c7/83/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_7239a3828e81e5733bf0",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lVzHswpOFvhU-3_days_in_punta_cana_itinerary.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1449,
+                    "sponsorId": 313,
+                    "sponsorDisplayName": "Visit Music City",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_GeoContent",
+                      "campaignContentType": "GEO",
+                      "geoId": 55229,
+                      "name": "Nashville",
+                      "stateAndCountryOrEquivalent": "Tennessee, United States",
+                      "route": {
+                        "webLinkUrl": "/Tourism-g55229-Nashville_Davidson_County_Tennessee-Vacations.html"
+                      },
+                      "thumbnail": {
+                        "photoSizeDynamic": {
+                          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/5e/12/59/caption.jpg?w={width}&h={height}&s=1",
+                          "maxHeight": 1000,
+                          "maxWidth": 2000
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "EzXyapi3E20",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "How many days in Oahu is enough?",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Whether you\u2019ve got a long weekend or a full week, here\u2019s how to make the most of your time on Oahu."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Noah Cortez"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/04/37/4e/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_2800219589b12de222ab",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lEzXyapi3E20-How_many_days_oahu.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1788,
+                    "sponsorId": 297,
+                    "sponsorDisplayName": "Go T\u00fcrkiye",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "iHMuyHgv02g",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Explore T\u00fcrkiye\u2019s natural playgrounds",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Whether you want to hike through epic backdrops, ski in storybook surroundings, or bathe in mineral-rich pools, T\u00fcrkiye\u2019s fabled landscapes are as varied as the adventures they contain. Looking for something a bit different? Go intrepid on your next trip with our pick of offbeat experiences in some of the country\u2019s most magnificent, yet undiscovered, regions."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/fa/26/caption.jpg?w={width}&h={height}&s=1&cx=960&cy=540&chk=v1_ea91980e5ed1a7663e5d",
+                                "maxWidth": 1920,
+                                "maxHeight": 1080
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-liHMuyHgv02g-Explore_trkiyes_natural_playgrounds.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "5zhJXSV5h8c",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "Explore Tucson's delicious food scene and desert landscape",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Head to Tucson, Arizona for a mix of stunning desert vistas, Mexican and Native American food, and cool neighborhood vibes."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Christine Sarkis"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d5/d5/f0/caption.jpg?w={width}&h={height}&s=1&cx=500&cy=750&chk=v1_26dbb0ec18f592945a43",
+                                "maxWidth": 1000,
+                                "maxHeight": 1500
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-l5zhJXSV5h8c-Tucson_weekend_guide.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 1979,
+                    "sponsorId": 228,
+                    "sponsorDisplayName": "VisitGreenvilleSC",
+                    "contentType": "BRANDED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "bqhRBgeq78w",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "How to eat your way through Greenville, SC",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "For those who plan their meals before booking a plane ticket, listen up: There is a place where you can immerse yourself in the dining cultures of 34 countries across five continents without leaving a single city limit. Greenville, South Carolina is much more than a restaurant hub\u2014it has enough festivals, food tours, and dinner views to fuel a lifetime of trips. All of this in mind, it\u2019s no wonder the region will be featured on Season 23 of Bravo\u2019s Top Chef, and host the inaugural Michelin Guide American South Ceremony."
+                          },
+                          "authors": [],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/d7/ba/cc/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_09bfbf823a989eebe0f6",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lbqhRBgeq78w-How_to_eat_your_way_through_greenville_sc.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "V4Tth12GwDw",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "7 perfect days in Fiji",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "From lounging on palm-lined beaches, snorkelling with sharks and sea turtles, and rushing down raging rapids in the rainforest, Fiji is a choose-your-own-adventure kind of destination. I\u2019ve lived in Fiji for the past eight years, and I\u2019m still finding new things to love about the islands every day. If you have a week to spend, I\u2019ve put together an itinerary that will give you a taste of the best that Fiji has to offer. "
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Chantae Reden"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/70/8f/d6/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_870848980cb16c9e2e16",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lV4Tth12GwDw-Seven_days_in_fiji_itinerary.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "R4HiLKsjGPQ",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "The best time to visit Lisbon",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "The best times to visit Lisbon for perfect weather, to avoid the crowds, for affordable hotels and flights, and more."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Lori Zaino"
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/42/e9/c6/caption.jpg?w={width}&h={height}&s=1&cx=672&cy=378&chk=v1_5c486d8d05542e896545",
+                                "maxWidth": 1344,
+                                "maxHeight": 756
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lR4HiLKsjGPQ-Best_time_to_visit_lisbon.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  },
+                  {
+                    "campaignId": 626,
+                    "sponsorId": 124,
+                    "sponsorDisplayName": "Tripadvisor",
+                    "contentType": "SPONSORED",
+                    "content": {
+                      "__typename": "SponsorshipManager_ArticleContent",
+                      "campaignContentType": "ARTICLE",
+                      "getDocumentRequest": {
+                        "space": "onpkgLbyqXc",
+                        "pointOfSale": "en-US"
+                      },
+                      "articleContent": {
+                        "title": "10 unique experiences you can only have in Florence",
+                        "content": {
+                          "__typename": "RichContent_SlateJsContent",
+                          "seoInfo": {
+                            "metaDescription": "Florence has so much incredible art that it can literally make you dizzy\u2014there's even a medical term for it: Stendhal Syndrome. Named after a French writer who visited in 1817, it describes the overwhelming physical reaction he had to all the city's masterpieces\u2014heart palpitations and feeling faint. Talk about art that moves you."
+                          },
+                          "authors": [
+                            {
+                              "author": {
+                                "name": "Laura Itzkowitz "
+                              }
+                            }
+                          ],
+                          "thumbnail": {
+                            "photo": {
+                              "photoSizeDynamic": {
+                                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/7c/ec/39/caption.jpg?w={width}&h={height}&s=1&cx=1920&cy=1080&chk=v1_8fbcf7e3b6db4f841127",
+                                "maxWidth": 3840,
+                                "maxHeight": 2160
+                              }
+                            }
+                          }
+                        },
+                        "route": {
+                          "url": "/Articles-lonpkgLbyqXc-Florence_italy_unique_experiences.html"
+                        }
+                      }
+                    },
+                    "widgetImageBannerSearchOverride": null,
+                    "widgetImageShortRailOverride": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 4
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "d624fd2b-cf75-40a1-ba4c-fe8b477b680d"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "ac80d70e-deba-4417-92d0-6f81acf45b18"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 5
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "data": {
+              "hashedPersistentCookieSHA256": "d51838e2e66a42a7e83fd3b46e6649709d7b14a5254a5203bc0a8be8a98d80bc"
+            }
+          }
+        },
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "app_interstitial_tactic3_restaurants_1711980365",
+                    "bucket": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 6
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "AbTesting_evaluateTests": [
+              {
+                "testResults": [
+                  {
+                    "experimentKey": "braze_membership_us_mw_dw_attr_rest_1754600310",
+                    "bucket": "Interstitial"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 7
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "PlacementManager_getPlacementById": [
+              {
+                "variantConfig": {
+                  "topImageModalInterstitialV2": null,
+                  "leftImageModalInterstitialV2": {
+                    "description": {
+                      "localizedString": "It pays to plan, book, and share with Tripadvisor Rewards. Join now (it\u2019s free!) to claim your Welcome Offer."
+                    },
+                    "image": {
+                      "photoSizeDynamic": {
+                        "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b0/20/3e/caption.jpg?w={width}&h={height}&s=1",
+                        "maxWidth": 768,
+                        "maxHeight": 1000
+                      }
+                    },
+                    "primaryButton": {
+                      "localizedString": "Learn more"
+                    },
+                    "primaryButtonLink": "https://tripadvisor.onelink.me/dIWJ/l4mwucnd",
+                    "secondaryButton": {
+                      "localizedString": null
+                    },
+                    "secondaryButtonLink": "",
+                    "logoMediaSource": "",
+                    "title": {
+                      "localizedString": "Take $30 off Things to Do in Rotterdam"
+                    },
+                    "autoAppliedPromoCode": "",
+                    "autoAppliedPromoCodeTermsUrl": "",
+                    "autoAppliedPromoCodeReplacementTitle": {
+                      "localizedString": null
+                    },
+                    "autoAppliedPromoCodeReplacementDescription": {
+                      "localizedString": null
+                    },
+                    "autoAppliedPromoCodeReplacementButton": {
+                      "localizedString": null
+                    }
+                  },
+                  "stickyFooterV2": null,
+                  "nudgeInterstitial": null,
+                  "floatingBottomBanner": null,
+                  "promoBannerCard": null,
+                  "bottomSheet": null
+                },
+                "placementConfig": {
+                  "topImageModalInterstitial": null,
+                  "leftImageModalInterstitial": null,
+                  "stickyFooter": null
+                },
+                "templateType": "LEFT_IMAGE_MODAL_INTERSTITIAL_V2",
+                "displayName": "Membership_OSM_App_v1_mw-dw_A-AR-R-RR_Q3_2025__EN-US",
+                "variantId": 2
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 8
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "PlacementManager_logMetrics": [
+              "Ok"
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "PlacementManager_logMetrics"
+            ]
+          }
+        }
+      ],
+      "timestamp": 9
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__typedAddEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__typedAddEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 10
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "4e87a9ca-1f62-4f06-ae75-c1f9e0f493d4"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "f2d91b7c-9b66-4276-9e7a-b177ee821214"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "4da950cb-fc39-45a9-8f50-6c2c1d54f129"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "2bb84c80-8631-463b-86e2-876b34d943ca"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "9ca89f0c-8264-44fc-a902-47592de792f0"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "ReviewsProxy_getLocationTips": [
+              {
+                "responseData": {
+                  "locationTips": [
+                    {
+                      "body": "We sat outside on the sidewalk area as it was a nice sunny day. Outside is great if it is not raining!",
+                      "id": 42498607,
+                      "reviewId": 955475916,
+                      "userId": "A68DDF3B3CEFF46405D0B02A7031DC9C",
+                      "locationId": 27520795,
+                      "createdAt": "2024-06-17T07:05:23.040672Z",
+                      "accessibility": "NONE",
+                      "stayOrVisitYearMonth": {
+                        "month": 6,
+                        "year": 2024
+                      },
+                      "userProfile": {
+                        "userId": "A68DDF3B3CEFF46405D0B02A7031DC9C",
+                        "displayName": "steve l",
+                        "route": {
+                          "url": "/Profile/stevel532"
+                        },
+                        "avatar": {
+                          "__typename": "MemberProfile_MediaId",
+                          "data": {
+                            "__typename": "Media_PhotoResult",
+                            "photoSizeDynamic": {
+                              "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/21/4b/0e/watraveler75.jpg?w={width}&h={height}&s=1",
+                              "maxWidth": 550,
+                              "maxHeight": 412
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                "responseInfo": {
+                  "errors": [],
+                  "success": true
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 11
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "ownerStatus": [
+              {
+                "isOwnedByUser": false
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 12
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "ReviewsProxy_getReviewListPageForLocation": [
+              {
+                "preferredReviewIds": [],
+                "totalCount": 2,
+                "reviews": [
+                  {
+                    "id": 980872566,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d27520795-r980872566-Charlie_s_Koffie_En_Wijnbar-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 27520795,
+                      "name": "Charlie's Koffie En Wijnbar",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2024-11-18",
+                    "publishedDate": "2024-11-18",
+                    "userProfile": {
+                      "id": "38C43087F45DCBFE1EE2514565A4C13C",
+                      "isVerified": false,
+                      "displayName": "Nante",
+                      "username": "NanteO",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 452386603,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/df/2b/default-avatar-2020-39.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 1200,
+                            "maxWidth": 1200
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": null,
+                        "fallbackString": "Rotterdam, Nederland",
+                        "location": null
+                      },
+                      "route": {
+                        "url": "/Profile/NanteO"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 267
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "MOBILE",
+                    "title": "Very nice wine bar!",
+                    "language": "en",
+                    "originalLanguage": "nl",
+                    "text": "Very nice small wine bar with upstairs and heated terrace. Good atmosphere, great wines and very tasty snacks. Friendly professional service. A beautiful place in Rotterdam!",
+                    "username": "NanteO",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 27520795,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": "MACHINE",
+                    "mtProviderId": 10,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2024-11-30",
+                      "tripType": "COUPLES"
+                    },
+                    "additionalRatings": [],
+                    "photos": [
+                      {
+                        "photo": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 774395554,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/28/56/a2/caption.jpg?w={width}&h={height}&s=1",
+                            "maxWidth": 1536,
+                            "maxHeight": 2048
+                          },
+                          "caption": "",
+                          "albumId": 100,
+                          "statuses": [
+                            "PUBLISHED"
+                          ]
+                        }
+                      }
+                    ],
+                    "reviewTip": {
+                      "responseData": null
+                    }
+                  },
+                  {
+                    "id": 955475916,
+                    "status": "PUBLISHED",
+                    "reviewDetailPageWrapper": {
+                      "reviewDetailPageRoute": {
+                        "url": "/ShowUserReviews-g188632-d27520795-r955475916-Charlie_s_Koffie_En_Wijnbar-Rotterdam_South_Holland_Province.html"
+                      }
+                    },
+                    "location": {
+                      "locationId": 27520795,
+                      "name": "Charlie's Koffie En Wijnbar",
+                      "placeType": "EATERY",
+                      "accommodationCategory": "HOTEL",
+                      "businessAdvantageData": null
+                    },
+                    "createdDate": "2024-06-17",
+                    "publishedDate": "2024-06-17",
+                    "userProfile": {
+                      "id": "A68DDF3B3CEFF46405D0B02A7031DC9C",
+                      "isVerified": false,
+                      "displayName": "steve l",
+                      "username": "stevel532",
+                      "avatar": {
+                        "__typename": "MemberProfile_MediaId",
+                        "data": {
+                          "__typename": "Media_PhotoResult",
+                          "id": 35736334,
+                          "photoSizeDynamic": {
+                            "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/21/4b/0e/watraveler75.jpg?w={width}&h={height}&s=1",
+                            "maxHeight": 412,
+                            "maxWidth": 550
+                          }
+                        }
+                      },
+                      "hometown": {
+                        "locationId": null,
+                        "fallbackString": "Victoria MN USA",
+                        "location": null
+                      },
+                      "route": {
+                        "url": "/Profile/stevel532"
+                      },
+                      "contributionCounts": {
+                        "sumAllUgc": 427
+                      }
+                    },
+                    "rating": 4,
+                    "publishPlatform": "OTHER",
+                    "title": "Nice Little Bar/Cafe in Rotterdam!",
+                    "language": "en",
+                    "originalLanguage": "en",
+                    "text": "This was a great little bar in a nice area of Rotterdam. We enjoyed a nice bottle of wine and some snacks. We went for dinner, but it had a very limited menu. Plenty of snacks to much on and some good wine. We were happy without dinner as the snacks were plentiful.",
+                    "username": "stevel532",
+                    "connectionToSubject": null,
+                    "mgmtResponse": null,
+                    "locationId": 27520795,
+                    "helpfulVotes": 0,
+                    "labels": [],
+                    "mcid": 0,
+                    "attribution": null,
+                    "translationType": null,
+                    "mtProviderId": 0,
+                    "alertStatus": false,
+                    "tripInfo": {
+                      "stayDate": "2024-06-30",
+                      "tripType": "FAMILY"
+                    },
+                    "additionalRatings": [
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Value"
+                      },
+                      {
+                        "rating": 5,
+                        "ratingLabelLocalizedString": "Service"
+                      },
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Food"
+                      },
+                      {
+                        "rating": 4,
+                        "ratingLabelLocalizedString": "Atmosphere"
+                      }
+                    ],
+                    "photos": [],
+                    "reviewTip": {
+                      "responseData": {
+                        "tips": [
+                          {
+                            "body": "We sat outside on the sidewalk area as it was a nice sunny day. Outside is great if it is not raining!",
+                            "published": true
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "reviewListOptions": {
+                  "sortType": "DEFAULT",
+                  "sortBy": "DATE"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 13
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "b4dfaaae-0c71-4328-8e2a-2e5897c9359b"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 14
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "28f39f64-3c60-4797-9b84-29982d743164"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "5ba0e8bf-d3c2-4f1e-9829-491e9389590d"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "7d1b46d1-aef6-44f9-95e0-7f088fa30607"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "6c3054b7-ab0f-4b58-97c1-ab61c196449d"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "0acf1ea4-feb5-41c5-99b2-4d39cbcd44a8"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "34825073-8586-461c-8276-346586d02edd"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        },
+        {
+          "data": {
+            "Impressions_postImpressionsV3": {
+              "response": [
+                "4e38a4f1-f473-4e66-945b-fc7fc63d1fad"
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postImpressionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 15
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "errorMessage": null,
+                "eventId": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 16
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "userTrackingService__addEvents": [
+              {
+                "eventId": null,
+                "errorMessage": null
+              }
+            ]
+          },
+          "extensions": {
+            "mutatedFields": [
+              "userTrackingService__addEvents"
+            ]
+          }
+        }
+      ],
+      "timestamp": 17
+    },
+    {
+      "url": "https://www.tripadvisor.com/data/graphql/ids",
+      "status": 200,
+      "data": [
+        {
+          "data": {
+            "Impressions_postInteractionsV3": {
+              "response": [
+                true
+              ]
+            }
+          },
+          "extensions": {
+            "mutatedFields": [
+              "Impressions_postInteractionsV3"
+            ]
+          }
+        }
+      ],
+      "timestamp": 18
+    }
+  ],
+  "statistics": {
+    "total_graphql_responses": 19,
+    "has_jsonld_data": true,
+    "has_website_url": true,
+    "has_phone_number": true,
+    "has_cuisines": true,
+    "has_meal_types": true,
+    "has_features": true,
+    "has_special_diets": false,
+    "has_hours": true,
+    "error_count": 0
+  },
+  "api_update_success": true,
+  "timestamp": "2025-09-24T16:47:51.149603"
+}
