@@ -6,6 +6,8 @@ __pycache__/
 # AI 
 .claude
 
+scraped_data/
+
 # C extensions
 *.so
 

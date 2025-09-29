@@ -1913,7 +1913,7 @@ def update_restaurant_last_scraped(restaurant_id: int, status: str = "completed"
         }
 
         response = requests.put(
-            f"http://127.0.0.1:8000/api/restaurants/{restaurant_id}/",
+            f"http://viberoam.ai/api/restaurants/{restaurant_id}/",
             json=update_data,
             headers={"Content-Type": "application/json"}
         )
@@ -1937,7 +1937,7 @@ def update_restaurant_last_scraped(restaurant_id: int, status: str = "completed"
 
 def get_restaurant_links():
     response = requests.get(
-        "http://127.0.0.1:8000/api/restaurants/search/?country=NL&page=1&page_size=30&never_scraped=1"
+        "http://viberoam.ai/api/restaurants/search/?country=NL&page=1&page_size=1000&never_scraped=1"
     )
 
     if response.status_code == 200:
@@ -1965,11 +1965,14 @@ def scrape_restaurants():
 
         try:
             with Camoufox(
-                headless=True
+                headless=True,
+                proxy={
+                    "server": "http://home.barrydaniels.nl:3128"
+                }
             ) as browser:
                 page = browser.new_page()
-
                 # Set up response interceptor for GraphQL endpoints
+
                 def handle_response(response):
                     # Check if this is a GraphQL endpoint
                     url_lower = response.url.lower()
