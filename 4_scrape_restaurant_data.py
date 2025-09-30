@@ -5,7 +5,10 @@ from typing import List, Dict, Any, Optional
 from datetime import datetime, timezone
 import threading
 import asyncio
-# import time  # Removed unused import
+import urllib3
+import ssl
+import certifi
+import time
 
 
 def detect_onetrust_config(page):
@@ -1915,7 +1918,7 @@ def update_restaurant_last_scraped(restaurant_id: int, status: str = "completed"
         }
 
         response = requests.put(
-            f"http://viberoam.ai/api/restaurants/{restaurant_id}/",
+            f"https://viberoam.ai/api/restaurants/{restaurant_id}/",
             json=update_data,
             headers={"Content-Type": "application/json"}
         )
@@ -1939,18 +1942,22 @@ def update_restaurant_last_scraped(restaurant_id: int, status: str = "completed"
 
 def get_restaurant_links():
     """Fetch a single random restaurant that hasn't been scraped yet."""
-    response = requests.get(
-        "http://viberoam.ai/api/restaurants/random/?country=NL&never_scraped=1",
-        allow_redirects=True
-    )
+    try:
+        response = requests.get(
+            "https://viberoam.ai/api/restaurants/random/?country=NL&never_scraped=1",
+            timeout=30
+        )
 
-    if response.status_code == 200:
-        restaurant = response.json()
-        # Return as a list with one restaurant to maintain compatibility
-        return [restaurant]
-    else:
-        print(f"Error fetching restaurant: {response.status_code}")
-        response.raise_for_status()
+        if response.status_code == 200:
+            restaurant = response.json()
+            # Return as a list with one restaurant to maintain compatibility
+            return [restaurant]
+        else:
+            print(f"Error fetching restaurant: {response.status_code}")
+            return []
+
+    except Exception as e:
+        print(f"Error fetching restaurant: {e}")
         return []
 
 
@@ -2679,7 +2686,6 @@ def scrape_restaurants():
 
         if not restaurants:
             print("\nNo restaurants available to scrape. Waiting 60 seconds before retry...")
-            import time
             time.sleep(60)
             continue
 
@@ -2821,14 +2827,9 @@ def scrape_restaurants():
         print(f"Total scraped so far: {scraped_count}")
         print(f"{'='*70}")
 
-        # Add a small delay between restaurants to avoid overwhelming the server
-        if scrape_status == "success":
-            print("\nWaiting 5 seconds before fetching next restaurant...")
-            import time
-            time.sleep(5)
-        else:
+        # Add a delay only if there was an error
+        if scrape_status != "success":
             print("\nWaiting 10 seconds before fetching next restaurant (due to previous error)...")
-            import time
             time.sleep(10)
 
 
