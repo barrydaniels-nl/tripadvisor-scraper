@@ -1938,16 +1938,20 @@ def update_restaurant_last_scraped(restaurant_id: int, status: str = "completed"
 
 
 def get_restaurant_links():
+    """Fetch a single random restaurant that hasn't been scraped yet."""
     response = requests.get(
-        "http://viberoam.ai/api/restaurants/search/?country=NL&page=1&page_size=10000&never_scraped=1"
+        "http://viberoam.ai/api/restaurants/random/?country=NL&never_scraped=1",
+        allow_redirects=True
     )
 
     if response.status_code == 200:
-        cities = response.json()['results']
-        return cities
+        restaurant = response.json()
+        # Return as a list with one restaurant to maintain compatibility
+        return [restaurant]
     else:
-        print(f"Error fetching cities: {response.status_code}")
+        print(f"Error fetching restaurant: {response.status_code}")
         response.raise_for_status()
+        return []
 
 
 def run_browser_scraping_in_thread(restaurant):
@@ -2666,13 +2670,31 @@ def _do_browser_scraping(restaurant, result_container):
 
 
 def scrape_restaurants():
-    restaurants = get_restaurant_links()
-    for restaurant in restaurants:
-        print(f"Scraping restaurant: {restaurant['name']} - {restaurant['tripadvisor_detail_page']}")
+    """Continuously scrape restaurants one at a time in an infinite loop."""
+    scraped_count = 0
 
-        print(f"\n{'='*60}")
-        print(f"Processing: {restaurant['name']}, {restaurant['country']}")
-        print(f"{'='*60}\n")
+    while True:
+        # Get a single restaurant to scrape
+        restaurants = get_restaurant_links()
+
+        if not restaurants:
+            print("\nNo restaurants available to scrape. Waiting 60 seconds before retry...")
+            import time
+            time.sleep(60)
+            continue
+
+        # Process the first (and should be only) restaurant
+        restaurant = restaurants[0]
+        scraped_count += 1
+
+        print(f"\n{'='*70}")
+        print(f"Restaurant #{scraped_count}: {restaurant['name']}")
+        print(f"URL: {restaurant['tripadvisor_detail_page']}")
+        print(f"{'='*70}\n")
+
+        # Get country from nested city structure or use default
+        country = restaurant.get('city', {}).get('country', {'name': 'Netherlands'})
+        print(f"Processing: {restaurant['name']}, {country['name'] if isinstance(country, dict) else country}")
 
         # Run browser scraping in a thread-safe manner
         result = run_browser_scraping_in_thread(restaurant)
@@ -2792,6 +2814,32 @@ def scrape_restaurants():
         with open(filename, 'w') as f:
             json.dump(combined_data, f, indent=2)
 
+        # Print completion message and wait before next restaurant
+        print(f"\n{'='*70}")
+        print(f"Completed restaurant #{scraped_count}: {restaurant['name']}")
+        print(f"Status: {scrape_status}")
+        print(f"Total scraped so far: {scraped_count}")
+        print(f"{'='*70}")
+
+        # Add a small delay between restaurants to avoid overwhelming the server
+        if scrape_status == "success":
+            print("\nWaiting 5 seconds before fetching next restaurant...")
+            import time
+            time.sleep(5)
+        else:
+            print("\nWaiting 10 seconds before fetching next restaurant (due to previous error)...")
+            import time
+            time.sleep(10)
+
 
 if __name__ == "__main__":
-    scrape_restaurants()
+    try:
+        print("Starting infinite restaurant scraping loop...")
+        print("Press Ctrl+C to stop at any time\n")
+        scrape_restaurants()
+    except KeyboardInterrupt:
+        print("\n\nScraping interrupted by user. Exiting gracefully...")
+        print("All data has been saved to the scraped_data/ directory.")
+    except Exception as e:
+        print(f"\n\nUnexpected error occurred: {e}")
+        print("All data has been saved to the scraped_data/ directory.")
