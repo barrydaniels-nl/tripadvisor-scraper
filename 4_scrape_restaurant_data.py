@@ -3,6 +3,8 @@ import requests
 import json
 from typing import List, Dict, Any, Optional
 from datetime import datetime, timezone
+import threading
+import asyncio
 # import time  # Removed unused import
 
 
@@ -1937,7 +1939,7 @@ def update_restaurant_last_scraped(restaurant_id: int, status: str = "completed"
 
 def get_restaurant_links():
     response = requests.get(
-        "http://viberoam.ai/api/restaurants/search/?country=NL&page=1&page_size=1000&never_scraped=1"
+        "http://viberoam.ai/api/restaurants/search/?country=NL&page=1&page_size=10000&never_scraped=1"
     )
 
     if response.status_code == 200:
@@ -1948,28 +1950,36 @@ def get_restaurant_links():
         response.raise_for_status()
 
 
-def scrape_restaurants():
-    restaurants = get_restaurant_links()
-    for restaurant in restaurants:
-        print(f"Scraping restaurant: {restaurant['name']} - {restaurant['tripadvisor_detail_page']}")
+def run_browser_scraping_in_thread(restaurant):
+    """Run browser scraping in a separate thread to avoid asyncio conflicts."""
+    # Check if we're in an asyncio event loop
+    try:
+        asyncio.get_running_loop()
+        # If we get here, we're in an asyncio loop - need to run in thread
+        result_container = {}
+        thread = threading.Thread(target=_do_browser_scraping, args=(restaurant, result_container))
+        thread.start()
+        thread.join()
+        return result_container
+    except RuntimeError:
+        # No asyncio loop - can run directly
+        result_container = {}
+        _do_browser_scraping(restaurant, result_container)
+        return result_container
 
-        print(f"\n{'='*60}")
-        print(f"Processing: {restaurant['name']}, {restaurant['country']}")
-        print(f"{'='*60}\n")
 
-        # Initialize data collection variables
-        graphql_responses: List[Dict[str, Any]] = []
-        jsonld_data = None
-        scrape_status = "started"
-        errors = []
+def _do_browser_scraping(restaurant, result_container):
+    """Actual browser scraping logic - runs outside asyncio loop."""
+    # Initialize data collection variables
+    graphql_responses: List[Dict[str, Any]] = []
+    jsonld_data = None
+    scrape_status = "started"
+    errors = []
 
-        try:
-            with Camoufox(
-                headless=True,
-                proxy={
-                    "server": "http://home.barrydaniels.nl:3128"
-                }
-            ) as browser:
+    try:
+        with Camoufox(
+            headless=True,
+        ) as browser:
                 page = browser.new_page()
                 # Set up response interceptor for GraphQL endpoints
 
@@ -2642,11 +2652,36 @@ def scrape_restaurants():
                     errors.append(error_msg)
                     scrape_status = "failed"
 
-        except Exception as e:
-            error_msg = f"Browser initialization error: {str(e)}"
-            print(f"  ERROR: {error_msg}")
-            errors.append(error_msg)
-            scrape_status = "browser_failed"
+    except Exception as e:
+        error_msg = f"Browser initialization error: {str(e)}"
+        print(f"  ERROR: {error_msg}")
+        errors.append(error_msg)
+        scrape_status = "browser_failed"
+
+    # Store results in container
+    result_container['graphql_responses'] = graphql_responses
+    result_container['jsonld_data'] = jsonld_data
+    result_container['scrape_status'] = scrape_status
+    result_container['errors'] = errors
+
+
+def scrape_restaurants():
+    restaurants = get_restaurant_links()
+    for restaurant in restaurants:
+        print(f"Scraping restaurant: {restaurant['name']} - {restaurant['tripadvisor_detail_page']}")
+
+        print(f"\n{'='*60}")
+        print(f"Processing: {restaurant['name']}, {restaurant['country']}")
+        print(f"{'='*60}\n")
+
+        # Run browser scraping in a thread-safe manner
+        result = run_browser_scraping_in_thread(restaurant)
+
+        # Extract results from container
+        graphql_responses = result.get('graphql_responses', [])
+        jsonld_data = result.get('jsonld_data', None)
+        scrape_status = result.get('scrape_status', 'failed')
+        errors = result.get('errors', [])
 
         # Print summary of captured GraphQL data
         if graphql_responses:
