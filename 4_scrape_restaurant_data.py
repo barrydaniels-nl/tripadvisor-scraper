@@ -1920,7 +1920,8 @@ def update_restaurant_last_scraped(restaurant_id: int, status: str = "completed"
         response = requests.put(
             f"https://viberoam.ai/api/restaurants/{restaurant_id}/",
             json=update_data,
-            headers={"Content-Type": "application/json"}
+            headers={"Content-Type": "application/json"},
+            verify=False
         )
 
         if response.status_code == 200:
@@ -1945,7 +1946,8 @@ def get_restaurant_links():
     try:
         response = requests.get(
             "https://viberoam.ai/api/restaurants/random/?country=NL&never_scraped=1",
-            timeout=30
+            timeout=30,
+            verify=False
         )
 
         if response.status_code == 200:
