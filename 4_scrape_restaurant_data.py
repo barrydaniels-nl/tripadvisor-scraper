@@ -2701,7 +2701,11 @@ def scrape_restaurants():
         print(f"{'='*70}\n")
 
         # Get country from nested city structure or use default
-        country = restaurant.get('city', {}).get('country', {'name': 'Netherlands'})
+        city = restaurant.get('city', {})
+        if city:
+            country = city.get('country', {'name': 'Netherlands'})
+        else:
+            country = {'name': 'Netherlands'}
         print(f"Processing: {restaurant['name']}, {country['name'] if isinstance(country, dict) else country}")
 
         # Run browser scraping in a thread-safe manner
