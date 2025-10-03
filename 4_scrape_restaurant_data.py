@@ -1945,7 +1945,7 @@ def get_restaurant_links():
     """Fetch a single random restaurant that hasn't been scraped yet."""
     try:
         response = requests.get(
-            "https://viberoam.ai/api/restaurants/random/?country=NL&never_scraped=1",
+            "https://viberoam.ai/api/restaurants/random/?country=IT&never_scraped=1",
             timeout=30,
             verify=False
         )
