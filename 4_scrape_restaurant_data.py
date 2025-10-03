@@ -2758,40 +2758,44 @@ def scrape_restaurants():
             if 'hours' in jsonld_data:
                 hours = jsonld_data['hours']
 
-        # Always save data for every restaurant, regardless of success/failure
-        combined_data = {
-            'restaurant_id': restaurant['id'],
-            'restaurant_name': restaurant['name'],
-            'tripadvisor_url': restaurant['tripadvisor_detail_page'],
-            'website_url': website_url,
-            'phone_number': phone_number,
-            'cuisines': cuisines,
-            'meal_types': meal_types,
-            'features': features,
-            'special_diets': special_diets,
-            'hours': hours,
-            'scrape_status': scrape_status,
-            'errors': errors,
-            'jsonld_data': jsonld_data,
-            'graphql_responses': graphql_responses,
-            'statistics': {
-                'total_graphql_responses': len(graphql_responses),
-                'has_jsonld_data': jsonld_data is not None,
-                'has_website_url': website_url is not None,
-                'has_phone_number': phone_number is not None,
-                'has_cuisines': cuisines is not None and len(cuisines) > 0,
-                'has_meal_types': meal_types is not None and len(meal_types) > 0,
-                'has_features': features is not None and len(features) > 0,
-                'has_special_diets': special_diets is not None and len(special_diets) > 0,
-                'has_hours': hours is not None and len(hours) > 0,
-                'error_count': len(errors)
+        # Only save data if scraping was successful (complete data extracted)
+        if scrape_status == "success":
+            combined_data = {
+                'restaurant_id': restaurant['id'],
+                'restaurant_name': restaurant['name'],
+                'tripadvisor_url': restaurant['tripadvisor_detail_page'],
+                'website_url': website_url,
+                'phone_number': phone_number,
+                'cuisines': cuisines,
+                'meal_types': meal_types,
+                'features': features,
+                'special_diets': special_diets,
+                'hours': hours,
+                'scrape_status': scrape_status,
+                'errors': errors,
+                'jsonld_data': jsonld_data,
+                'graphql_responses': graphql_responses,
+                'statistics': {
+                    'total_graphql_responses': len(graphql_responses),
+                    'has_jsonld_data': jsonld_data is not None,
+                    'has_website_url': website_url is not None,
+                    'has_phone_number': phone_number is not None,
+                    'has_cuisines': cuisines is not None and len(cuisines) > 0,
+                    'has_meal_types': meal_types is not None and len(meal_types) > 0,
+                    'has_features': features is not None and len(features) > 0,
+                    'has_special_diets': special_diets is not None and len(special_diets) > 0,
+                    'has_hours': hours is not None and len(hours) > 0,
+                    'error_count': len(errors)
+                }
             }
-        }
 
-        filename = f"scraped_data/full_restaurant_data_{restaurant['id']}.json"
-        with open(filename, 'w') as f:
-            json.dump(combined_data, f, indent=2)
-        print(f"\nSaved combined data to: {filename} (status: {scrape_status})")
+            filename = f"scraped_data/full_restaurant_data_{restaurant['id']}.json"
+            with open(filename, 'w') as f:
+                json.dump(combined_data, f, indent=2)
+            print(f"\n✓ Saved complete data to: {filename} (status: {scrape_status})")
+        else:
+            print(f"\n✗ Skipping JSON save for {restaurant['name']} - only partial/failed data extracted (status: {scrape_status})")
+            combined_data = None  # Set to None when not saved
 
         # Also save just the JSON-LD data separately for easy access if available
         # if jsonld_data:
@@ -2818,13 +2822,15 @@ def scrape_restaurants():
             print(f"  Skipping last_scraped update for restaurant {restaurant['id']} (status: {scrape_status})")
             update_success = None  # Indicates update was not attempted
 
-        # Update the combined data to include API update status
-        combined_data['api_update_success'] = update_success
-        combined_data['timestamp'] = datetime.now().isoformat()
+        # Update the combined data to include API update status (only if data was saved)
+        if combined_data:
+            combined_data['api_update_success'] = update_success
+            combined_data['timestamp'] = datetime.now().isoformat()
 
-        # Re-save the file with updated information
-        with open(filename, 'w') as f:
-            json.dump(combined_data, f, indent=2)
+            # Re-save the file with updated information
+            filename = f"scraped_data/full_restaurant_data_{restaurant['id']}.json"
+            with open(filename, 'w') as f:
+                json.dump(combined_data, f, indent=2)
 
         # Print completion message and wait before next restaurant
         print(f"\n{'='*70}")

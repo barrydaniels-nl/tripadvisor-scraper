@@ -1,0 +1,115 @@
+service: restaurant-scraper
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.11
+  stage: ${opt:stage, 'prod'}
+  region: ${opt:region, 'us-east-1'}
+  memorySize: 512
+  timeout: 300
+
+  environment:
+    S3_BUCKET: ${self:custom.s3BucketName}
+    API_ENDPOINT: ${self:custom.apiEndpoint}
+    UPDATE_API_ENDPOINT: ${self:custom.updateApiEndpoint, ''}
+
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - s3:PutObject
+            - s3:GetObject
+            - s3:ListBucket
+          Resource:
+            - arn:aws:s3:::${self:custom.s3BucketName}
+            - arn:aws:s3:::${self:custom.s3BucketName}/*
+        - Effect: Allow
+          Action:
+            - logs:CreateLogGroup
+            - logs:CreateLogStream
+            - logs:PutLogEvents
+          Resource: '*'
+
+custom:
+  s3BucketName: restaurant-scraper-data-${self:provider.stage}
+  apiEndpoint: https://viberoam.ai/api/restaurants/random/?country=NL&never_scraped=1
+  updateApiEndpoint: ''
+  pythonRequirements:
+    dockerizePip: true
+    layer: true
+
+functions:
+  scrapeRestaurant:
+    handler: AWS_scrape_restaurant_data.lambda_handler
+    name: ${self:service}-${self:provider.stage}-scraper
+    description: Scrapes restaurant data from TripAdvisor and saves to S3
+    events:
+      # HTTP endpoint for manual triggering
+      - http:
+          path: scrape
+          method: post
+          cors: true
+
+      # Scheduled event (every 30 minutes) - disabled by default
+      # Uncomment to enable automatic execution
+      # - schedule:
+      #     rate: rate(30 minutes)
+      #     enabled: true
+
+    # Reserved concurrency to prevent too many parallel executions
+    reservedConcurrency: 5
+
+resources:
+  Resources:
+    ScraperDataBucket:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: ${self:custom.s3BucketName}
+        VersioningConfiguration:
+          Status: Enabled
+        LifecycleConfiguration:
+          Rules:
+            - Id: DeleteOldData
+              Status: Enabled
+              ExpirationInDays: 90
+              NoncurrentVersionExpirationInDays: 30
+        PublicAccessBlockConfiguration:
+          BlockPublicAcls: true
+          BlockPublicPolicy: true
+          IgnorePublicAcls: true
+          RestrictPublicBuckets: true
+        BucketEncryption:
+          ServerSideEncryptionConfiguration:
+            - ServerSideEncryptionByDefault:
+                SSEAlgorithm: AES256
+
+  Outputs:
+    RestaurantScraperLambdaArn:
+      Description: ARN of the Restaurant Scraper Lambda
+      Value:
+        Fn::GetAtt:
+          - ScrapeRestaurantLambdaFunction
+          - Arn
+
+    S3BucketName:
+      Description: Name of the S3 bucket for scraped data
+      Value: ${self:custom.s3BucketName}
+
+    ApiGatewayUrl:
+      Description: URL of the API Gateway endpoint
+      Value:
+        Fn::Join:
+          - ''
+          - - 'https://'
+            - Ref: ApiGatewayRestApi
+            - '.execute-api.'
+            - ${self:provider.region}
+            - '.amazonaws.com/'
+            - ${self:provider.stage}
+            - '/scrape'
+
+plugins:
+  - serverless-python-requirements

@@ -1,0 +1,114 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Restaurant Scraper Lambda Function
+
+Parameters:
+  S3BucketName:
+    Type: String
+    Default: restaurant-scraper-data
+    Description: S3 bucket name for storing scraped data
+
+  ApiEndpoint:
+    Type: String
+    Default: https://viberoam.ai/api/restaurants/random/?country=NL&never_scraped=1
+    Description: API endpoint to fetch random restaurants
+
+  UpdateApiEndpoint:
+    Type: String
+    Default: ""
+    Description: Optional API endpoint to update scraping status
+
+Globals:
+  Function:
+    Timeout: 300
+    MemorySize: 512
+    Runtime: python3.11
+    Environment:
+      Variables:
+        S3_BUCKET: !Ref S3BucketName
+        API_ENDPOINT: !Ref ApiEndpoint
+        UPDATE_API_ENDPOINT: !Ref UpdateApiEndpoint
+
+Resources:
+  RestaurantScraperFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: RestaurantScraperLambda
+      CodeUri: .
+      Handler: AWS_scrape_restaurant_data.lambda_handler
+      Description: Scrapes restaurant data from TripAdvisor and saves to S3
+      Policies:
+        - S3CrudPolicy:
+            BucketName: !Ref S3BucketName
+        - Statement:
+            - Effect: Allow
+              Action:
+                - logs:CreateLogGroup
+                - logs:CreateLogStream
+                - logs:PutLogEvents
+              Resource: !Sub 'arn:aws:logs:${AWS::Region}:${AWS::AccountId}:*'
+      Events:
+        ScheduledEvent:
+          Type: Schedule
+          Properties:
+            Schedule: rate(30 minutes)  # Run every 30 minutes
+            Description: Trigger restaurant scraping every 30 minutes
+            Enabled: false  # Set to true to enable automatic execution
+
+        ManualTrigger:
+          Type: Api
+          Properties:
+            Path: /scrape
+            Method: POST
+            RestApiId: !Ref RestaurantScraperApi
+
+  RestaurantScraperApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      Description: API for triggering restaurant scraper manually
+      Cors:
+        AllowMethods: "'OPTIONS,POST'"
+        AllowHeaders: "'Content-Type'"
+        AllowOrigin: "'*'"
+
+  ScraperDataBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref S3BucketName
+      VersioningConfiguration:
+        Status: Enabled
+      LifecycleConfiguration:
+        Rules:
+          - Id: DeleteOldScrapedData
+            Status: Enabled
+            ExpirationInDays: 90  # Delete data after 90 days
+            NoncurrentVersionExpirationInDays: 30
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+
+  ScraperLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub /aws/lambda/${RestaurantScraperFunction}
+      RetentionInDays: 30
+
+Outputs:
+  FunctionArn:
+    Description: ARN of the Restaurant Scraper Lambda Function
+    Value: !GetAtt RestaurantScraperFunction.Arn
+
+  ApiEndpoint:
+    Description: API Gateway endpoint URL for manual triggering
+    Value: !Sub https://${RestaurantScraperApi}.execute-api.${AWS::Region}.amazonaws.com/prod/scrape
+
+  S3BucketName:
+    Description: Name of the S3 bucket storing scraped data
+    Value: !Ref ScraperDataBucket
