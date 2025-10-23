@@ -10,7 +10,6 @@ import ssl
 import certifi
 import time
 import argparse
-import os
 
 
 def detect_onetrust_config(page):
@@ -1914,13 +1913,13 @@ def update_restaurant_last_scraped(restaurant_id: int, status: str = "completed"
     Update the last_scraped timestamp for a restaurant.
     """
     try:
-        # Prepare the update data with timezone-aware datetime
+        # Prepare the update data
         update_data = {
-            "last_scraped": datetime.now(timezone.utc).isoformat()
+            "last_scraped": datetime.now().isoformat()
         }
 
         response = requests.put(
-            f"https://viberoam.ai/api/restaurants/{restaurant_id}/",
+            f"https://api.viberoam.ai/api/restaurants/{restaurant_id}/",
             json=update_data,
             headers={"Content-Type": "application/json"},
             verify=False
@@ -1943,18 +1942,15 @@ def update_restaurant_last_scraped(restaurant_id: int, status: str = "completed"
         return False
 
 
-def get_restaurant_links(country="AT"):
+def get_restaurant_links(country):
     """Fetch a single random restaurant that hasn't been scraped yet.
 
     Args:
         country: Two-letter country code (e.g., "AT", "NL", "IT", "ES"). Defaults to "AT".
     """
     try:
-        print(f"DEBUG get_restaurant_links: Received country={country} (type: {type(country)})")
-        url = f"https://viberoam.ai/api/restaurants/random/?country={country}&never_scraped=1"
-        print(f"DEBUG get_restaurant_links: Constructed URL={url}")
         response = requests.get(
-            url,
+            f"https://api.viberoam.ai/api/restaurants/random/?country={country}&never_scraped=1",
             timeout=30,
             verify=False
         )
@@ -1963,20 +1959,8 @@ def get_restaurant_links(country="AT"):
             restaurant = response.json()
             # Return as a list with one restaurant to maintain compatibility
             return [restaurant]
-        elif response.status_code == 404:
-            print(f"No restaurants found for country '{country}' (404 Not Found)")
-            print(f"  URL: {url}")
-            print(f"  This may mean all restaurants for this country have been scraped,")
-            print(f"  or the country code is invalid/unsupported.")
-            return []
         else:
             print(f"Error fetching restaurant: {response.status_code}")
-            print(f"  URL: {url}")
-            try:
-                error_detail = response.json()
-                print(f"  Error details: {error_detail}")
-            except:
-                print(f"  Response text: {response.text[:200]}")
             return []
 
     except Exception as e:
@@ -2699,32 +2683,17 @@ def _do_browser_scraping(restaurant, result_container):
     result_container['errors'] = errors
 
 
-def scrape_restaurants(country="AT"):
+def scrape_restaurants(country):
     """Continuously scrape restaurants one at a time in an infinite loop.
 
     Args:
-        country: Two-letter country code (e.g., "AT", "NL", "IT", "ES") or a country dict with 'code' key. Defaults to "AT".
+        country: Two-letter country code (e.g., "AT", "NL", "IT", "ES"). Defaults to "AT".
     """
-    # Handle country as either a string or a dict with 'code' key
-    if isinstance(country, dict):
-        country_code = country.get('code', 'AT')
-        print(f"Received country dict, using code: {country_code}")
-    else:
-        country_code = str(country)  # Ensure it's a string
-
-    # Final validation: ensure country_code is always a 2-letter string
-    if not isinstance(country_code, str) or len(country_code) != 2:
-        print(f"WARNING: Invalid country code '{country_code}', using default 'AT'")
-        country_code = 'AT'
-
-    print(f"DEBUG scrape_restaurants: Starting with country_code={country_code}")
-
     scraped_count = 0
 
     while True:
         # Get a single restaurant to scrape
-        print(f"DEBUG: About to call get_restaurant_links with country_code={country_code} (type: {type(country_code)})")
-        restaurants = get_restaurant_links(country=country_code)
+        restaurants = get_restaurant_links(country=country)
 
         if not restaurants:
             print("\nNo restaurants available to scrape. Waiting 60 seconds before retry...")
@@ -2890,27 +2859,15 @@ if __name__ == "__main__":
     parser.add_argument(
         "--country",
         type=str,
-        default=os.getenv("SCRAPER_COUNTRY", "AT"),
-        help="Two-letter country code (e.g., AT, NL, IT, ES). Defaults to AT or SCRAPER_COUNTRY env var."
+        default="AT",
+        help="Two-letter country code (e.g., AT, NL, IT, ES). Defaults to AT."
     )
     args = parser.parse_args()
 
     try:
-        country_arg = args.country
-
-        # Handle if country is passed as a JSON string (from Lambda or other sources)
-        if isinstance(country_arg, str) and country_arg.startswith('{'):
-            try:
-                country_dict = json.loads(country_arg)
-                country_arg = country_dict.get('code', 'AT')
-                print(f"Parsed country from JSON: {country_arg}")
-            except json.JSONDecodeError:
-                print(f"Warning: Could not parse country JSON, using as-is: {country_arg}")
-
-        print(f"Starting infinite restaurant scraping loop for country: {country_arg}")
-        print(f"Country argument type: {type(country_arg)}")
+        print(f"Starting infinite restaurant scraping loop for country: {args.country}")
         print("Press Ctrl+C to stop at any time\n")
-        scrape_restaurants(country=country_arg)
+        scrape_restaurants(country=args.country)
     except KeyboardInterrupt:
         print("\n\nScraping interrupted by user. Exiting gracefully...")
         print("All data has been saved to the scraped_data/ directory.")
