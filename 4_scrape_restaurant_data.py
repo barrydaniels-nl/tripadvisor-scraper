@@ -1913,9 +1913,9 @@ def update_restaurant_last_scraped(restaurant_id: int, status: str = "completed"
     Update the last_scraped timestamp for a restaurant.
     """
     try:
-        # Prepare the update data
+        # Prepare the update data with timezone-aware datetime
         update_data = {
-            "last_scraped": datetime.now().isoformat()
+            "last_scraped": datetime.now(timezone.utc).isoformat()
         }
 
         response = requests.put(
@@ -1949,8 +1949,9 @@ def get_restaurant_links(country="AT"):
         country: Two-letter country code (e.g., "AT", "NL", "IT", "ES"). Defaults to "AT".
     """
     try:
+        url = f"https://viberoam.ai/api/restaurants/random/?country={country}&never_scraped=1"
         response = requests.get(
-            f"https://viberoam.ai/api/restaurants/random/?country={country}&never_scraped=1",
+            url,
             timeout=30,
             verify=False
         )
@@ -1959,8 +1960,20 @@ def get_restaurant_links(country="AT"):
             restaurant = response.json()
             # Return as a list with one restaurant to maintain compatibility
             return [restaurant]
+        elif response.status_code == 404:
+            print(f"No restaurants found for country '{country}' (404 Not Found)")
+            print(f"  URL: {url}")
+            print(f"  This may mean all restaurants for this country have been scraped,")
+            print(f"  or the country code is invalid/unsupported.")
+            return []
         else:
             print(f"Error fetching restaurant: {response.status_code}")
+            print(f"  URL: {url}")
+            try:
+                error_detail = response.json()
+                print(f"  Error details: {error_detail}")
+            except:
+                print(f"  Response text: {response.text[:200]}")
             return []
 
     except Exception as e:
