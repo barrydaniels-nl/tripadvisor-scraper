@@ -9,6 +9,7 @@ import urllib3
 import ssl
 import certifi
 import time
+import argparse
 
 
 def detect_onetrust_config(page):
@@ -1941,11 +1942,15 @@ def update_restaurant_last_scraped(restaurant_id: int, status: str = "completed"
         return False
 
 
-def get_restaurant_links():
-    """Fetch a single random restaurant that hasn't been scraped yet."""
+def get_restaurant_links(country="AT"):
+    """Fetch a single random restaurant that hasn't been scraped yet.
+
+    Args:
+        country: Two-letter country code (e.g., "AT", "NL", "IT", "ES"). Defaults to "AT".
+    """
     try:
         response = requests.get(
-            "https://viberoam.ai/api/restaurants/random/?country=ES&never_scraped=1",
+            f"https://viberoam.ai/api/restaurants/random/?country={country}&never_scraped=1",
             timeout=30,
             verify=False
         )
@@ -2678,13 +2683,17 @@ def _do_browser_scraping(restaurant, result_container):
     result_container['errors'] = errors
 
 
-def scrape_restaurants():
-    """Continuously scrape restaurants one at a time in an infinite loop."""
+def scrape_restaurants(country="AT"):
+    """Continuously scrape restaurants one at a time in an infinite loop.
+
+    Args:
+        country: Two-letter country code (e.g., "AT", "NL", "IT", "ES"). Defaults to "AT".
+    """
     scraped_count = 0
 
     while True:
         # Get a single restaurant to scrape
-        restaurants = get_restaurant_links()
+        restaurants = get_restaurant_links(country=country)
 
         if not restaurants:
             print("\nNo restaurants available to scrape. Waiting 60 seconds before retry...")
@@ -2846,10 +2855,19 @@ def scrape_restaurants():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Scrape TripAdvisor restaurant data")
+    parser.add_argument(
+        "--country",
+        type=str,
+        default="AT",
+        help="Two-letter country code (e.g., AT, NL, IT, ES). Defaults to AT."
+    )
+    args = parser.parse_args()
+
     try:
-        print("Starting infinite restaurant scraping loop...")
+        print(f"Starting infinite restaurant scraping loop for country: {args.country}")
         print("Press Ctrl+C to stop at any time\n")
-        scrape_restaurants()
+        scrape_restaurants(country=args.country)
     except KeyboardInterrupt:
         print("\n\nScraping interrupted by user. Exiting gracefully...")
         print("All data has been saved to the scraped_data/ directory.")

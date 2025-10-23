@@ -10,12 +10,15 @@ dotenv.load_dotenv()
 client = SpiderAPI()
 
 
-def get_empty_results_city():
+def get_empty_results_city(country_code: Optional[str] = None):
     """Fetches cities with no TripAdvisor restaurant URL or results."""
     url = (
         "http://127.0.0.1:8000/api/cities/search/"
         "?tripadvisor_geo_id_is_null=false&page_size=10000"
     )
+
+    if country_code:
+        url += f"&country={country_code}"
 
     response = requests.get(url)
     if response.status_code == 200:
@@ -294,20 +297,13 @@ def main():
         mode_desc = f"cities with zero results{' in ' + args.country if args.country else ''}"
     else:
         print("Mode: Processing cities with null restaurant data...")
-        cities = get_empty_results_city()
-        mode_desc = "cities with null restaurant data"
+        cities = get_empty_results_city(args.country)
+        mode_desc = f"cities with null restaurant data{' in ' + args.country if args.country else ''}"
     
     if not cities:
         print(f"No {mode_desc} to process.")
         return
-    
-    # Apply country filter for the original mode if needed (skip if using geo_id)
-    if not args.geo_id and not args.zero_results_only and args.country:
-        cities = [city for city in cities if city.get('country', {}).get('code') == args.country.upper()]
-        if not cities:
-            print(f"No cities found for country: {args.country}")
-            return
-    
+
     # Apply limit if specified (skip if using geo_id since it's always 1 city)
     if not args.geo_id and args.limit and len(cities) > args.limit:
         cities = cities[:args.limit]

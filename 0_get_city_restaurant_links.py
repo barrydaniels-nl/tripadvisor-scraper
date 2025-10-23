@@ -14,9 +14,11 @@ load_dotenv()
 logger.add("debug.log", format="{time} {level} {message}", level="DEBUG")
 
 
-def get_non_geoid_cities():
+def get_non_geoid_cities(country=None):
 
-    url = "http://127.0.0.1:8000/api/cities/search/?tripadvisor_geo_id_is_null=true&page_size=250&never_scraped=true"
+    url = "http://127.0.0.1:8000/api/cities/search/?tripadvisor_geo_id_is_null=true&page_size=250&country=AT"
+    if country:
+        url += f"&country={country}"
     all_cities = []
 
     while True:
@@ -24,7 +26,7 @@ def get_non_geoid_cities():
         if response.status_code == 200:
             for city in response.json()['results']:
                 all_cities.append(city)
-            
+
             if response.json()['next']:
                 url = response.json()['next']
             else:
@@ -37,7 +39,7 @@ def get_non_geoid_cities():
 
 def get_cities_with_geoid():
 
-    url = "http://127.0.0.1:8000/api/cities/search/?tripadvisor_geo_id_is_null=false&page_size=250&country=IT"
+    url = "http://127.0.0.1:8000/api/cities/search/?tripadvisor_geo_id_is_null=false&page_size=250&country=AT"
     all_cities = []
 
     while True:
@@ -250,17 +252,17 @@ def city_has_correct_geo_id(city, city_string):
 
 
 def search_city_on_tripadvisor(city, city_string):
-    tripadvisor_api_key = os.getenv("TRIPADVISOR_API_KEY")
+    tripadvisor_api_key = os.getenv("TRIPADVISOR_API_KEY", "7FD0231ADB7A456E820809EAC91E1389")
 
-    # url for search by name 
+    # url for search by name
     search_url = f"https://api.content.tripadvisor.com/api/v1/location/search?key={tripadvisor_api_key}&category=geos&searchQuery={city_string}"
 
-    # latlong nearby search 
+    # latlong nearby search
     # latlong = f"{city['latitude']},{city['longitude']}"
     # search_url = f"https://api.content.tripadvisor.com/api/v1/location/nearby_search?latLong={latlong}&key={tripadvisor_api_key}&category=geos&language=en"
     logger.info(f"Searching for city: {city_string}")
 
-    max_retries = 4
+    max_retries = 5
     retry_count = 0
     retry_delay = 1
 
@@ -268,6 +270,21 @@ def search_city_on_tripadvisor(city, city_string):
         response = requests.get(search_url)
         if response.status_code == 200:
             break
+        elif response.status_code == 429:
+            retry_count += 1
+            # Check for Retry-After header
+            retry_after = response.headers.get('Retry-After')
+            if retry_after:
+                try:
+                    retry_delay = int(retry_after)
+                    logger.warning(f"Rate limited (429) for city {city_string}. Retry {retry_count}/{max_retries} in {retry_delay} seconds (from Retry-After header)...")
+                except ValueError:
+                    retry_delay = min(retry_delay * 2, 60)
+                    logger.warning(f"Rate limited (429) for city {city_string}. Retry {retry_count}/{max_retries} in {retry_delay} seconds...")
+            else:
+                retry_delay = min(retry_delay * 2, 60)
+                logger.warning(f"Rate limited (429) for city {city_string}. Retry {retry_count}/{max_retries} in {retry_delay} seconds...")
+            time.sleep(retry_delay)
         elif response.status_code == 500:
             retry_count += 1
             logger.warning(f"Server error (500) for city {city_string}. Retry {retry_count}/{max_retries} in {retry_delay} seconds...")
@@ -313,14 +330,15 @@ def search_city_on_tripadvisor(city, city_string):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='TripAdvisor City Geo ID Manager')
     parser.add_argument('--check', action='store_true', help='Check existing geo IDs for correctness')
+    parser.add_argument('--country', type=str, help='Filter cities by country code (e.g., NL, IT, US)')
     args = parser.parse_args()
 
     if args.check:
         logger.info("Starting check mode - verifying existing geo IDs")
         check_all_cities_geo_ids()
     else:
-        logger.info("Starting normal mode - finding geo IDs for cities without them")
-        cities = get_non_geoid_cities()
+        logger.info(f"Starting normal mode - finding geo IDs for cities without them{f' in country: {args.country}' if args.country else ''}")
+        cities = get_non_geoid_cities(country=args.country)
         for city in cities:
             sleep(0.3)
             if city.get('region') is not None:
